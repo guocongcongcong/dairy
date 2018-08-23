@@ -1,0 +1,19 @@
+{
+  "name": "vue_lab",
+  "version": "1.0.0",
+  "description": "Testing vue some basic function and revicw webpack basic function,prctice JavaScipt's ES6 style of writing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "congcong",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.10",
+    "vue": "^2.5.17",
+    "vue-cli": "^2.9.6",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
