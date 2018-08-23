@@ -1,0 +1,15 @@
+{
+  "name": "vue_lab",
+  "version": "1.0.0",
+  "description": "Testing vue some basic function and revicw webpack basic function,prctice JavaScipt's ES6 style of writing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "congcong",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
