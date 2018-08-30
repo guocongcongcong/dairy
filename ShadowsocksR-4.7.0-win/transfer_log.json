@@ -8,59 +8,59 @@
 		"totalDownloadBytes" : 2017748
 	},
 	"lon-1.wires.rocks" : {
-		"totalUploadBytes" : 175239,
+		"totalUploadBytes" : 175486,
 		"totalDownloadBytes" : 12520954
 	},
 	"hk-2.wires.rocks" : {
-		"totalUploadBytes" : 311754,
-		"totalDownloadBytes" : 20856872
+		"totalUploadBytes" : 315423,
+		"totalDownloadBytes" : 20881386
 	},
 	"lon-4.wires.rocks" : {
-		"totalUploadBytes" : 97397,
-		"totalDownloadBytes" : 1940707
+		"totalUploadBytes" : 100281,
+		"totalDownloadBytes" : 1952281
 	},
 	"hk-1.wires.rocks" : {
-		"totalUploadBytes" : 880220,
-		"totalDownloadBytes" : 8751853
+		"totalUploadBytes" : 883573,
+		"totalDownloadBytes" : 8790315
 	},
 	"kr-1.wires.rocks" : {
-		"totalUploadBytes" : 248405,
-		"totalDownloadBytes" : 24475212
+		"totalUploadBytes" : 250429,
+		"totalDownloadBytes" : 24500587
 	},
 	"fr-1.wires.rocks" : {
 		"totalUploadBytes" : 550,
 		"totalDownloadBytes" : 0
 	},
 	"jp-1.wires.rocks" : {
-		"totalUploadBytes" : 155380,
-		"totalDownloadBytes" : 2353382
+		"totalUploadBytes" : 158362,
+		"totalDownloadBytes" : 2399487
 	},
 	"cn2-us-1.wires.rocks" : {
-		"totalUploadBytes" : 135435,
-		"totalDownloadBytes" : 30843730
+		"totalUploadBytes" : 138965,
+		"totalDownloadBytes" : 30894450
 	},
 	"cn2-us-2.wires.rocks" : {
 		"totalUploadBytes" : 81363,
 		"totalDownloadBytes" : 6537809
 	},
 	"lon-3.wires.rocks" : {
-		"totalUploadBytes" : 404751,
-		"totalDownloadBytes" : 2054267
+		"totalUploadBytes" : 406756,
+		"totalDownloadBytes" : 2063717
 	},
 	"lon-2.wires.rocks" : {
-		"totalUploadBytes" : 136769,
+		"totalUploadBytes" : 137024,
 		"totalDownloadBytes" : 1316051
 	},
 	"us-west-1.wires.rocks" : {
-		"totalUploadBytes" : 54939,
-		"totalDownloadBytes" : 366097
+		"totalUploadBytes" : 57009,
+		"totalDownloadBytes" : 376617
 	},
 	"us-west-2.wires.rocks" : {
-		"totalUploadBytes" : 110163,
-		"totalDownloadBytes" : 4484469
+		"totalUploadBytes" : 111596,
+		"totalDownloadBytes" : 4511545
 	},
 	"hkt-1.wires.rocks" : {
-		"totalUploadBytes" : 238660,
-		"totalDownloadBytes" : 2660243
+		"totalUploadBytes" : 240726,
+		"totalDownloadBytes" : 2691152
 	}
 }
