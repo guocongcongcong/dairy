@@ -4,63 +4,63 @@
 		"totalDownloadBytes" : 0
 	},
 	"hkt-2.wires.rocks" : {
-		"totalUploadBytes" : 42713,
-		"totalDownloadBytes" : 188277
+		"totalUploadBytes" : 101374,
+		"totalDownloadBytes" : 2017748
 	},
 	"lon-1.wires.rocks" : {
-		"totalUploadBytes" : 33393,
-		"totalDownloadBytes" : 177878
+		"totalUploadBytes" : 175239,
+		"totalDownloadBytes" : 12520954
 	},
 	"hk-2.wires.rocks" : {
-		"totalUploadBytes" : 42771,
-		"totalDownloadBytes" : 566720
+		"totalUploadBytes" : 311754,
+		"totalDownloadBytes" : 20856872
 	},
 	"lon-4.wires.rocks" : {
-		"totalUploadBytes" : 6725,
-		"totalDownloadBytes" : 246374
+		"totalUploadBytes" : 97397,
+		"totalDownloadBytes" : 1940707
 	},
 	"hk-1.wires.rocks" : {
-		"totalUploadBytes" : 241584,
-		"totalDownloadBytes" : 3410819
+		"totalUploadBytes" : 880220,
+		"totalDownloadBytes" : 8751853
 	},
 	"kr-1.wires.rocks" : {
-		"totalUploadBytes" : 42883,
-		"totalDownloadBytes" : 10831814
+		"totalUploadBytes" : 248405,
+		"totalDownloadBytes" : 24475212
 	},
 	"fr-1.wires.rocks" : {
 		"totalUploadBytes" : 550,
 		"totalDownloadBytes" : 0
 	},
 	"jp-1.wires.rocks" : {
-		"totalUploadBytes" : 22649,
-		"totalDownloadBytes" : 825504
+		"totalUploadBytes" : 155380,
+		"totalDownloadBytes" : 2353382
 	},
 	"cn2-us-1.wires.rocks" : {
-		"totalUploadBytes" : 8952,
-		"totalDownloadBytes" : 20869
+		"totalUploadBytes" : 135435,
+		"totalDownloadBytes" : 30843730
 	},
 	"cn2-us-2.wires.rocks" : {
-		"totalUploadBytes" : 5611,
-		"totalDownloadBytes" : 17173
+		"totalUploadBytes" : 81363,
+		"totalDownloadBytes" : 6537809
 	},
 	"lon-3.wires.rocks" : {
-		"totalUploadBytes" : 168484,
-		"totalDownloadBytes" : 773203
+		"totalUploadBytes" : 404751,
+		"totalDownloadBytes" : 2054267
 	},
 	"lon-2.wires.rocks" : {
-		"totalUploadBytes" : 23353,
-		"totalDownloadBytes" : 544210
+		"totalUploadBytes" : 136769,
+		"totalDownloadBytes" : 1316051
 	},
 	"us-west-1.wires.rocks" : {
-		"totalUploadBytes" : 6230,
-		"totalDownloadBytes" : 88214
+		"totalUploadBytes" : 54939,
+		"totalDownloadBytes" : 366097
 	},
 	"us-west-2.wires.rocks" : {
-		"totalUploadBytes" : 9294,
-		"totalDownloadBytes" : 3549186
+		"totalUploadBytes" : 110163,
+		"totalDownloadBytes" : 4484469
 	},
 	"hkt-1.wires.rocks" : {
-		"totalUploadBytes" : 30115,
-		"totalDownloadBytes" : 707494
+		"totalUploadBytes" : 238660,
+		"totalDownloadBytes" : 2660243
 	}
 }
