@@ -1,0 +1,1245 @@
+[2018-08-30 09:26:48] ShadowsocksR started on port 1080
+[2018-08-30 09:26:57] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:26:58] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:26:58] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:26:58] [Info] Disconnect raw.githubusercontent.com:443
+[2018-08-30 09:26:58] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:26:58] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:26:59] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:26:59] [Info] Disconnect raw.githubusercontent.com:443
+[2018-08-30 09:26:59] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:26:59] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:26:59] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:26:59] [Info] Disconnect raw.githubusercontent.com:443
+[2018-08-30 09:26:59] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:27:00] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:27:00] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:27:00] [Info] Direct connect qbwup.imtt.qq.com:80
+[2018-08-30 09:27:00] [Info] Disconnect raw.githubusercontent.com:443
+[2018-08-30 09:27:00] [Error] connect to update server error
+[2018-08-30 09:27:38] [Info] Connect www.facebook.com:443
+[2018-08-30 09:27:38] [Info] Connect www.facebook.com:443
+[2018-08-30 09:27:38] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:27:38] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:27:38] [Info] Connect www.facebook.com:443
+[2018-08-30 09:27:38] [Info] Connect www.facebook.com:443
+[2018-08-30 09:27:40] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:27:41] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:27:41] [Info] Direct connect www.google-analytics.com:443
+[2018-08-30 09:27:41] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:27:41] [Info] Connect www.facebook.com:443
+[2018-08-30 09:27:41] [Info] Connect www.facebook.com:443
+[2018-08-30 09:27:41] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:27:41] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:27:41] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:27:41] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:27:41] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:27:41] [Info] Disconnect staticxx.facebook.com:443
+[2018-08-30 09:27:41] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:27:41] [Info] Direct connect stats.g.doubleclick.net:443
+[2018-08-30 09:27:41] [Info] Disconnect staticxx.facebook.com:443
+[2018-08-30 09:27:41] [Info] Disconnect bam.nr-data.net:443
+[2018-08-30 09:27:41] [Info] Connect www.google.com:443
+[2018-08-30 09:27:42] [Info] Connect www.google.com:443
+[2018-08-30 09:27:42] [Info] Connect www.google.com:443
+[2018-08-30 09:27:42] [Info] Disconnect www.google.com:443
+[2018-08-30 09:27:50] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:50] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:50] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:50] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:27:51] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:51] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:27:51] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:51] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:27:51] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:51] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:27:51] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:27:51] [Info] Disconnect ancdn.azureedge.net:443
+[2018-08-30 09:27:52] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:27:52] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:52] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:27:52] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:52] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:27:52] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:53] [Info] Disconnect ancdn.azureedge.net:443
+[2018-08-30 09:27:53] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:27:59] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:59] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:59] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:27:59] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:27:59] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:27:59] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:28:00] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:28:00] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:28:00] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:28:00] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:28:00] [Info] Disconnect ancdn.azureedge.net:443
+[2018-08-30 09:28:00] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:28:03] [Info] Direct connect app.yinxiang.com:443
+[2018-08-30 09:28:05] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:28:05] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:28:05] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:28:05] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:28:05] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:28:05] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:28:06] [Info] Disconnect ancdn.azureedge.net:443
+[2018-08-30 09:28:06] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:28:51] ShadowsocksR started on port 1080
+[2018-08-30 09:28:57] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:28:57] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:28:57] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:28:57] [Info] Disconnect bam.nr-data.net:443
+[2018-08-30 09:29:01] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:01] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:01] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:01] [Info] Disconnect raw.githubusercontent.com:443
+[2018-08-30 09:29:01] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:01] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:02] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:02] [Info] Disconnect raw.githubusercontent.com:443
+[2018-08-30 09:29:02] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:02] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:02] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:02] [Info] Disconnect raw.githubusercontent.com:443
+[2018-08-30 09:29:02] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:03] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:03] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:29:03] [Info] Disconnect raw.githubusercontent.com:443
+[2018-08-30 09:29:03] [Error] connect to update server error
+[2018-08-30 09:30:31] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:31] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:31] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:32] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:32] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:32] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:32] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:30:32] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:30:34] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:34] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:34] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:34] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:34] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:34] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:30:34] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:35] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:30:38] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:38] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:38] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:38] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:39] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:39] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:30:39] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:39] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:30:40] [Info] Connect clients4.google.com:443
+[2018-08-30 09:30:41] [Info] Connect clients4.google.com:443
+[2018-08-30 09:30:41] [Info] Connect clients4.google.com:443
+[2018-08-30 09:30:41] [Info] Disconnect clients4.google.com:443
+[2018-08-30 09:30:45] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:45] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:45] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:45] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:30:47] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:47] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:47] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:48] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:30:51] [Debug] DNS query fail: mlrxbckzgt
+[2018-08-30 09:30:51] [Debug] DNS query fail: oubgaxy
+[2018-08-30 09:30:51] [Info] Connect mlrxbckzgt:80
+[2018-08-30 09:30:51] [Info] Connect oubgaxy:80
+[2018-08-30 09:30:51] [Info] Connect mlrxbckzgt:80
+[2018-08-30 09:30:51] [Info] Connect oubgaxy:80
+[2018-08-30 09:30:51] [Info] Connect mlrxbckzgt:80
+[2018-08-30 09:30:51] [Info] Connect oubgaxy:80
+[2018-08-30 09:30:51] [Info] Disconnect mlrxbckzgt:80
+[2018-08-30 09:30:51] [Info] Disconnect oubgaxy:80
+[2018-08-30 09:30:51] [Debug] DNS query fail: clkgitsypw
+[2018-08-30 09:30:51] [Info] Connect clkgitsypw:80
+[2018-08-30 09:30:51] [Info] Connect clkgitsypw:80
+[2018-08-30 09:30:52] [Info] Connect clkgitsypw:80
+[2018-08-30 09:30:52] [Info] Disconnect clkgitsypw:80
+[2018-08-30 09:30:57] [Debug] DNS query fail: hqtarwl
+[2018-08-30 09:30:57] [Debug] DNS query fail: yhriiztjadpuxd
+[2018-08-30 09:30:57] [Info] Connect hqtarwl:80
+[2018-08-30 09:30:57] [Info] Connect yhriiztjadpuxd:80
+[2018-08-30 09:30:57] [Debug] DNS query fail: wjyekoo
+[2018-08-30 09:30:57] [Info] Connect wjyekoo:80
+[2018-08-30 09:30:57] [Info] Connect hqtarwl:80
+[2018-08-30 09:30:57] [Info] Connect wjyekoo:80
+[2018-08-30 09:30:57] [Info] Connect yhriiztjadpuxd:80
+[2018-08-30 09:30:57] [Info] Connect hqtarwl:80
+[2018-08-30 09:30:57] [Info] Connect wjyekoo:80
+[2018-08-30 09:30:57] [Info] Connect yhriiztjadpuxd:80
+[2018-08-30 09:30:57] [Info] Disconnect hqtarwl:80
+[2018-08-30 09:30:57] [Info] Disconnect wjyekoo:80
+[2018-08-30 09:30:57] [Info] Disconnect yhriiztjadpuxd:80
+[2018-08-30 09:30:58] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:58] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:59] [Info] Connect clients1.google.com:443
+[2018-08-30 09:30:59] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:31:00] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:00] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:00] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:00] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:31:21] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:21] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:22] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:22] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:31:25] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:25] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:25] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:26] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:31:52] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:52] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:31:52] [Info] Connect clients1.google.com:443
+[2018-08-30 09:31:54] [Info] Direct connect 111.206.79.35:80
+[2018-08-30 09:31:55] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:31:56] [Info] Connect clients1.google.com:443
+[2018-08-30 09:32:36] [Info] Direct connect qbwup.imtt.qq.com:80
+[2018-08-30 09:32:46] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:32:46] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:32:46] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:32:46] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:32:47] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:32:47] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:32:47] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:32:48] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:32:48] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:32:48] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:32:50] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:32:50] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:32:50] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:32:50] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:32:50] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:32:53] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:33:00] [Debug] DNS query fail: sp1.baidu.com
+[2018-08-30 09:33:00] [Debug] DNS query fail: sp1.baidu.com
+[2018-08-30 09:33:00] [Info] Connect sp1.baidu.com:443
+[2018-08-30 09:33:00] [Info] Connect sp1.baidu.com:443
+[2018-08-30 09:33:00] [Debug] DNS query fail: sp2.baidu.com
+[2018-08-30 09:33:00] [Debug] DNS query fail: sp2.baidu.com
+[2018-08-30 09:33:00] [Info] Connect sp2.baidu.com:443
+[2018-08-30 09:33:00] [Info] Connect sp2.baidu.com:443
+[2018-08-30 09:33:01] [Debug] DNS query fail: ss0.baidu.com
+[2018-08-30 09:33:01] [Info] Connect ss0.baidu.com:443
+[2018-08-30 09:33:02] [Debug] DNS query fail: ss0.baidu.com
+[2018-08-30 09:33:02] [Info] Connect ss0.baidu.com:443
+[2018-08-30 09:33:03] [Debug] DNS query fail: ss0.baidu.com
+[2018-08-30 09:33:03] [Info] Connect ss0.baidu.com:443
+[2018-08-30 09:33:03] [Debug] DNS query fail: ss0.baidu.com
+[2018-08-30 09:33:03] [Info] Connect ss0.baidu.com:443
+[2018-08-30 09:33:04] [Debug] DNS query fail: ss0.bdstatic.com
+[2018-08-30 09:33:04] [Info] Connect ss0.bdstatic.com:443
+[2018-08-30 09:33:05] [Debug] DNS query fail: ss0.bdstatic.com
+[2018-08-30 09:33:05] [Info] Connect ss0.bdstatic.com:443
+[2018-08-30 09:33:06] [Debug] DNS query fail: ss0.bdstatic.com
+[2018-08-30 09:33:06] [Info] Connect ss0.bdstatic.com:443
+[2018-08-30 09:33:07] [Debug] DNS query fail: ss0.bdstatic.com
+[2018-08-30 09:33:07] [Info] Connect ss0.bdstatic.com:443
+[2018-08-30 09:33:08] [Debug] DNS query fail: ss0.bdstatic.com
+[2018-08-30 09:33:08] [Info] Connect ss0.bdstatic.com:443
+[2018-08-30 09:33:09] [Debug] DNS query fail: ss0.bdstatic.com
+[2018-08-30 09:33:09] [Info] Connect ss0.bdstatic.com:443
+[2018-08-30 09:33:09] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:33:09] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:33:09] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:33:09] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:33:09] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:33:09] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:33:09] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:33:09] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:33:09] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:33:09] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:33:09] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:33:09] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:33:09] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:33:09] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:33:09] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:33:09] [Info] Direct connect ss2.baidu.com:443
+[2018-08-30 09:33:09] [Info] Connect google.com:80
+[2018-08-30 09:33:10] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:33:10] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:33:10] [Info] Direct connect wup.browser.qq.com:443
+[2018-08-30 09:33:10] [Info] Direct connect app.yinxiang.com:443
+[2018-08-30 09:33:10] [Info] Direct connect wup.browser.qq.com:443
+[2018-08-30 09:33:10] [Info] Direct connect wup.browser.qq.com:443
+[2018-08-30 09:33:10] [Info] Disconnect sp2.baidu.com:443
+[2018-08-30 09:33:10] [Info] Connect www.google.com:80
+[2018-08-30 09:33:10] [Info] Disconnect google.com:80
+[2018-08-30 09:33:10] [Info] Connect www.google.com:443
+[2018-08-30 09:33:10] [Info] Connect www.google.com:443
+[2018-08-30 09:33:10] [Info] Disconnect www.google.com:80
+[2018-08-30 09:33:11] [Info] Direct connect ssl.gstatic.com:443
+[2018-08-30 09:33:12] [Info] Direct connect www.gstatic.com:443
+[2018-08-30 09:33:12] [Info] Connect apis.google.com:443
+[2018-08-30 09:33:13] [Info] Connect www.google.co.jp:443
+[2018-08-30 09:33:18] [Info] Connect www.facebook.com:443
+[2018-08-30 09:33:18] [Info] Connect www.facebook.com:443
+[2018-08-30 09:33:18] [Info] Disconnect ss0.bdstatic.com:443
+[2018-08-30 09:33:18] [Info] Connect id.google.com:443
+[2018-08-30 09:33:18] [Info] Disconnect sp1.baidu.com:443
+[2018-08-30 09:33:18] [Info] Disconnect sp1.baidu.com:443
+[2018-08-30 09:33:18] [Info] Disconnect sp2.baidu.com:443
+[2018-08-30 09:33:18] [Info] Disconnect ss0.baidu.com:443
+[2018-08-30 09:33:18] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:33:18] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:33:18] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:33:19] [Info] Disconnect ss0.baidu.com:443
+[2018-08-30 09:33:19] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:33:19] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:33:19] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:33:19] [Info] Disconnect ss0.baidu.com:443
+[2018-08-30 09:33:19] [Info] Disconnect ss0.baidu.com:443
+[2018-08-30 09:33:19] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:33:21] [Info] Disconnect ss0.bdstatic.com:443
+[2018-08-30 09:33:21] [Info] Disconnect ss0.bdstatic.com:443
+[2018-08-30 09:33:21] [Info] Direct connect adservice.google.com:443
+[2018-08-30 09:33:21] [Info] Direct connect www.googleadservices.com:443
+[2018-08-30 09:33:21] [Info] Disconnect ss0.bdstatic.com:443
+[2018-08-30 09:33:21] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:33:21] [Info] Disconnect www.google.com:443
+[2018-08-30 09:33:21] [Info] Disconnect ss0.bdstatic.com:443
+[2018-08-30 09:33:21] [Info] Disconnect ss0.bdstatic.com:443
+[2018-08-30 09:33:22] [Info] Connect facebook.com:443
+[2018-08-30 09:33:23] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:33:23] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:33:23] [Info] Connect cx.atdmt.com:443
+[2018-08-30 09:33:23] [Info] Connect fbsbx.com:443
+[2018-08-30 09:33:23] [Info] Connect fbsbx.com:443
+[2018-08-30 09:33:49] [Info] Disconnect fbsbx.com:443
+[2018-08-30 09:33:49] [Info] Disconnect staticxx.facebook.com:443
+[2018-08-30 09:33:49] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:33:49] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:33:49] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:33:49] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:33:49] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:33:49] [Info] Disconnect facebook.com:443
+[2018-08-30 09:33:49] [Info] Disconnect www.google.co.jp:443
+[2018-08-30 09:33:49] [Info] Disconnect fbsbx.com:443
+[2018-08-30 09:33:49] [Info] Disconnect cx.atdmt.com:443
+[2018-08-30 09:33:50] [Info] Disconnect www.google.com:443
+[2018-08-30 09:33:50] [Info] Disconnect id.google.com:443
+[2018-08-30 09:33:50] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:33:50] [Info] Disconnect staticxx.facebook.com:443
+[2018-08-30 09:33:50] [Info] Disconnect apis.google.com:443
+[2018-08-30 09:33:50] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:33:50] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:33:50] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:33:54] [Debug] DNS query fail: kitnyfbmpwubnyv
+[2018-08-30 09:33:54] [Info] Connect kitnyfbmpwubnyv:80
+[2018-08-30 09:33:54] [Info] Disconnect kitnyfbmpwubnyv:80
+[2018-08-30 09:33:55] [Debug] DNS query fail: nhmidtlmplkprs
+[2018-08-30 09:33:55] [Info] Connect nhmidtlmplkprs:80
+[2018-08-30 09:33:55] [Info] Disconnect nhmidtlmplkprs:80
+[2018-08-30 09:33:55] [Info] Connect www.facebook.com:443
+[2018-08-30 09:33:56] [Debug] DNS query fail: qsjodqnwre
+[2018-08-30 09:33:56] [Info] Connect qsjodqnwre:80
+[2018-08-30 09:33:59] [Info] Disconnect qsjodqnwre:80
+[2018-08-30 09:34:00] [Debug] DNS query fail: hqwwmtuydikl
+[2018-08-30 09:34:00] [Debug] DNS query fail: fpxleoczjkcijkc
+[2018-08-30 09:34:00] [Info] Connect hqwwmtuydikl:80
+[2018-08-30 09:34:00] [Info] Connect fpxleoczjkcijkc:80
+[2018-08-30 09:34:00] [Info] Disconnect hqwwmtuydikl:80
+[2018-08-30 09:34:01] [Info] Connect raw.githubusercontent.com:443
+[2018-08-30 09:34:01] [Debug] DNS query fail: udrrfiyynzdtsf
+[2018-08-30 09:34:01] [Info] Connect udrrfiyynzdtsf:80
+[2018-08-30 09:34:01] [Error] connect to update server error
+[2018-08-30 09:34:02] [Info] Disconnect udrrfiyynzdtsf:80
+[2018-08-30 09:34:22] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:34:23] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:34:23] [Info] Connect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:34:23] [Info] Connect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:34:23] [Info] Connect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:34:23] [Info] Connect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:34:23] [Info] Connect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:34:24] [Info] Connect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:34:24] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:34:24] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:34:24] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:34:24] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:34:24] [Info] Connect cx.atdmt.com:443
+[2018-08-30 09:34:24] [Info] Connect fbsbx.com:443
+[2018-08-30 09:34:24] [Info] Connect facebook.com:443
+[2018-08-30 09:34:24] [Info] Direct connect googleads.g.doubleclick.net:443
+[2018-08-30 09:34:24] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:34:24] [Info] Direct connect www.googleadservices.com:443
+[2018-08-30 09:34:26] [Info] Connect 3-edge-chat.facebook.com:443
+[2018-08-30 09:34:29] [Info] Connect android.clients.google.com:443
+[2018-08-30 09:34:30] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:35:08] [Info] Disconnect cx.atdmt.com:443
+[2018-08-30 09:35:08] [Info] Disconnect fbsbx.com:443
+[2018-08-30 09:35:08] [Info] Disconnect facebook.com:443
+[2018-08-30 09:35:08] [Info] Disconnect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:08] [Info] Disconnect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:08] [Info] Disconnect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:08] [Info] Disconnect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:08] [Info] Disconnect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:08] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:35:08] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:35:08] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:35:08] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:35:08] [Info] Connect scontent.xx.fbcdn.net:443
+[2018-08-30 09:35:08] [Info] Disconnect staticxx.facebook.com:443
+[2018-08-30 09:35:15] [Info] Connect facebook.com:443
+[2018-08-30 09:35:19] [Info] Connect www.facebook.com:443
+[2018-08-30 09:35:23] [Info] Connect 3-edge-chat.facebook.com:443
+[2018-08-30 09:35:38] [Info] Direct connect qurl.f.360.cn:80
+[2018-08-30 09:35:39] [Info] Connect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:39] [Info] Connect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:39] [Info] Connect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:39] [Info] Connect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:39] [Info] Connect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:39] [Info] Connect clients1.google.com:443
+[2018-08-30 09:35:39] [Info] Connect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:39] [Info] Disconnect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:41] [Info] Disconnect raw.githubusercontent.com:443
+[2018-08-30 09:35:50] [Info] Disconnect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:50] [Info] Disconnect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:50] [Info] Disconnect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:50] [Info] Disconnect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:50] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:35:50] [Info] Disconnect android.clients.google.com:443
+[2018-08-30 09:35:50] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:35:50] [Info] Disconnect facebook.com:443
+[2018-08-30 09:35:50] [Info] Disconnect 3-edge-chat.facebook.com:443
+[2018-08-30 09:35:50] [Info] Disconnect video-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:50] [Info] Disconnect scontent-lhr3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:50] [Info] Disconnect scontent.xx.fbcdn.net:443
+[2018-08-30 09:35:50] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:35:51] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:35:51] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:35:51] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:35:51] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:35:51] [Info] Connect www.facebook.com:443
+[2018-08-30 09:35:53] [Info] Disconnect fpxleoczjkcijkc:80
+[2018-08-30 09:35:53] [Info] Connect www.facebook.com:443
+[2018-08-30 09:35:53] [Info] Connect www.facebook.com:443
+[2018-08-30 09:35:55] [Debug] DNS query fail: khjxhccqbvo
+[2018-08-30 09:35:55] [Debug] DNS query fail: ahmpcjvpsf
+[2018-08-30 09:35:55] [Info] Connect khjxhccqbvo:80
+[2018-08-30 09:35:55] [Info] Connect ahmpcjvpsf:80
+[2018-08-30 09:35:55] [Debug] DNS query fail: xayoxfnpwgdla
+[2018-08-30 09:35:55] [Info] Connect xayoxfnpwgdla:80
+[2018-08-30 09:35:55] [Info] Disconnect xayoxfnpwgdla:80
+[2018-08-30 09:35:55] [Info] Disconnect khjxhccqbvo:80
+[2018-08-30 09:35:55] [Info] Disconnect ahmpcjvpsf:80
+[2018-08-30 09:35:57] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:35:57] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:35:57] [Info] Connect www.facebook.com:443
+[2018-08-30 09:35:57] [Info] Connect www.facebook.com:443
+[2018-08-30 09:35:57] [Info] Connect facebook.com:443
+[2018-08-30 09:35:57] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:35:57] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:57] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:57] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:57] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:57] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:35:57] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:57] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:58] [Info] Connect 3-edge-chat.facebook.com:443
+[2018-08-30 09:35:58] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:58] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:58] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:58] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:58] [Info] Connect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:58] [Info] Connect video-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:58] [Info] Connect video-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:35:58] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:35:58] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:35:59] [Info] Connect static.xx.fbcdn.net:443
+[2018-08-30 09:36:01] [Debug] DNS query fail: owfgthiqspvd
+[2018-08-30 09:36:01] [Info] Connect owfgthiqspvd:80
+[2018-08-30 09:36:01] [Debug] DNS query fail: dvsiqdc
+[2018-08-30 09:36:01] [Info] Connect dvsiqdc:80
+[2018-08-30 09:36:01] [Debug] DNS query fail: jxwfzzhgyeimoq
+[2018-08-30 09:36:01] [Info] Connect jxwfzzhgyeimoq:80
+[2018-08-30 09:36:02] [Info] Disconnect dvsiqdc:80
+[2018-08-30 09:36:02] [Info] Disconnect owfgthiqspvd:80
+[2018-08-30 09:36:02] [Info] Disconnect jxwfzzhgyeimoq:80
+[2018-08-30 09:36:03] [Info] Connect clients1.google.com:443
+[2018-08-30 09:36:37] [Info] Direct connect 111.206.79.35:80
+[2018-08-30 09:36:40] [Info] Connect login.live.com:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect video-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect clients1.google.com:443
+[2018-08-30 09:36:44] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:36:44] [Info] Disconnect facebook.com:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect 3-edge-chat.facebook.com:443
+[2018-08-30 09:36:44] [Info] Disconnect scontent-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect video-hkg3-1.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Connect login.live.com:443
+[2018-08-30 09:36:44] [Info] Disconnect 3-edge-chat.facebook.com:443
+[2018-08-30 09:36:44] [Info] Disconnect static.xx.fbcdn.net:443
+[2018-08-30 09:36:44] [Info] Disconnect login.live.com:443
+[2018-08-30 09:36:44] [Info] Direct connect config.pinyin.sogou.com:80
+[2018-08-30 09:36:46] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:36:47] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:36:49] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:36:49] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:36:50] [Debug] DNS query fail: sndohghshwhhi
+[2018-08-30 09:36:50] [Info] Connect sndohghshwhhi:80
+[2018-08-30 09:36:50] [Debug] DNS query fail: nolluzfiobq
+[2018-08-30 09:36:50] [Info] Connect nolluzfiobq:80
+[2018-08-30 09:36:50] [Info] Disconnect sndohghshwhhi:80
+[2018-08-30 09:36:50] [Info] Disconnect nolluzfiobq:80
+[2018-08-30 09:36:51] [Debug] DNS query fail: yvbzgbrtarg
+[2018-08-30 09:36:51] [Info] Connect yvbzgbrtarg:80
+[2018-08-30 09:36:51] [Info] Disconnect yvbzgbrtarg:80
+[2018-08-30 09:36:52] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:36:52] [Debug] DNS query fail: ugzgqtusweq
+[2018-08-30 09:36:52] [Info] Connect ugzgqtusweq:80
+[2018-08-30 09:36:52] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:36:52] [Debug] DNS query fail: davfsettsbrneed
+[2018-08-30 09:36:52] [Info] Connect davfsettsbrneed:80
+[2018-08-30 09:36:53] [Info] Disconnect davfsettsbrneed:80
+[2018-08-30 09:36:53] [Info] Disconnect ugzgqtusweq:80
+[2018-08-30 09:36:53] [Debug] DNS query fail: zcnljzpxsokwvw
+[2018-08-30 09:36:53] [Info] Connect zcnljzpxsokwvw:80
+[2018-08-30 09:36:53] [Info] Disconnect zcnljzpxsokwvw:80
+[2018-08-30 09:36:55] [Debug] DNS query fail: ozyxvwzlykfx
+[2018-08-30 09:36:55] [Info] Connect ozyxvwzlykfx:80
+[2018-08-30 09:36:55] [Debug] DNS query fail: socdbojiytabrie
+[2018-08-30 09:36:55] [Info] Connect socdbojiytabrie:80
+[2018-08-30 09:36:55] [Debug] DNS query fail: ruszpjpezcvrg
+[2018-08-30 09:36:55] [Info] Connect ruszpjpezcvrg:80
+[2018-08-30 09:36:56] [Info] Disconnect socdbojiytabrie:80
+[2018-08-30 09:36:56] [Info] Disconnect ozyxvwzlykfx:80
+[2018-08-30 09:36:56] [Info] Disconnect ruszpjpezcvrg:80
+[2018-08-30 09:37:47] [Info] Disconnect login.live.com:443
+[2018-08-30 09:38:10] [Info] Direct connect app.yinxiang.com:443
+[2018-08-30 09:40:41] [Info] Connect clients4.google.com:443
+[2018-08-30 09:41:45] [Info] Disconnect clients4.google.com:443
+[2018-08-30 09:41:46] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:41:46] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:41:50] [Debug] DNS query fail: kkdrypth
+[2018-08-30 09:41:50] [Info] Connect kkdrypth:80
+[2018-08-30 09:41:50] [Debug] DNS query fail: gahfvwm
+[2018-08-30 09:41:50] [Info] Connect gahfvwm:80
+[2018-08-30 09:41:50] [Info] Disconnect kkdrypth:80
+[2018-08-30 09:41:51] [Info] Disconnect gahfvwm:80
+[2018-08-30 09:41:51] [Debug] DNS query fail: qpjrjwqhzdekz
+[2018-08-30 09:41:51] [Info] Connect qpjrjwqhzdekz:80
+[2018-08-30 09:41:52] [Info] Disconnect qpjrjwqhzdekz:80
+[2018-08-30 09:41:53] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:41:53] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:41:56] [Debug] DNS query fail: idmtfubj
+[2018-08-30 09:41:56] [Debug] DNS query fail: xsqkakbvedjdd
+[2018-08-30 09:41:56] [Info] Connect idmtfubj:80
+[2018-08-30 09:41:56] [Info] Connect xsqkakbvedjdd:80
+[2018-08-30 09:41:56] [Debug] DNS query fail: yluqbwdkadj
+[2018-08-30 09:41:56] [Info] Connect yluqbwdkadj:80
+[2018-08-30 09:41:57] [Info] Disconnect xsqkakbvedjdd:80
+[2018-08-30 09:41:57] [Info] Disconnect idmtfubj:80
+[2018-08-30 09:41:57] [Info] Disconnect yluqbwdkadj:80
+[2018-08-30 09:42:53] [Info] Connect web.vortex.data.microsoft.com:443
+[2018-08-30 09:42:55] [Info] Direct connect data.bilibili.com:443
+[2018-08-30 09:42:55] [Info] Direct connect hm.baidu.com:443
+[2018-08-30 09:43:06] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:43:06] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:43:06] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:43:06] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:43:06] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:43:07] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:43:07] [Info] Connect www.facebook.com:443
+[2018-08-30 09:43:09] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:43:09] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:43:09] [Info] Connect js-agent.newrelic.com:443
+[2018-08-30 09:43:09] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:43:12] [Info] Direct connect www.google-analytics.com:443
+[2018-08-30 09:43:12] [Info] Direct connect www.googletagmanager.com:443
+[2018-08-30 09:43:12] [Info] Direct connect fonts.googleapis.com:443
+[2018-08-30 09:43:12] [Info] Direct connect fonts.googleapis.com:443
+[2018-08-30 09:43:12] [Info] Direct connect app.yinxiang.com:443
+[2018-08-30 09:43:12] [Info] Direct connect fonts.googleapis.com:443
+[2018-08-30 09:43:12] [Info] Direct connect fonts.googleapis.com:443
+[2018-08-30 09:43:12] [Info] Direct connect fonts.googleapis.com:443
+[2018-08-30 09:43:12] [Info] Connect www.facebook.com:443
+[2018-08-30 09:43:13] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:43:13] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:43:13] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:43:13] [Info] Direct connect stats.g.doubleclick.net:443
+[2018-08-30 09:43:14] [Info] Connect www.google.com:443
+[2018-08-30 09:43:14] [Info] Connect www.google.com.hk:443
+[2018-08-30 09:43:14] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:43:16] [Info] Disconnect ancdn.azureedge.net:443
+[2018-08-30 09:43:18] [Info] Disconnect bam.nr-data.net:443
+[2018-08-30 09:43:18] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:43:18] [Info] Disconnect staticxx.facebook.com:443
+[2018-08-30 09:43:18] [Info] Disconnect bam.nr-data.net:443
+[2018-08-30 09:43:18] [Info] Disconnect ancdn.azureedge.net:443
+[2018-08-30 09:43:19] [Info] Disconnect ancdn.azureedge.net:443
+[2018-08-30 09:43:19] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:43:20] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:43:20] [Info] Disconnect js-agent.newrelic.com:443
+[2018-08-30 09:43:20] [Info] Disconnect ancdn.azureedge.net:443
+[2018-08-30 09:43:21] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:43:23] [Info] Direct connect googleads.g.doubleclick.net:443
+[2018-08-30 09:43:23] [Info] Direct connect www.googleadservices.com:443
+[2018-08-30 09:43:23] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:43:36] [Info] Direct connect googleads.g.doubleclick.net:443
+[2018-08-30 09:43:36] [Info] Direct connect www.googleadservices.com:443
+[2018-08-30 09:43:54] [Info] Connect api.github.com:443
+[2018-08-30 09:43:54] [Info] Connect api.github.com:443
+[2018-08-30 09:43:54] [Info] Connect api.github.com:443
+[2018-08-30 09:43:56] [Info] Connect assets-cdn.github.com:443
+[2018-08-30 09:43:56] [Info] Connect assets-cdn.github.com:443
+[2018-08-30 09:43:56] [Info] Connect assets-cdn.github.com:443
+[2018-08-30 09:43:56] [Info] Connect assets-cdn.github.com:443
+[2018-08-30 09:43:56] [Info] Connect assets-cdn.github.com:443
+[2018-08-30 09:43:56] [Info] Connect avatars0.githubusercontent.com:443
+[2018-08-30 09:43:56] [Info] Connect avatars0.githubusercontent.com:443
+[2018-08-30 09:43:56] [Info] Connect avatars0.githubusercontent.com:443
+[2018-08-30 09:43:56] [Info] Connect avatars1.githubusercontent.com:443
+[2018-08-30 09:43:56] [Info] Connect avatars1.githubusercontent.com:443
+[2018-08-30 09:43:56] [Info] Connect avatars1.githubusercontent.com:443
+[2018-08-30 09:43:56] [Info] Connect collector.githubapp.com:443
+[2018-08-30 09:43:56] [Info] Connect collector.githubapp.com:443
+[2018-08-30 09:43:56] [Info] Connect collector.githubapp.com:443
+[2018-08-30 09:43:56] [Info] Connect github.com:443
+[2018-08-30 09:44:01] [Info] Connect assets-cdn.github.com:443
+[2018-08-30 09:44:01] [Info] Connect assets-cdn.github.com:443
+[2018-08-30 09:44:01] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:44:05] [Info] Connect live.github.com:443
+[2018-08-30 09:44:05] [Info] Connect api.github.com:443
+[2018-08-30 09:44:05] [Info] Disconnect api.github.com:443
+[2018-08-30 09:44:06] [Info] Disconnect api.github.com:443
+[2018-08-30 09:44:06] [Info] Disconnect api.github.com:443
+[2018-08-30 09:44:18] [Info] Disconnect assets-cdn.github.com:443
+[2018-08-30 09:44:18] [Info] Disconnect avatars0.githubusercontent.com:443
+[2018-08-30 09:44:18] [Info] Disconnect assets-cdn.github.com:443
+[2018-08-30 09:44:18] [Info] Disconnect avatars0.githubusercontent.com:443
+[2018-08-30 09:44:18] [Info] Disconnect assets-cdn.github.com:443
+[2018-08-30 09:44:18] [Info] Disconnect avatars0.githubusercontent.com:443
+[2018-08-30 09:44:18] [Info] Disconnect avatars1.githubusercontent.com:443
+[2018-08-30 09:44:18] [Info] Disconnect avatars1.githubusercontent.com:443
+[2018-08-30 09:44:18] [Info] Disconnect collector.githubapp.com:443
+[2018-08-30 09:44:19] [Info] Disconnect live.github.com:443
+[2018-08-30 09:44:19] [Info] Connect live.github.com:443
+[2018-08-30 09:44:31] [Info] Disconnect staticxx.facebook.com:443
+[2018-08-30 09:44:38] [Info] Disconnect live.github.com:443
+[2018-08-30 09:44:41] [Info] Connect az764295.vo.msecnd.net:443
+[2018-08-30 09:44:41] [Info] Connect az764295.vo.msecnd.net:443
+[2018-08-30 09:44:41] [Info] Connect marketplace.visualstudio.com:443
+[2018-08-30 09:44:45] [Info] Connect vscjava.gallery.vsassets.io:443
+[2018-08-30 09:44:45] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:44:46] [Info] Connect vscjava.gallerycdn.vsassets.io:443
+[2018-08-30 09:45:03] [Info] Disconnect az764295.vo.msecnd.net:443
+[2018-08-30 09:45:06] [Info] Connect vscode-update.azurewebsites.net:443
+[2018-08-30 09:45:11] [Info] Disconnect collector.githubapp.com:443
+[2018-08-30 09:45:12] [Info] Disconnect bam.nr-data.net:443
+[2018-08-30 09:45:19] [Info] Disconnect github.com:443
+[2018-08-30 09:45:20] [Info] Disconnect api.github.com:443
+[2018-08-30 09:45:20] [Info] Disconnect ancdn.azureedge.net:443
+[2018-08-30 09:45:25] [Info] Disconnect collector.githubapp.com:443
+[2018-08-30 09:46:15] [Info] Direct connect safebrowsing.googleapis.com:443
+[2018-08-30 09:46:23] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:46:23] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:46:23] [Info] Connect ancdn.azureedge.net:443
+[2018-08-30 09:46:23] [Info] Connect agentneo.rocks:443
+[2018-08-30 09:46:23] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:46:23] [Info] Connect bam.nr-data.net:443
+[2018-08-30 09:46:23] [Info] Connect staticxx.facebook.com:443
+[2018-08-30 09:46:23] [Info] Connect js-agent.newrelic.com:443
+[2018-08-30 09:46:23] [Info] Connect www.facebook.com:443
+[2018-08-30 09:46:24] [Info] Direct connect stats.g.doubleclick.net:443
+[2018-08-30 09:46:53] [Info] Disconnect vscjava.gallery.vsassets.io:443
+[2018-08-30 09:47:02] [Info] Disconnect web.vortex.data.microsoft.com:443
+[2018-08-30 09:47:09] [Info] Disconnect vscode-update.azurewebsites.net:443
+[2018-08-30 09:47:11] [Info] Disconnect az764295.vo.msecnd.net:443
+[2018-08-30 09:47:11] [Info] Disconnect vscjava.gallerycdn.vsassets.io:443
+[2018-08-30 09:47:11] [Info] Disconnect marketplace.visualstudio.com:443
+[2018-08-30 09:47:11] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:47:11] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:47:11] [Info] Disconnect agentneo.rocks:443
+[2018-08-30 09:47:11] [Info] Disconnect ancdn.azureedge.net:443
+[2018-08-30 09:47:11] [Info] Disconnect assets-cdn.github.com:443
+[2018-08-30 09:47:11] [Info] Disconnect bam.nr-data.net:443
+[2018-08-30 09:47:11] [Info] Disconnect assets-cdn.github.com:443
+[2018-08-30 09:47:11] [Info] Disconnect avatars1.githubusercontent.com:443
+[2018-08-30 09:47:11] [Info] Disconnect bam.nr-data.net:443
+[2018-08-30 09:47:11] [Info] Disconnect js-agent.newrelic.com:443
+[2018-08-30 09:47:11] [Info] Disconnect staticxx.facebook.com:443
+[2018-08-30 09:47:11] [Info] Disconnect www.facebook.com:443
+[2018-08-30 09:47:11] [Info] Disconnect assets-cdn.github.com:443
+[2018-08-30 09:47:11] [Info] Disconnect assets-cdn.github.com:443
+[2018-08-30 09:47:12] [Info] Disconnect www.google.com:443
+[2018-08-30 09:47:12] [Info] Disconnect www.google.com.hk:443
+[2018-08-30 09:47:12] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:47:12] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:47:16] [Debug] DNS query fail: qdcyoedyxemgo
+[2018-08-30 09:47:16] [Info] Connect qdcyoedyxemgo:80
+[2018-08-30 09:47:16] [Info] Disconnect qdcyoedyxemgo:80
+[2018-08-30 09:47:17] [Debug] DNS query fail: srhbaimmwsj
+[2018-08-30 09:47:17] [Info] Connect srhbaimmwsj:80
+[2018-08-30 09:47:17] [Info] Disconnect srhbaimmwsj:80
+[2018-08-30 09:47:18] [Debug] DNS query fail: afwqqgqlrkgjh
+[2018-08-30 09:47:18] [Info] Connect afwqqgqlrkgjh:80
+[2018-08-30 09:47:18] [Info] Disconnect afwqqgqlrkgjh:80
+[2018-08-30 09:47:18] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:47:19] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:47:22] [Debug] DNS query fail: qujmmgzsfeakk
+[2018-08-30 09:47:22] [Info] Connect qujmmgzsfeakk:80
+[2018-08-30 09:47:22] [Debug] DNS query fail: pvaqzxuf
+[2018-08-30 09:47:22] [Info] Connect pvaqzxuf:80
+[2018-08-30 09:47:22] [Debug] DNS query fail: kvyctgfoztqhgbc
+[2018-08-30 09:47:22] [Info] Connect kvyctgfoztqhgbc:80
+[2018-08-30 09:47:22] [Info] Disconnect pvaqzxuf:80
+[2018-08-30 09:47:22] [Info] Disconnect qujmmgzsfeakk:80
+[2018-08-30 09:48:14] [Info] Direct connect app.yinxiang.com:443
+[2018-08-30 09:48:53] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:48:53] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:48:54] [Info] Disconnect kvyctgfoztqhgbc:80
+[2018-08-30 09:48:56] [Debug] DNS query fail: lipkztia
+[2018-08-30 09:48:56] [Info] Connect lipkztia:80
+[2018-08-30 09:48:57] [Info] Disconnect lipkztia:80
+[2018-08-30 09:48:57] [Debug] DNS query fail: ivsudpiybboxus
+[2018-08-30 09:48:57] [Info] Connect ivsudpiybboxus:80
+[2018-08-30 09:48:58] [Debug] DNS query fail: nagfwyfj
+[2018-08-30 09:48:58] [Info] Connect nagfwyfj:80
+[2018-08-30 09:48:58] [Info] Disconnect ivsudpiybboxus:80
+[2018-08-30 09:48:59] [Info] Disconnect nagfwyfj:80
+[2018-08-30 09:48:59] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:48:59] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:49:02] [Debug] DNS query fail: hvjkaotn
+[2018-08-30 09:49:02] [Debug] DNS query fail: nxgbjzllrfxadx
+[2018-08-30 09:49:02] [Info] Connect hvjkaotn:80
+[2018-08-30 09:49:02] [Info] Connect nxgbjzllrfxadx:80
+[2018-08-30 09:49:03] [Info] Disconnect nxgbjzllrfxadx:80
+[2018-08-30 09:49:03] [Info] Disconnect hvjkaotn:80
+[2018-08-30 09:49:03] [Debug] DNS query fail: siuxyyo
+[2018-08-30 09:49:03] [Info] Connect siuxyyo:80
+[2018-08-30 09:49:04] [Info] Disconnect siuxyyo:80
+[2018-08-30 09:51:56] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:51:57] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:52:00] [Debug] DNS query fail: crzhabc
+[2018-08-30 09:52:00] [Info] Connect crzhabc:80
+[2018-08-30 09:52:00] [Info] Disconnect crzhabc:80
+[2018-08-30 09:52:01] [Debug] DNS query fail: azmusguez
+[2018-08-30 09:52:01] [Info] Connect azmusguez:80
+[2018-08-30 09:52:01] [Info] Disconnect azmusguez:80
+[2018-08-30 09:52:02] [Debug] DNS query fail: llbzxmdy
+[2018-08-30 09:52:02] [Info] Connect llbzxmdy:80
+[2018-08-30 09:52:03] [Info] Disconnect llbzxmdy:80
+[2018-08-30 09:52:03] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:52:03] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:52:06] [Debug] DNS query fail: odmstsm
+[2018-08-30 09:52:06] [Debug] DNS query fail: dqhbvtwlbnofzr
+[2018-08-30 09:52:06] [Debug] DNS query fail: pkdmfmppkjmmi
+[2018-08-30 09:52:06] [Info] Connect dqhbvtwlbnofzr:80
+[2018-08-30 09:52:06] [Info] Connect odmstsm:80
+[2018-08-30 09:52:06] [Info] Connect pkdmfmppkjmmi:80
+[2018-08-30 09:52:07] [Info] Disconnect odmstsm:80
+[2018-08-30 09:53:15] [Info] Direct connect app.yinxiang.com:443
+[2018-08-30 09:54:19] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:19] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:20] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:20] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:20] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:20] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:21] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:21] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:21] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:21] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:22] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:22] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:22] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:22] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:23] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:23] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:23] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:23] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:24] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:24] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:24] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:24] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:25] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:27] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:27] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:27] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:27] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:27] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:27] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:27] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:28] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:29] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:29] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:29] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:29] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:29] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:29] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:29] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:30] [Info] Direct connect suggestion.baidu.com:80
+[2018-08-30 09:54:30] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:54:30] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:54:30] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:54:30] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:54:33] [Info] Direct connect sp1.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss1.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss0.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss0.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss0.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss0.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss0.bdstatic.com:443
+[2018-08-30 09:54:35] [Info] Direct connect ss0.bdstatic.com:443
+[2018-08-30 09:54:37] [Info] Direct connect qurl.f.360.cn:80
+[2018-08-30 09:54:38] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect ss2.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect ss2.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect ss2.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect ss2.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect sp1.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:54:38] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:54:42] [Info] Direct connect sp2.baidu.com:443
+[2018-08-30 09:54:42] [Info] Direct connect beacon.tingyun.com:443
+[2018-08-30 09:54:42] [Info] Direct connect beacon.tingyun.com:443
+[2018-08-30 09:54:42] [Info] Direct connect beacon.tingyun.com:443
+[2018-08-30 09:54:42] [Info] Direct connect hm.baidu.com:443
+[2018-08-30 09:54:42] [Info] Direct connect beacon.tingyun.com:443
+[2018-08-30 09:54:42] [Info] Direct connect hm.baidu.com:443
+[2018-08-30 09:54:42] [Info] Direct connect hm.baidu.com:443
+[2018-08-30 09:54:42] [Info] Direct connect hm.baidu.com:443
+[2018-08-30 09:54:42] [Info] Direct connect gsp0.baidu.com:443
+[2018-08-30 09:54:42] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:54:52] [Debug] DNS query fail: gsp0.baidu.com
+[2018-08-30 09:54:52] [Info] Connect gsp0.baidu.com:443
+[2018-08-30 09:54:52] [Debug] DNS query fail: gsp0.baidu.com
+[2018-08-30 09:54:52] [Info] Connect gsp0.baidu.com:443
+[2018-08-30 09:54:52] [Debug] DNS query fail: max-l.mediav.com
+[2018-08-30 09:54:52] [Info] Connect max-l.mediav.com:443
+[2018-08-30 09:54:52] [Debug] DNS query fail: max-l.mediav.com
+[2018-08-30 09:54:52] [Info] Connect max-l.mediav.com:443
+[2018-08-30 09:54:52] [Debug] DNS query fail: max-l.mediav.com
+[2018-08-30 09:54:52] [Info] Connect max-l.mediav.com:443
+[2018-08-30 09:54:52] [Debug] DNS query fail: nbrecsys.4paradigm.com
+[2018-08-30 09:54:52] [Info] Connect nbrecsys.4paradigm.com:443
+[2018-08-30 09:54:52] [Debug] DNS query fail: pos.baidu.com
+[2018-08-30 09:54:52] [Info] Connect pos.baidu.com:443
+[2018-08-30 09:54:52] [Debug] DNS query fail: pos.baidu.com
+[2018-08-30 09:54:52] [Info] Connect pos.baidu.com:443
+[2018-08-30 09:54:52] [Debug] DNS query fail: pos.baidu.com
+[2018-08-30 09:54:52] [Info] Connect pos.baidu.com:443
+[2018-08-30 09:54:53] [Debug] DNS query fail: pos.baidu.com
+[2018-08-30 09:54:53] [Info] Connect pos.baidu.com:443
+[2018-08-30 09:54:54] [Info] Direct connect re.csdn.net:443
+[2018-08-30 09:54:54] [Info] Direct connect re.csdn.net:443
+[2018-08-30 09:54:54] [Info] Direct connect re.csdn.net:443
+[2018-08-30 09:54:54] [Info] Direct connect re.csdn.net:443
+[2018-08-30 09:54:54] [Info] Direct connect pos.baidu.com:443
+[2018-08-30 09:54:54] [Info] Direct connect pos.baidu.com:443
+[2018-08-30 09:54:54] [Info] Direct connect zhannei-dm.csdn.net:443
+[2018-08-30 09:54:54] [Info] Direct connect zhannei-dm.csdn.net:443
+[2018-08-30 09:54:54] [Info] Direct connect ssxd.mediav.com:443
+[2018-08-30 09:54:54] [Info] Direct connect ssxd.mediav.com:443
+[2018-08-30 09:54:54] [Info] Direct connect ssxd.mediav.com:443
+[2018-08-30 09:54:54] [Info] Direct connect blog.csdn.net:443
+[2018-08-30 09:54:56] [Info] Direct connect qurl.f.360.cn:80
+[2018-08-30 09:54:56] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:54:56] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:54:56] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:54:56] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:54:56] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:54:56] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:54:56] [Info] Direct connect dup.baidustatic.com:443
+[2018-08-30 09:54:56] [Info] Direct connect static.mediav.com:443
+[2018-08-30 09:54:56] [Info] Direct connect g.csdnimg.cn:443
+[2018-08-30 09:54:56] [Info] Direct connect upload-images.jianshu.io:80
+[2018-08-30 09:54:57] [Info] Direct connect dup.baidustatic.com:443
+[2018-08-30 09:54:57] [Info] Direct connect hm.baidu.com:443
+[2018-08-30 09:54:57] [Info] Direct connect pv.csdn.net:443
+[2018-08-30 09:54:57] [Info] Direct connect static-blog.csdn.net:443
+[2018-08-30 09:54:57] [Info] Direct connect cjhd.mediav.com:443
+[2018-08-30 09:54:57] [Info] Direct connect img-ads.csdn.net:443
+[2018-08-30 09:54:57] [Info] Direct connect rabc1.iteye.com:443
+[2018-08-30 09:54:57] [Info] Disconnect gsp0.baidu.com:443
+[2018-08-30 09:54:57] [Info] Disconnect gsp0.baidu.com:443
+[2018-08-30 09:54:57] [Info] Direct connect rabc1.iteye.com:443
+[2018-08-30 09:54:57] [Info] Direct connect rabc1.iteye.com:443
+[2018-08-30 09:54:57] [Info] Disconnect max-l.mediav.com:443
+[2018-08-30 09:54:57] [Info] Disconnect max-l.mediav.com:443
+[2018-08-30 09:54:57] [Info] Disconnect nbrecsys.4paradigm.com:443
+[2018-08-30 09:54:57] [Info] Disconnect pos.baidu.com:443
+[2018-08-30 09:54:58] [Info] Direct connect goutong.baidu.com:443
+[2018-08-30 09:55:00] [Info] Direct connect avatar.csdn.net:443
+[2018-08-30 09:55:00] [Info] Direct connect avatar.csdn.net:443
+[2018-08-30 09:55:00] [Info] Direct connect avatar.csdn.net:443
+[2018-08-30 09:55:00] [Info] Direct connect avatar.csdn.net:443
+[2018-08-30 09:55:00] [Info] Direct connect avatar.csdn.net:443
+[2018-08-30 09:55:00] [Info] Direct connect avatar.csdn.net:443
+[2018-08-30 09:55:00] [Info] Direct connect beacon.tingyun.com:443
+[2018-08-30 09:55:05] [Info] Direct connect ads.csdn.net:443
+[2018-08-30 09:55:05] [Info] Direct connect show-f.mediav.com:443
+[2018-08-30 09:55:05] [Info] Disconnect pos.baidu.com:443
+[2018-08-30 09:55:05] [Info] Disconnect pos.baidu.com:443
+[2018-08-30 09:55:05] [Info] Direct connect dup.baidustatic.com:443
+[2018-08-30 09:55:05] [Info] Direct connect f12.baidu.com:443
+[2018-08-30 09:55:05] [Info] Direct connect f10.baidu.com:443
+[2018-08-30 09:55:05] [Info] Direct connect f12.baidu.com:443
+[2018-08-30 09:55:05] [Info] Direct connect dup.baidustatic.com:443
+[2018-08-30 09:55:05] [Info] Direct connect pos.baidu.com:443
+[2018-08-30 09:55:05] [Info] Direct connect pos.baidu.com:443
+[2018-08-30 09:55:05] [Info] Direct connect f10.baidu.com:443
+[2018-08-30 09:55:05] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:05] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:05] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:05] [Info] Direct connect f11.baidu.com:443
+[2018-08-30 09:55:05] [Info] Direct connect f11.baidu.com:443
+[2018-08-30 09:55:05] [Info] Direct connect pos.baidu.com:443
+[2018-08-30 09:55:05] [Info] Disconnect max-l.mediav.com:443
+[2018-08-30 09:55:05] [Info] Direct connect ubmcmm.baidustatic.com:443
+[2018-08-30 09:55:05] [Info] Direct connect ubmcmm.baidustatic.com:443
+[2018-08-30 09:55:05] [Info] Direct connect wn.pos.baidu.com:443
+[2018-08-30 09:55:05] [Info] Direct connect wn.pos.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect pos.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect pos.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect s.cpro.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect s.cpro.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect s.cpro.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect cpro2.baidustatic.com:443
+[2018-08-30 09:55:06] [Info] Direct connect cpro2.baidustatic.com:443
+[2018-08-30 09:55:06] [Info] Direct connect cpro2.baidustatic.com:443
+[2018-08-30 09:55:06] [Info] Direct connect gsp0.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:06] [Info] Direct connect statistic.csdn.net:443
+[2018-08-30 09:55:06] [Info] Direct connect xdssp.mediav.com:443
+[2018-08-30 09:55:06] [Info] Direct connect f10.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect f12.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect f12.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect f11.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect t11.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect cm.pos.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect t11.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect f12.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect ubmcmm.baidustatic.com:80
+[2018-08-30 09:55:06] [Info] Direct connect static-blog.csdn.net:443
+[2018-08-30 09:55:06] [Info] Direct connect t10.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect t10.baidu.com:443
+[2018-08-30 09:55:06] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:55:06] [Info] Direct connect nbrecsys.4paradigm.com:443
+[2018-08-30 09:55:07] [Info] Direct connect f11.baidu.com:443
+[2018-08-30 09:55:07] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:55:07] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:55:07] [Info] Direct connect nbrecsys.4paradigm.com:443
+[2018-08-30 09:55:07] [Info] Direct connect f12.baidu.com:443
+[2018-08-30 09:55:07] [Info] Direct connect f12.baidu.com:443
+[2018-08-30 09:55:07] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:07] [Info] Direct connect re.csdn.net:443
+[2018-08-30 09:55:07] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:07] [Info] Direct connect wn.pos.baidu.com:443
+[2018-08-30 09:55:07] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:07] [Info] Direct connect beacon.tingyun.com:443
+[2018-08-30 09:55:07] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:07] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:08] [Info] Direct connect my.csdn.net:443
+[2018-08-30 09:55:08] [Info] Direct connect show-3.mediav.com:443
+[2018-08-30 09:55:08] [Info] Direct connect cjhd.mediav.com:443
+[2018-08-30 09:55:08] [Info] Direct connect 360fenxi.mediav.com:443
+[2018-08-30 09:55:08] [Info] Direct connect 360fenxi.mediav.com:443
+[2018-08-30 09:55:08] [Info] Direct connect 360fenxi.mediav.com:443
+[2018-08-30 09:55:08] [Info] Direct connect e.so.com:443
+[2018-08-30 09:55:08] [Info] Direct connect e.so.com:443
+[2018-08-30 09:55:08] [Info] Direct connect e.so.com:443
+[2018-08-30 09:55:08] [Info] Direct connect beacon.tingyun.com:443
+[2018-08-30 09:55:08] [Info] Direct connect p5.ssl.qhimg.com:443
+[2018-08-30 09:55:08] [Info] Direct connect p5.ssl.qhimg.com:443
+[2018-08-30 09:55:08] [Info] Direct connect s.union.360.cn:443
+[2018-08-30 09:55:08] [Info] Direct connect s.union.360.cn:443
+[2018-08-30 09:55:08] [Info] Direct connect s.union.360.cn:443
+[2018-08-30 09:55:08] [Info] Direct connect s.union.360.cn:443
+[2018-08-30 09:55:09] [Info] Direct connect p3.ssl.qhimg.com:443
+[2018-08-30 09:55:09] [Info] Direct connect s0.ssl.qhres.com:443
+[2018-08-30 09:55:09] [Info] Direct connect s0.ssl.qhres.com:443
+[2018-08-30 09:55:09] [Info] Direct connect s0.ssl.qhres.com:443
+[2018-08-30 09:55:09] [Info] Direct connect s2.ssl.qhres.com:443
+[2018-08-30 09:55:09] [Info] Direct connect s2.ssl.qhres.com:443
+[2018-08-30 09:55:09] [Info] Direct connect s1.ssl.qhres.com:443
+[2018-08-30 09:55:09] [Info] Direct connect csdnimg.cn:443
+[2018-08-30 09:55:09] [Info] Direct connect p1.ssl.qhimg.com:443
+[2018-08-30 09:55:10] [Info] Direct connect p0.ssl.qhimg.com:443
+[2018-08-30 09:55:12] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:55:13] [Info] Direct connect s4.ssl.qhres.com:443
+[2018-08-30 09:55:13] [Info] Direct connect s4.ssl.qhres.com:443
+[2018-08-30 09:55:13] [Info] Direct connect s5.ssl.qhres.com:443
+[2018-08-30 09:55:13] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:55:13] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:55:13] [Info] Direct connect ss2.baidu.com:443
+[2018-08-30 09:55:13] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:13] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:55:13] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:55:14] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:14] [Info] Direct connect e.so.com:443
+[2018-08-30 09:55:14] [Info] Direct connect ss3.baidu.com:443
+[2018-08-30 09:55:14] [Info] Direct connect 360fenxi.mediav.com:443
+[2018-08-30 09:55:14] [Info] Direct connect 360fenxi.mediav.com:443
+[2018-08-30 09:55:15] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect ss2.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect ss2.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect ss2.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect ss2.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect sp1.baidu.com:443
+[2018-08-30 09:55:15] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:55:16] [Info] Direct connect zhannei-dm.csdn.net:443
+[2018-08-30 09:55:16] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:16] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:55:16] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:16] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:55:17] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:55:17] [Info] Direct connect ss0.bdstatic.com:443
+[2018-08-30 09:55:17] [Info] Direct connect ss1.baidu.com:443
+[2018-08-30 09:55:17] [Info] Direct connect ss2.bdstatic.com:443
+[2018-08-30 09:55:17] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:55:17] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:55:17] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:55:17] [Info] Direct connect p4.ssl.qhimg.com:443
+[2018-08-30 09:55:17] [Info] Direct connect p4.ssl.qhimg.com:443
+[2018-08-30 09:55:19] [Info] Direct connect beacon.tingyun.com:443
+[2018-08-30 09:55:20] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:20] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:55:20] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:20] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:55:20] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:55:21] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:21] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:21] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:21] [Info] Direct connect www.baidu.com:443
+[2018-08-30 09:55:21] [Info] Direct connect ss0.baidu.com:443
+[2018-08-30 09:55:21] [Info] Direct connect sp1.baidu.com:443
+[2018-08-30 09:55:23] [Info] Disconnect pos.baidu.com:443
+[2018-08-30 09:55:23] [Info] Direct connect sp2.baidu.com:443
+[2018-08-30 09:55:24] [Info] Direct connect s.f.360.cn:80
+[2018-08-30 09:55:24] [Info] Direct connect www.jianshu.com:443
+[2018-08-30 09:55:24] [Info] Direct connect www.jianshu.com:443
+[2018-08-30 09:55:25] [Info] Direct connect cdn2.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect cdn2.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect cdn2.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect upload.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect cdn2.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect upload-images.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect upload.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect upload.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect upload-images.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect upload.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect upload-images.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect upload.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect upload-images.jianshu.io:443
+[2018-08-30 09:55:25] [Info] Direct connect upload-images.jianshu.io:443
+[2018-08-30 09:55:26] [Info] Direct connect upload.jianshu.io:443
+[2018-08-30 09:55:26] [Info] Direct connect www.zybuluo.com:443
+[2018-08-30 09:55:26] [Info] Direct connect hm.baidu.com:443
+[2018-08-30 09:55:27] [Error] System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 61.135.162.162:443
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.Socks5Forwarder.Handler.ConnectCallback(IAsyncResult ar)
+[2018-08-30 09:55:27] [Error] System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 61.135.162.162:443
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.Socks5Forwarder.Handler.ConnectCallback(IAsyncResult ar)
+[2018-08-30 09:55:27] [Error] System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 61.135.162.162:443
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.Socks5Forwarder.Handler.ConnectCallback(IAsyncResult ar)
+[2018-08-30 09:55:27] [Info] Direct connect events.jianshu.io:4006
+[2018-08-30 09:55:27] [Info] Direct connect cm.pos.baidu.com:443
+[2018-08-30 09:55:27] [Info] Direct connect cm.pos.baidu.com:443
+[2018-08-30 09:55:27] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:27] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:27] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:27] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:27] [Info] Direct connect cpro2.baidustatic.com:443
+[2018-08-30 09:55:27] [Info] Direct connect f10.baidu.com:443
+[2018-08-30 09:55:27] [Info] Direct connect cpro2.baidustatic.com:443
+[2018-08-30 09:55:27] [Info] Direct connect cpro.baidustatic.com:443
+[2018-08-30 09:55:27] [Info] Direct connect cm.pos.baidu.com:443
+[2018-08-30 09:55:27] [Info] Direct connect f10.baidu.com:443
+[2018-08-30 09:55:27] [Info] Direct connect f10.baidu.com:443
+[2018-08-30 09:55:27] [Info] Direct connect pos.baidu.com:443
+[2018-08-30 09:55:27] [Info] Direct connect beacon.tingyun.com:443
+[2018-08-30 09:55:27] [Info] Direct connect dup.baidustatic.com:443
+[2018-08-30 09:55:27] [Info] Direct connect dup.baidustatic.com:443
+[2018-08-30 09:55:28] [Info] Direct connect cdn2.jianshu.io:443
+[2018-08-30 09:55:28] [Info] Direct connect www.jianshu.com:443
+[2018-08-30 09:55:28] [Info] Direct connect www.jianshu.com:443
+[2018-08-30 09:55:28] [Info] Direct connect www.jianshu.com:443
+[2018-08-30 09:55:28] [Info] Direct connect sp0.baidu.com:443
+[2018-08-30 09:55:28] [Info] Direct connect upload.jianshu.io:443
+[2018-08-30 09:55:30] [Info] Direct connect eclick.baidu.com:443
+[2018-08-30 09:55:30] [Info] Direct connect eclick.baidu.com:443
+[2018-08-30 09:55:46] [Debug] DNS query fail: 23.md
+[2018-08-30 09:55:46] [Info] Connect 23.md:80
+[2018-08-30 09:55:47] [Info] Disconnect 23.md:80
+[2018-08-30 09:56:21] [Info] Connect readme.md:80
+[2018-08-30 09:56:23] [Info] Disconnect readme.md:80
+[2018-08-30 09:56:23] [Info] Connect www.readme.md:443
+[2018-08-30 09:56:23] [Info] Connect www.readme.md:443
+[2018-08-30 09:56:25] [Info] Connect maxcdn.bootstrapcdn.com:443
+[2018-08-30 09:56:25] [Info] Connect js.stripe.com:443
+[2018-08-30 09:56:26] [Info] Direct connect www.google-analytics.com:443
+[2018-08-30 09:56:27] [Info] Connect storage.googleapis.com:443
+[2018-08-30 09:56:37] [Info] Connect login.live.com:443
+[2018-08-30 09:57:07] [Info] Disconnect dqhbvtwlbnofzr:80
+[2018-08-30 09:57:07] [Info] Disconnect pkdmfmppkjmmi:80
+[2018-08-30 09:57:25] [Info] Disconnect www.readme.md:443
+[2018-08-30 09:57:27] [Info] Disconnect www.readme.md:443
+[2018-08-30 09:57:43] [Info] Disconnect login.live.com:443
+[2018-08-30 09:57:57] [Info] Disconnect maxcdn.bootstrapcdn.com:443
+[2018-08-30 09:57:57] [Info] Disconnect storage.googleapis.com:443
+[2018-08-30 09:57:57] [Info] Disconnect js.stripe.com:443
+[2018-08-30 09:57:58] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:57:58] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:58:02] [Debug] DNS query fail: mhpqowopqhisipq
+[2018-08-30 09:58:02] [Info] Connect mhpqowopqhisipq:80
+[2018-08-30 09:58:02] [Debug] DNS query fail: vdyksepef
+[2018-08-30 09:58:02] [Info] Connect vdyksepef:80
+[2018-08-30 09:58:02] [Info] Disconnect mhpqowopqhisipq:80
+[2018-08-30 09:58:03] [Debug] DNS query fail: aobrsqlgqjpif
+[2018-08-30 09:58:03] [Info] Connect aobrsqlgqjpif:80
+[2018-08-30 09:58:03] [Info] Disconnect aobrsqlgqjpif:80
+[2018-08-30 09:58:05] [Info] Connect mtalk.google.com:5228
+[2018-08-30 09:58:05] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 09:58:06] [Info] Disconnect vdyksepef:80
+[2018-08-30 09:58:08] [Debug] DNS query fail: fmxmhztwoulqzc
+[2018-08-30 09:58:08] [Info] Connect fmxmhztwoulqzc:80
+[2018-08-30 09:58:08] [Debug] DNS query fail: okdpdpzjkmbmoaj
+[2018-08-30 09:58:08] [Debug] DNS query fail: ytouzyrohcmmvn
+[2018-08-30 09:58:08] [Info] Connect okdpdpzjkmbmoaj:80
+[2018-08-30 09:58:08] [Info] Connect ytouzyrohcmmvn:80
+[2018-08-30 09:58:08] [Info] Disconnect okdpdpzjkmbmoaj:80
+[2018-08-30 09:58:09] [Info] Disconnect ytouzyrohcmmvn:80
+[2018-08-30 09:58:09] [Info] Disconnect fmxmhztwoulqzc:80
+[2018-08-30 09:58:15] [Info] Direct connect app.yinxiang.com:443
+[2018-08-30 10:00:59] [Info] Connect mtalk.google.com:5228
+[2018-08-30 10:00:59] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 10:01:02] [Debug] DNS query fail: kzxojrk
+[2018-08-30 10:01:02] [Info] Connect kzxojrk:80
+[2018-08-30 10:01:02] [Debug] DNS query fail: xqgkhahzgea
+[2018-08-30 10:01:02] [Debug] DNS query fail: thhunziocnsty
+[2018-08-30 10:01:02] [Info] Connect xqgkhahzgea:80
+[2018-08-30 10:01:02] [Info] Connect thhunziocnsty:80
+[2018-08-30 10:01:03] [Info] Disconnect kzxojrk:80
+[2018-08-30 10:01:03] [Info] Disconnect thhunziocnsty:80
+[2018-08-30 10:01:03] [Info] Disconnect xqgkhahzgea:80
+[2018-08-30 10:01:05] [Info] Connect mtalk.google.com:5228
+[2018-08-30 10:01:06] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 10:01:09] [Debug] DNS query fail: daaadqdsiyessjz
+[2018-08-30 10:01:09] [Info] Connect daaadqdsiyessjz:80
+[2018-08-30 10:01:09] [Debug] DNS query fail: gtzzislerqdckqf
+[2018-08-30 10:01:09] [Debug] DNS query fail: phzwspbaaumb
+[2018-08-30 10:01:09] [Info] Connect gtzzislerqdckqf:80
+[2018-08-30 10:01:09] [Info] Connect phzwspbaaumb:80
+[2018-08-30 10:01:09] [Info] Disconnect daaadqdsiyessjz:80
+[2018-08-30 10:01:09] [Info] Disconnect gtzzislerqdckqf:80
+[2018-08-30 10:01:10] [Info] Disconnect phzwspbaaumb:80
+[2018-08-30 10:02:36] [Info] Direct connect qbwup.imtt.qq.com:80
+[2018-08-30 10:03:17] [Info] Direct connect app.yinxiang.com:443
+[2018-08-30 10:04:01] [Info] Connect mtalk.google.com:5228
+[2018-08-30 10:04:01] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 10:04:04] [Debug] DNS query fail: sawpnbvqtln
+[2018-08-30 10:04:04] [Info] Connect sawpnbvqtln:80
+[2018-08-30 10:04:05] [Info] Disconnect sawpnbvqtln:80
+[2018-08-30 10:04:05] [Debug] DNS query fail: jpxgleado
+[2018-08-30 10:04:05] [Info] Connect jpxgleado:80
+[2018-08-30 10:04:06] [Debug] DNS query fail: qssdpingklnveu
+[2018-08-30 10:04:06] [Info] Connect qssdpingklnveu:80
+[2018-08-30 10:04:06] [Info] Disconnect jpxgleado:80
+[2018-08-30 10:04:07] [Info] Disconnect qssdpingklnveu:80
+[2018-08-30 10:04:07] [Info] Connect mtalk.google.com:5228
+[2018-08-30 10:04:07] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 10:04:10] [Debug] DNS query fail: ziyjjdqeeqrakx
+[2018-08-30 10:04:10] [Debug] DNS query fail: tjkeuflz
+[2018-08-30 10:04:10] [Info] Connect ziyjjdqeeqrakx:80
+[2018-08-30 10:04:10] [Info] Connect tjkeuflz:80
+[2018-08-30 10:04:10] [Debug] DNS query fail: fxmkkkrccvqzmm
+[2018-08-30 10:04:10] [Info] Connect fxmkkkrccvqzmm:80
+[2018-08-30 10:04:10] [Info] Disconnect fxmkkkrccvqzmm:80
+[2018-08-30 10:04:11] [Info] Disconnect tjkeuflz:80
+[2018-08-30 10:04:12] [Info] Disconnect ziyjjdqeeqrakx:80
+[2018-08-30 10:04:37] [Info] Connect cn.bing.com:443
+[2018-08-30 10:05:27] [Info] Direct connect hm.baidu.com:443
+[2018-08-30 10:05:43] [Info] Disconnect cn.bing.com:443
+[2018-08-30 10:07:04] [Info] Connect mtalk.google.com:5228
+[2018-08-30 10:07:04] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 10:07:07] [Debug] DNS query fail: qsmmywspgd
+[2018-08-30 10:07:07] [Info] Connect qsmmywspgd:80
+[2018-08-30 10:07:08] [Info] Disconnect qsmmywspgd:80
+[2018-08-30 10:07:08] [Debug] DNS query fail: pxyxgxx
+[2018-08-30 10:07:08] [Info] Connect pxyxgxx:80
+[2018-08-30 10:07:09] [Info] Disconnect pxyxgxx:80
+[2018-08-30 10:07:09] [Debug] DNS query fail: gootzdmplqilh
+[2018-08-30 10:07:09] [Info] Connect gootzdmplqilh:80
+[2018-08-30 10:07:10] [Info] Connect mtalk.google.com:5228
+[2018-08-30 10:07:10] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 10:07:11] [Info] Disconnect gootzdmplqilh:80
+[2018-08-30 10:07:13] [Debug] DNS query fail: mcxeuctzlmdbxw
+[2018-08-30 10:07:13] [Debug] DNS query fail: dipjyoblzf
+[2018-08-30 10:07:13] [Info] Connect mcxeuctzlmdbxw:80
+[2018-08-30 10:07:13] [Info] Connect dipjyoblzf:80
+[2018-08-30 10:07:13] [Debug] DNS query fail: cyozzuscepwyjz
+[2018-08-30 10:07:13] [Info] Connect cyozzuscepwyjz:80
+[2018-08-30 10:07:14] [Info] Disconnect dipjyoblzf:80
+[2018-08-30 10:07:48] [Info] Connect vconf.f.360.cn:80
+[2018-08-30 10:07:49] [Info] Disconnect vconf.f.360.cn:80
+[2018-08-30 10:07:50] [Info] Direct connect s.f.360.cn:80
+[2018-08-30 10:07:51] [Info] Direct connect s.f.360.cn:80
+[2018-08-30 10:08:18] [Info] Direct connect app.yinxiang.com:443
+[2018-08-30 10:08:35] [Info] Direct connect pro.pz1.3dn.ie.sogou.com:80
+[2018-08-30 10:09:08] [Info] Direct connect updatem.360safe.com:80
+[2018-08-30 10:09:08] [Info] Direct connect src.dl.360safe.com:80
+[2018-08-30 10:09:09] [Info] Direct connect 119.90.25.12:80
+[2018-08-30 10:10:05] [Info] Connect mtalk.google.com:5228
+[2018-08-30 10:10:06] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 10:10:07] [Info] Disconnect mcxeuctzlmdbxw:80
+[2018-08-30 10:10:07] [Info] Disconnect cyozzuscepwyjz:80
+[2018-08-30 10:10:09] [Debug] DNS query fail: egdgilaoojsmle
+[2018-08-30 10:10:09] [Info] Connect egdgilaoojsmle:80
+[2018-08-30 10:10:10] [Debug] DNS query fail: rxzvjmqemgmzg
+[2018-08-30 10:10:10] [Info] Connect rxzvjmqemgmzg:80
+[2018-08-30 10:10:10] [Info] Disconnect egdgilaoojsmle:80
+[2018-08-30 10:10:11] [Info] Disconnect rxzvjmqemgmzg:80
+[2018-08-30 10:10:11] [Debug] DNS query fail: zhxnuwqcuovybuz
+[2018-08-30 10:10:11] [Info] Connect zhxnuwqcuovybuz:80
+[2018-08-30 10:10:12] [Info] Disconnect zhxnuwqcuovybuz:80
+[2018-08-30 10:10:12] [Info] Connect mtalk.google.com:5228
+[2018-08-30 10:10:12] [Info] Disconnect mtalk.google.com:5228
+[2018-08-30 10:10:15] [Debug] DNS query fail: xxeebovaijoktkp
+[2018-08-30 10:10:15] [Debug] DNS query fail: rlijwcp
+[2018-08-30 10:10:15] [Debug] DNS query fail: lqlswzohydp
+[2018-08-30 10:10:15] [Info] Connect xxeebovaijoktkp:80
+[2018-08-30 10:10:15] [Info] Connect rlijwcp:80
+[2018-08-30 10:10:15] [Info] Connect lqlswzohydp:80
+[2018-08-30 10:10:16] [Info] Disconnect xxeebovaijoktkp:80
+[2018-08-30 10:10:16] [Info] Disconnect lqlswzohydp:80
+[2018-08-30 10:10:16] [Info] Disconnect rlijwcp:80
