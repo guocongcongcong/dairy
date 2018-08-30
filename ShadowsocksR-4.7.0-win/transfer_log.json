@@ -1,0 +1,66 @@
+{
+	"fr-2.wires.rocks" : {
+		"totalUploadBytes" : 556,
+		"totalDownloadBytes" : 0
+	},
+	"hkt-2.wires.rocks" : {
+		"totalUploadBytes" : 101374,
+		"totalDownloadBytes" : 2017748
+	},
+	"lon-1.wires.rocks" : {
+		"totalUploadBytes" : 175486,
+		"totalDownloadBytes" : 12520954
+	},
+	"hk-2.wires.rocks" : {
+		"totalUploadBytes" : 315423,
+		"totalDownloadBytes" : 20881386
+	},
+	"lon-4.wires.rocks" : {
+		"totalUploadBytes" : 100281,
+		"totalDownloadBytes" : 1952281
+	},
+	"hk-1.wires.rocks" : {
+		"totalUploadBytes" : 883573,
+		"totalDownloadBytes" : 8790315
+	},
+	"kr-1.wires.rocks" : {
+		"totalUploadBytes" : 250429,
+		"totalDownloadBytes" : 24500587
+	},
+	"fr-1.wires.rocks" : {
+		"totalUploadBytes" : 550,
+		"totalDownloadBytes" : 0
+	},
+	"jp-1.wires.rocks" : {
+		"totalUploadBytes" : 158362,
+		"totalDownloadBytes" : 2399487
+	},
+	"cn2-us-1.wires.rocks" : {
+		"totalUploadBytes" : 138965,
+		"totalDownloadBytes" : 30894450
+	},
+	"cn2-us-2.wires.rocks" : {
+		"totalUploadBytes" : 81363,
+		"totalDownloadBytes" : 6537809
+	},
+	"lon-3.wires.rocks" : {
+		"totalUploadBytes" : 406756,
+		"totalDownloadBytes" : 2063717
+	},
+	"lon-2.wires.rocks" : {
+		"totalUploadBytes" : 137024,
+		"totalDownloadBytes" : 1316051
+	},
+	"us-west-1.wires.rocks" : {
+		"totalUploadBytes" : 57009,
+		"totalDownloadBytes" : 376617
+	},
+	"us-west-2.wires.rocks" : {
+		"totalUploadBytes" : 111596,
+		"totalDownloadBytes" : 4511545
+	},
+	"hkt-1.wires.rocks" : {
+		"totalUploadBytes" : 240726,
+		"totalDownloadBytes" : 2691152
+	}
+}
