@@ -2,7 +2,7 @@
 
 ## 目录
 
-- [js笔记](./books/JavaScript.md/#js笔记)
+- [js笔记](#js笔记)
   - [快速入门](#快速入门)
   - [函数](#函数)
     - [箭头函数--Arrow Function](#箭头函数--arrow-function)
@@ -1726,7 +1726,7 @@ CORS全称Cross-Origin Resource Sharing，是HTML5规范定义的如何跨域访
 
 Origin表示本域，也就是浏览器当前页面的域。当JavaScript向外域（如sina.com）发起请求后，浏览器收到响应后，首先检查`Access-Control-Allow-Origin`是否包含本域，如果是，则此次跨域请求成功，如果不是，则请求失败，JavaScript将无法获取到响应的任何数据。
 
-![cors](./pic/cors.png)
+![cors](../pic/cors.png)
 
 假设本域是my.com，外域是sina.com，只要响应头`Access-Control-Allow-Origin`为`http://my.com`，或者是`*`，本次请求就可以成功。
 
@@ -1843,7 +1843,7 @@ Failed: timeout in 1.8571884388119746 seconds.
 
 可见Promise最大的好处是在异步执行的流程中，把执行代码和处理结果的代码清晰地分离了：
 
-![promise](./pic/promise_1.png)
+![promise](../pic/promise_1.png)
 
 Promise还可以做更多的事情，比如，有若干个异步任务，需要先做任务1，如果成功后再做任务2，任何任务失败则不再继续并执行错误处理函数。
 
@@ -2203,11 +2203,9 @@ if (typeof (json) === 'string') {
 }
 ```
 
------------
+---
 [`Babel`]:https://babeljs.io/
 [浏览器]:https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/0014344997647015f03abc1bb5f46129a7526292a12ab26000
-[内部链接]:##md的使用
-[外部链接]:./2018·8·2.md/###Date
 [JSON]:https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001434499490767fe5a0e31e17e44b69dcd1196f7ec6fc6000
 [RegExp]:https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001434499503920bb7b42ff6627420da2ceae4babf6c4f2000
 [函数]:https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449926746982f181557d9b423f819e89709feabdb4000
