@@ -15,7 +15,17 @@
 
 <!-- TOC -->
 
-[目录](./books/JavaScript.md/##目录)
+- [日记](#日记)
+    - [备忘录](#备忘录)
+        - [javascript-廖雪峰](#javascript-廖雪峰)
+        - [vue-vue官网](#vue-vue官网)
+            - [问题](#问题)
+            - [总结](#总结)
+            - [目录](#目录)
+        - [md_using](#md_using)
+        - [翻墙](#翻墙)
+        - [[tumblr](https://www.tumblr.com/getting_to_know_tumblr/)](#tumblrhttpswwwtumblrcomgetting_to_know_tumblr)
+    - [自建小工具业务](#自建小工具业务)
 
 <!-- /TOC -->
 
@@ -76,3 +86,11 @@
 harry potter
 
 ---
+
+## 自建小工具业务
+
+- 去掉空格，添加英文逗号和引号
+- 字母的大小写转变
+- 截取身份证号，添加英文逗号和引号
+- 任务列表，添加每日更新列表
+- 笔记功能（日记）

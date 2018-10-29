@@ -1,13 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import BaseButton from '@/components/BaseButton'
+import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [{
     path: '/',
-    name: 'BaseButton',
-    component: BaseButton
+    name: 'HelloWorld',
+    component: {
+      'HelloWorld': HelloWorld
+    }
   }]
 })
