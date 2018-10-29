@@ -1,12 +1,18 @@
 <template>
-<button>{{msg}}</button>
+<div>
+
+<div>
+    <button class='btn' data-complete-text='finished!' >{{msg}}</button>
+</div>
+</div>
 </template>
+
 <script>
 export default {
   name: 'BaseButton',
   data () {
     return {
-      msg: '按钮'
+      msg: 'button'
     }
   }
 }
