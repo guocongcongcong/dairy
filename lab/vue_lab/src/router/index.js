@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import BaseButton from '@/components/BaseButton'
+import BaseButton from '@/components/TopMenu'
 
 Vue.use(Router)
 

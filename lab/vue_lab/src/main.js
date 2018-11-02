@@ -4,9 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import '../node_modules/jquery/dist/jquery.min.js'
-import '../node_modules/popper.js/dist/popper.min.js'
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
+
+// import '../node_modules/jquery/dist/jquery.min.js'
+// import '../node_modules/popper.js/dist/popper.min.js'
+// import '../node_modules/bootstrap/dist/js/bootstrap'
 
 Vue.config.productionTip = false
 
