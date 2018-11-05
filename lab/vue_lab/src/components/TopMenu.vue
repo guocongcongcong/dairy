@@ -1,14 +1,15 @@
 <template>
 <div id="main">
-  <div class="nav-mask">
     <nav :class="active" @click.prevent>
-      <a href="#" class="home" @click="makeActive('home')">Home</a>
-      <a href="#" class="projects" @click="makeActive('projects')">Projects</a>
-      <a href="#" class="services" @click="makeActive('services')">Services</a>
-      <a href="#" class="contact" @click="makeActive('contact')">Contact</a>
+      <div class="nRight">
+      <a href="#" class="home" @click="makeActive('home')"><router-link to='/home'> Home</router-link></a>
+      <a href="#" class="projects" @click="makeActive('projects')"><router-link to='/projects'>Projects</router-link></a>
+      <a href="#" class="services" @click="makeActive('services')"><router-link to='/services'>Services</router-link></a>
+      <a href="#" class="contact" @click="makeActive('contact')"><router-link to='/contact'>Contact</router-link></a>
+      </div>
     </nav>
-  </div>
 <p>You chose <b>{{active}}</b></p>
+  <router-view></router-view>
 </div>
 </template>
 
@@ -40,7 +41,7 @@ color: #5e5b64;
 }
 a,a:visited{
 outline:none;
-color: #389dc1;
+color: #157ba0;
 }
 
 a:hover{
@@ -55,7 +56,7 @@ display:block;
 nav,nav-mask{
 display: inline-block;
 /* margin: 60px auto 45px; 浮动*/
-background-color: #7fc9e9;
+background-color: #209bd4;
 box-shadow: 0 1px 1px #ccc;
 border-radius: 2px;
 text-align: end;
@@ -68,7 +69,7 @@ height: auto;
 nav a{
   font:12px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
 display: inline-block;
-padding: 18px 30px;
+padding: 10px 60px;
 color: #fff !important;
 font-weight: bold;
 font-size: 16px;
@@ -94,7 +95,7 @@ nav.home .home,
 nav.projects .projects,
 nav.services .services,
 nav.contact .contact{
-background-color: #dda1b4;
+background-color: #da6b8e;
 }
 
 p{
