@@ -1,6 +1,6 @@
-# veu_lab
+# vue_lab
 
-> testing Vue.js function and writing basic module
+> A Vue.js project
 
 ## Build Setup
 
@@ -28,3 +28,15 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## 引入
+
+- 正在使用 完整引入
+
+>引入了element-ui,完整引入。.1.babelrc.md main.1.js.md
+>
+>部分引入：.babelrc.part.md,main.js.part.md
+
+- 引入主题
+
+>使用默认主题
