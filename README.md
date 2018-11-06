@@ -93,3 +93,10 @@ harry potter
 - 截取身份证号，添加英文逗号和引号（去掉空格，添加英文逗号和引号）
 - 任务列表，添加每日更新列表
 - 笔记功能（日记）
+- md文件转换为html文件并展示
+
+## node.js bug and deal
+
+- Couldn't find preset "es2015" relative to directory
+
+> npm install --save-dev babel-preset-es2015
