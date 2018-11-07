@@ -1,5 +1,27 @@
 # 日记
 
+## 目录
+
+<!-- TOC -->
+
+- [日记](#日记)
+    - [目录](#目录)
+    - [备忘录](#备忘录)
+        - [javascript-廖雪峰](#javascript-廖雪峰)
+        - [vue-vue官网](#vue-vue官网)
+            - [问题](#问题)
+            - [总结](#总结)
+            - [目录](#目录-1)
+        - [md_using](#md_using)
+        - [翻墙](#翻墙)
+        - [tumblr](#tumblr)
+    - [自建小工具业务](#自建小工具业务)
+    - [node.js bug and deal](#nodejs-bug-and-deal)
+    - [powershell](#powershell)
+        - [别名配置](#别名配置)
+
+<!-- /TOC -->
+
 用md写一些简单的笔记，同时这个是一个简单的实验室，用来实验一些我觉得有意思的东西。
 
 ## 备忘录
@@ -13,26 +35,7 @@
 
 >这部分以后会陆续整理出来一个目录
 
-<!-- TOC -->
-
-- [日记](#日记)
-    - [备忘录](#备忘录)
-        - [javascript-廖雪峰](#javascript-廖雪峰)
-        - [vue-vue官网](#vue-vue官网)
-            - [问题](#问题)
-            - [总结](#总结)
-            - [目录](#目录)
-        - [md_using](#md_using)
-        - [翻墙](#翻墙)
-        - [[tumblr](https://www.tumblr.com/getting_to_know_tumblr/)](#tumblrhttpswwwtumblrcomgetting_to_know_tumblr)
-    - [自建小工具业务](#自建小工具业务)
-    - [node.js bug and deal](#nodejs-bug-and-deal)
-    - [powershell](#powershell)
-        - [别名配置](#别名配置)
-
-<!-- /TOC -->
-
-### vue-vue官网 
+### vue-vue官网
 
 这部分以后会陆续整理出来一个目录
 
@@ -82,7 +85,9 @@
 
 配合使用：[ShadowsocksR-4.7.0-win](./files/ShadowsocksR-4.7.0-win.7z)
 
-### [tumblr](https://www.tumblr.com/getting_to_know_tumblr/)
+### tumblr
+
+[tumblr](https://www.tumblr.com/getting_to_know_tumblr/)
 
 163邮箱：<0308>:G**80*******
 
