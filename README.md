@@ -102,6 +102,7 @@ harry potter
 - 任务列表，添加每日更新列表
 - 笔记功能（日记）
 - md文件转换为html文件并展示
+- sql 修改
 
 ## node.js bug and deal
 
