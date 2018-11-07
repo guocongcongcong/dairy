@@ -26,6 +26,9 @@
         - [翻墙](#翻墙)
         - [[tumblr](https://www.tumblr.com/getting_to_know_tumblr/)](#tumblrhttpswwwtumblrcomgetting_to_know_tumblr)
     - [自建小工具业务](#自建小工具业务)
+    - [node.js bug and deal](#nodejs-bug-and-deal)
+    - [powershell](#powershell)
+        - [别名配置](#别名配置)
 
 <!-- /TOC -->
 
@@ -100,3 +103,14 @@ harry potter
 - Couldn't find preset "es2015" relative to directory
 
 > npm install --save-dev babel-preset-es2015
+
+## powershell
+
+- [学习笔记](files\createDariy.ps1)
+
+### 别名配置
+
+首次使用请运行
+> Set-Alias cDariy .\createDariy.ps1
+其余运行
+> cDariy
