@@ -110,7 +110,24 @@ harry potter
 
 ### 别名配置
 
+[备份文件](files\createDariy.ps1)
+
 首次使用请运行
 > Set-Alias cDariy .\createDariy.ps1
 其余运行
 > cDariy
+
+- Powershell中禁止运行脚本（about_Execution_Policies）的解决方法
+
+>powershell，右键以管理员运行
+>
+>set-ExecutionPolicy RemoteSigned
+>
+>y
+
+- [模板地址](dairy\template.txt)
+
+模板规则：
+
+- 使用md文件规则
+- 文件开头空两行
