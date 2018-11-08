@@ -120,8 +120,12 @@ harry potter
 
 首次使用请运行
 > Set-Alias cDariy .\createDariy.ps1
-其余运行
+>运行
 > cDariy
+--挂机重启后失效
+---
+建议使用:
+> .\cDariy
 
 - Powershell中禁止运行脚本（about_Execution_Policies）的解决方法
 
