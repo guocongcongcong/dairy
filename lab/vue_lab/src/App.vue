@@ -65,21 +65,21 @@ export default {
     margin-right: 20px;
   } */
   .el-header, .el-footer {
-    background-color: #B3C0D1;
-    color: #333;
+    background-color: rgb(24, 99, 197);
+    color: #234;
     text-align: center;
     line-height: 60px;
   }
   
   .el-aside {
-    background-color: #D3DCE6;
+    background-color: rgb(153, 196, 245);
     color: #333;
     text-align: center;
     line-height: 200px;
   }
   
   .el-main {
-    background-color: #E9EEF3;
+    background-color: rgb(235, 240, 239);
     color: #333;
     text-align: center;
     line-height: 160px;
