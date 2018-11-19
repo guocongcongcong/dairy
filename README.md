@@ -4,25 +4,7 @@
 
 ## 本页目录
 
-<!-- TOC -->
-
-- [日记](#日记)
-    - [本页目录](#本页目录)
-    - [备忘录](#备忘录)
-        - [javascript-廖雪峰](#javascript-廖雪峰)
-        - [vue-vue官网](#vue-vue官网)
-            - [问题](#问题)
-            - [总结](#总结)
-            - [目录](#目录)
-        - [md_using](#md_using)
-        - [翻墙](#翻墙)
-        - [tumblr](#tumblr)
-    - [自建小工具业务](#自建小工具业务)
-    - [node.js bug and deal](#nodejs-bug-and-deal)
-    - [powershell](#powershell)
-        - [别名配置](#别名配置)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [日记](#日记)auto    - [本页目录](#本页目录)auto    - [备忘录](#备忘录)auto        - [javascript-廖雪峰](#javascript-廖雪峰)auto        - [vue-vue官网](#vue-vue官网)auto            - [问题](#问题)auto            - [总结](#总结)auto            - [目录](#目录)auto        - [md_using](#md_using)auto        - [翻墙](#翻墙)auto        - [tumblr](#tumblr)auto    - [自建小工具业务](#自建小工具业务)auto    - [node.js bug and deal](#nodejs-bug-and-deal)auto    - [powershell](#powershell)auto        - [别名配置](#别名配置)autoauto<!-- /TOC -->
 
 ## 备忘录
 
@@ -97,8 +79,8 @@ harry potter
 
 ## 自建小工具业务
 
-- 字母的大小写转变
-- 截取身份证号，添加英文逗号和引号（去掉空格，添加英文逗号和引号）
+- ~~字母的大小写转变~~
+- ~~截取身份证号，添加英文逗号和引号（去掉空格，添加英文逗号和引号~~
 - 任务列表，添加每日更新列表
 - 笔记功能（日记）
 - md文件转换为html文件并展示
