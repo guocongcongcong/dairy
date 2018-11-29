@@ -1,6 +1,6 @@
 # vue-tiny-tools
 
-> tiny tools with vue project
+> A Vue.js project
 
 ## Build Setup
 

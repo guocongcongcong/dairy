@@ -36,13 +36,6 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
-      bus: resolve('src/bus'),
-      comp: resolve('src/components'),
-      mock: resolve('src/mock'),
-      directives: resolve('src/directives'),
-      filters: resolve('src/filters'),
-      mixins: resolve('src/mixins'),
-      pages: resolve('src/pages')
     }
   },
   module: {
