@@ -32,11 +32,17 @@ if(Test-Path $file){
     if(Test-Path $template){
     }else{
         $temp1 = '
+
 ## 目录
+
 <!-- TOC -->
+
 <!-- /TOC -->
+
 ## 内容
+
 ### 
+
 ## 总结
 '
         $temp1 > $template
