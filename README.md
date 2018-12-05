@@ -4,14 +4,29 @@
 
 ## 本页目录
 
-<!-- TOC -->autoauto- [日记](#日记)auto    - [本页目录](#本页目录)auto    - [备忘录](#备忘录)auto        - [javascript-廖雪峰](#javascript-廖雪峰)auto        - [vue-vue官网](#vue-vue官网)auto            - [问题](#问题)auto            - [总结](#总结)auto            - [目录](#目录)auto        - [md_using](#md_using)auto        - [翻墙](#翻墙)auto        - [tumblr](#tumblr)auto    - [自建小工具业务](#自建小工具业务)auto    - [node.js bug and deal](#nodejs-bug-and-deal)auto    - [powershell](#powershell)auto        - [别名配置](#别名配置)autoauto<!-- /TOC -->
+<!-- TOC -->
+
+- [日记](#日记)
+    - [本页目录](#本页目录)
+    - [备忘录](#备忘录)
+        - [javascript-廖雪峰](#javascript-廖雪峰)
+        - [vue-vue官网](#vue-vue官网)
+            - [问题](#问题)
+            - [总结](#总结)
+            - [目录](#目录)
+        - [md_using](#md_using)
+        - [翻墙](#翻墙)
+        - [tumblr](#tumblr)
+        - [bolg](#bolg)
+        - [读书笔记](#读书笔记)
+    - [自建小工具业务](#自建小工具业务)
+    - [node.js bug and deal](#nodejs-bug-and-deal)
+    - [powershell](#powershell)
+        - [别名配置](#别名配置)
+
+<!-- /TOC -->
 
 ## 备忘录
-
-- [javascript](###javascript)
-- [vue](###vue)
-- [md using](###md_using)
-- [翻墙](###翻墙)
 
 ### javascript-廖雪峰
 
@@ -76,6 +91,20 @@
 harry potter
 
 ---
+
+### bolg
+
+- [datetimepicker--bootstrap](./books/bolg/datetimepicker--bootstrap.md)
+- [deserialize+serialize](./books/bolg/deserialize+serialize.md)
+- [fileinput--bootstrap+自主调用](./books/bolg/fileinput--bootstrap+自主调用.md)
+- [pug+bootstrapWizard](./books/bolg/pug+bootstrapWizard.md)
+- [selectpicker+dict的自主编写](./books/bolg/selectpicker+dict的自主编写.md)
+
+### 读书笔记
+
+- [如何高效的学习](./books/readingNotes/如何高效的学习.md)
+- [算法图解](./books/readingNotes/算法图解.md)
+- [逻辑思维简单入门](./books/readingNotes/逻辑思维简单入门.md)
 
 ## 自建小工具业务
 
