@@ -6,23 +6,24 @@
 
 <!-- TOC -->
 
-- [日记](#%E6%97%A5%E8%AE%B0)
-    - [本页目录](#%E6%9C%AC%E9%A1%B5%E7%9B%AE%E5%BD%95)
-    - [备忘录](#%E5%A4%87%E5%BF%98%E5%BD%95)
-        - [javascript-廖雪峰](#javascript-%E5%BB%96%E9%9B%AA%E5%B3%B0)
-        - [vue-vue官网](#vue-vue%E5%AE%98%E7%BD%91)
-            - [问题](#%E9%97%AE%E9%A2%98)
-            - [总结](#%E6%80%BB%E7%BB%93)
-            - [目录](#%E7%9B%AE%E5%BD%95)
-        - [md_using](#mdusing)
-        - [翻墙](#%E7%BF%BB%E5%A2%99)
+- [日记](#日记)
+    - [本页目录](#本页目录)
+    - [备忘录](#备忘录)
+        - [javascript-廖雪峰](#javascript-廖雪峰)
+        - [vue-vue官网](#vue-vue官网)
+            - [问题](#问题)
+            - [总结](#总结)
+            - [目录](#目录)
+        - [md_using](#md_using)
+        - [翻墙](#翻墙)
         - [tumblr](#tumblr)
         - [bolg](#bolg)
-        - [读书笔记](#%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0)
-    - [自建小工具业务](#%E8%87%AA%E5%BB%BA%E5%B0%8F%E5%B7%A5%E5%85%B7%E4%B8%9A%E5%8A%A1)
+        - [读书笔记](#读书笔记)
+    - [自建小工具业务](#自建小工具业务)
     - [node.js bug and deal](#nodejs-bug-and-deal)
     - [powershell](#powershell)
-        - [别名配置](#%E5%88%AB%E5%90%8D%E9%85%8D%E7%BD%AE)
+        - [别名配置](#别名配置)
+    - [总结](#总结-1)
 
 <!-- /TOC -->
 
@@ -171,3 +172,7 @@ harry potter
 
 - 使用md文件规则
 - 文件开头空两行
+
+## 总结
+
+[2018](books\letter\2018.md)
