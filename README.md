@@ -134,6 +134,8 @@ harry potter
 - 笔记功能（日记）
 - md文件转换为html文件并展示
 - sql 修改
+- js基础功能展示
+- python后台处理
 
 ## node.js bug and deal
 
