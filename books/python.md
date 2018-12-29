@@ -71,7 +71,7 @@ print('hello,', name)
 | callable()    | format()    | len()              | property()   | type()         |
 | chr()         | frozenset() | list()             | range()      | vars()         |
 | classmethod() | getattr()   | locals()           | repr()       | zip()          |
-| compile()     | globals()   | map()              | reversed()   | __import__()   |
+| compile()     | globals()   | map()              | reversed()   | \__import__()   |
 | complex()     | hasattr()   | max()              | round()      |
 
 ## 基础类型和变量
@@ -690,3 +690,9 @@ def fact_iter(num, product):
 
 ### 切片
 
+* Python提供了切片（Slice）操作符，能大大简化这种操作.
+
+```cmd
+>>> L[0:3]
+['Michael', 'Sarah', 'Tracy']
+```
