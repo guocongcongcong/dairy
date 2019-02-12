@@ -2,8 +2,10 @@ import Vue from 'vue'
 import './plugins/vuetify'
 import App from './App.vue'
 
+
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  render: h => h(App)
+  // .$mount('#app') 手动挂载
 }).$mount('#app')
