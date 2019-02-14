@@ -4,7 +4,7 @@
             fixed
             :clipped="$vuetify.breakpoint.mdAndUp"
             app
-            v-model="toggSiderBar"
+            v-model="drawer"
             >
             <v-list dense>
                 <template v-for="item in items">
@@ -65,16 +65,49 @@
                 </template>
             </v-list>
             </v-navigation-drawer>
+              <v-toolbar
+      color="blue darken-3"
+      dark
+      app
+      :clipped-left="$vuetify.breakpoint.mdAndUp"
+      fixed
+    >
+      <v-toolbar-title style="width: 300px" class="ml-0 pl-3">
+        <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+        <span class="hidden-sm-and-down">Google Contacts</span>
+      </v-toolbar-title>
+      <v-text-field
+        flat
+        solo-inverted
+        prepend-icon="search"
+        label="Search"
+        class="hidden-sm-and-down"
+      ></v-text-field>
+      <v-spacer></v-spacer>
+      <v-btn icon>
+        <v-icon>apps</v-icon>
+      </v-btn>
+      <v-btn icon>
+        <v-icon>notifications</v-icon>
+      </v-btn>
+      <v-btn icon large>
+        <v-avatar size="32px" tile>
+          <img
+            src="@/assets/logo.svg"
+            alt="Vuetify"
+          >
+        </v-avatar>
+      </v-btn>
+    </v-toolbar>
     </div>
 </template>
 
 <script>
 export default {
   data: () => ({
+    drawer: null,
     items: [
-      { icon: "contacts", text: "Contacts" },
-      { icon: "history", text: "Frequently contacted" },
-      { icon: "content_copy", text: "Duplicates" },
+      { icon: "content_copy", text: "菜单" },
       {
         icon: "keyboard_arrow_up",
         "icon-alt": "keyboard_arrow_down",
@@ -94,18 +127,8 @@ export default {
           { text: "Undo changes" },
           { text: "Other contacts" }
         ]
-      },
-      { icon: "settings", text: "Settings" },
-      { icon: "chat_bubble", text: "Send feedback" },
-      { icon: "help", text: "Help" },
-      { icon: "phonelink", text: "App downloads" },
-      { icon: "keyboard", text: "Go to the old version" }
+      }
     ]
-  }),
-  computed: {
-    toggSiderBar() {
-      return this.$store.state.common.isCollapse;
-    }
-  }
+  })
 };
 </script>
