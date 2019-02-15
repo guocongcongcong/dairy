@@ -27,6 +27,6 @@ export default {
 
 <style>
 #container {
-  padding:100px;
+  padding:75px;
 }
 </style>
