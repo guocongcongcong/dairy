@@ -105,7 +105,7 @@
 <script>
 export default {
   data: () => ({
-    drawer: null,
+    drawer: false,
     items: [
       { icon: "content_copy", text: "菜单" },
       {
@@ -121,11 +121,9 @@ export default {
         text: "More",
         model: false,
         children: [
-          { text: "Import" },
-          { text: "Export" },
-          { text: "Print" },
-          { text: "Undo changes" },
-          { text: "Other contacts" }
+          { text:"Original" , router: '/original'},
+          { text: "Sheets" , router: '/sheets' },
+          { text: "Grid" , router: '/grid' }
         ]
       }
     ]
