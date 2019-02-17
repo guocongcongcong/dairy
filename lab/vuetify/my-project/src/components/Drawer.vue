@@ -30,8 +30,8 @@
                     :prepend-icon="item.model ? item.icon : item['icon-alt']"
                     append-icon=""
                 >
-                    <v-list-tile slot="activator">
-                    <v-list-tile-content>
+                    <v-list-tile slot="activator" >
+                    <v-list-tile-content >
                         <v-list-tile-title>
                         {{ item.text }}
                         </v-list-tile-title>
@@ -40,24 +40,24 @@
                     <v-list-tile
                     v-for="(child, i) in item.children"
                     :key="i"
-                    @click="alert();"
+                    :to="child.path"
                     >
                     <v-list-tile-action v-if="child.icon">
                         <v-icon>{{ child.icon }}</v-icon>
                     </v-list-tile-action>
-                    <v-list-tile-content>
-                        <v-list-tile-title>
+                    <v-list-tile-content >
+                        <v-list-tile-title  >
                         {{ child.text }}
                         </v-list-tile-title>
                     </v-list-tile-content>
                     </v-list-tile>
                 </v-list-group>
-                <v-list-tile v-else @click="alert();" :key="item.text">
+                <v-list-tile v-else  :key="item.text" :to="item.path">
                     <v-list-tile-action>
                     <v-icon>{{ item.icon }}</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
-                    <v-list-tile-title>
+                    <v-list-tile-title >
                         {{ item.text }}
                     </v-list-tile-title>
                     </v-list-tile-content>
@@ -107,7 +107,8 @@ export default {
   data: () => ({
     drawer: false,
     items: [
-      { icon: "content_copy", text: "菜单" },
+      { icon: "content_copy", text: "plugin",path:"/plugin" },
+      { icon: "content_copy", text: "菜单",path:"/menu" },
       {
         icon: "keyboard_arrow_up",
         "icon-alt": "keyboard_arrow_down",
@@ -121,12 +122,17 @@ export default {
         text: "More",
         model: false,
         children: [
-          { text:"Original" , router: '/original'},
-          { text: "Sheets" , router: '/sheets' },
-          { text: "Grid" , router: '/grid' }
+          { text:"Original" , path: '/original'},
+          { text: "Sheets" , path: '/sheets' },
+          { text: "Grid" , path: '/grid' }
         ]
       }
     ]
-  })
+  }),
+  computed: {
+    getRouter () {
+      console.log("getrouter");
+    }
+  }
 };
 </script>
