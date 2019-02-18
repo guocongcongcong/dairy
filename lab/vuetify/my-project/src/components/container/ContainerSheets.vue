@@ -26,14 +26,47 @@
           </v-flex>
         </v-layout>
       </v-flex>
-      <v-flex xs6 md2 >
-        <v-sheet class="d-flex " color="teal lighten-3" height="300">
+      <v-flex xs6 md2>
+        <v-sheet class="d-flex" color="teal lighten-3" height="300">
           <sheet-footer>#4: (2r x 1c)</sheet-footer>
         </v-sheet>
       </v-flex>
       <v-flex xs6 md2 d-flex>
         <v-sheet class="d-flex mt-auto" color="purple lighten-3" height="300">
           <sheet-footer>#6: (2r x 1c)</sheet-footer>
+        </v-sheet>
+      </v-flex>
+    </v-layout>
+
+    <v-layout flex-child wrap>
+      <v-flex xs2 md2>
+        <v-sheet class="d-flex" color="green lighten-3" height="150">
+          <sheet-footer>#2: (1r x 1c)</sheet-footer>
+        </v-sheet>
+      </v-flex>
+      <v-flex xs2 md2>
+        <v-sheet class="d-flex" color="green lighten-3" height="150">
+          <sheet-footer>#2: (1r x 1c)</sheet-footer>
+        </v-sheet>
+      </v-flex>
+      <v-flex xs2 md2>
+        <v-sheet class="d-flex" color="green lighten-3" height="150">
+          <sheet-footer>#2: (1r x 1c)</sheet-footer>
+        </v-sheet>
+      </v-flex>
+            <v-flex xs2 md2>
+        <v-sheet class="d-flex" color="green lighten-3" height="150">
+          <sheet-footer>#2: (1r x 1c)</sheet-footer>
+        </v-sheet>
+      </v-flex>
+            <v-flex xs2 md2>
+        <v-sheet class="d-flex" color="green lighten-3" height="150">
+          <sheet-footer>#2: (1r x 1c)</sheet-footer>
+        </v-sheet>
+      </v-flex>
+            <v-flex xs2 md2>
+        <v-sheet class="d-flex" color="green lighten-3" height="150">
+          <sheet-footer>#2: (1r x 1c)</sheet-footer>
         </v-sheet>
       </v-flex>
     </v-layout>
