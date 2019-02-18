@@ -70,6 +70,7 @@
             title: '蒿子杆 <span class="grey--text text--lighten-1">素炒</span>',
             subtitle: "<span class='text--primary'>蒿子杆</span> &mdash; 葱，姜，蒜"
           },
+          { divider: true, inset: false },
         { header: '炖菜' },
         {
             avatar: '',
@@ -83,23 +84,6 @@
             subtitle: "<span class='text--primary'>土豆，豆角</span> &mdash; 大料，花椒，葱，姜，蒜，香叶"
           },
           { divider: true, inset: false },
-          {
-            avatar: '',
-            title: '土豆炖豆角 <span class="grey--text text--lighten-1">素</span>',
-            subtitle: "<span class='text--primary'>土豆，豆角</span> &mdash; 大料，花椒，葱，姜，蒜，香叶"
-          },
-          { divider: true, inset: false },
-          {
-            avatar: '',
-            title: '土豆炖豆角 <span class="grey--text text--lighten-1">素</span>',
-            subtitle: "<span class='text--primary'>土豆，豆角</span> &mdash; 大料，花椒，葱，姜，蒜，香叶"
-          },
-          { divider: true, inset: false },
-          {
-            avatar: 'https://cdn.vuetifyjs.com/images/lists/3.jpg',
-            title: '蒿子杆 <span class="grey--text text--lighten-1">素炒</span>',
-            subtitle: "<span class='text--primary'>蒿子杆</span> &mdash; 葱，姜，蒜"
-          },
         ]
       }
     }

@@ -32,11 +32,10 @@ export default {
     return {
       items: [
         {
-          name: "Grid",
-
-          link: "https://next.vuetifyjs.com/zh-Hans/framework/grid",
+          name: "icon",
+          link: "",
           content:
-            "Vuetify拥有一个12点的栅格系统，它使用flex-box构建，栅格用于布局应用程序的内容。它包含5种类型的媒体断点，用于定位特定的屏幕大小或方向。栅格组件的属性实际上是从它们定义的属性派生的类，这允许您轻松地将这些辅助类指定为属性，同时仍然提供在任何地方使用的类。"
+            "添加icon页面，可以很清晰的看到所有icon"
         }
       ]
     };
