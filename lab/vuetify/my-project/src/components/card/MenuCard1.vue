@@ -25,11 +25,16 @@
               :inset="item.inset"
             ></v-divider>
 
-            <v-list-tile
+            <!-- <v-list-tile
               v-else
               :key="item.title"
               avatar
               @click=""
+            > -->
+                     <v-list-tile
+              v-else
+              :key="item.title"
+              avatar
             >
             <div v-if=" item.avatar">
               <v-list-tile-avatar>

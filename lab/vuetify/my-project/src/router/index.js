@@ -8,6 +8,12 @@ const Layout = resolve => require(['@/views/Layout'], resolve)
 // FoodMenu
 const FoodMenu = resolve => require(['@/views/Menu'], resolve)
 
+// Author
+const Author = resolve => require(['@/views/Author'], resolve)
+
+// Log
+const Log = resolve => require(['@/views/Log'], resolve)
+
 // ContainerSheets
 const ContainerSheets = resolve => require(['comp/container/ContainerSheets'], resolve)
 
@@ -23,17 +29,14 @@ const ContainerPlugin = resolve => require(['comp/container/ContainerPlugin'], r
 // ContainerList
 const ContainerList = resolve => require(['comp/container/ContainerList'], resolve)
 
-// ContainerIcon
+// ContainerAvatars
 const ContainerAvatars = resolve => require(['comp/container/ContainerAvatars'], resolve)
 
 // ContainerIcon
 const ContainerIcon = resolve => require(['comp/container/ContainerIcon'], resolve)
 
-// Author
-const Author = resolve => require(['comp/about/Author'], resolve)
-
-// Log
-const Log = resolve => require(['comp/about/Log'], resolve)
+// ContainaerTable
+const ContainaerTable = resolve => require(['comp/container/ContainaerTable'], resolve)
 
 Vue.use(Router)
 
@@ -137,6 +140,13 @@ const router = new Router({
             requireAuth: true
           },
           component: ContainerAvatars
+        },
+        {
+          path: 'table',
+          meta: {
+            requireAuth: true
+          },
+          component: ContainaerTable
         }
       ]
     }

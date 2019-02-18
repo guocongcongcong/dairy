@@ -99,6 +99,8 @@ export default {
           { icon: "notes", text: "Sheets", path: "/api/sheets" },
           { icon: "grid_on", text: "Grid", path: "/api/grid" },
           { icon: "swap_vert", text: "avatar", path: "/api/avatar" },
+          { icon: "subject", text: "table", path: "/api/table" },
+          
         ]
       },
       { icon: "table_chart", text: "菜单", path: "/menu" }
