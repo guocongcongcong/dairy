@@ -1,6 +1,7 @@
 <template>
   <div>
-    <v-navigation-drawer fixed :clipped="$vuetify.breakpoint.mdAndUp" app v-model="drawer">
+    <v-navigation-drawer temporary absolute   fixed :clipped="$vuetify.breakpoint.mdAndUp" app v-model="drawer">
+      <!--  -->
       <v-list dense>
         <template v-for="item in items">
           <v-layout row v-if="item.heading" align-center :key="item.heading">

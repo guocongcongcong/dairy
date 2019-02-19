@@ -60,21 +60,23 @@
           </v-layout>
         </v-flex>
         <v-flex xs12 md12>
-            <v-toolbar flat dark>
-              <v-toolbar-title>项目经历</v-toolbar-title>
-              <v-spacer></v-spacer>
-              <div class="text-md-center d-flex align-center">
-                <v-tooltip bottom>
+          <v-toolbar flat dark>
+            <v-toolbar-title>项目经历</v-toolbar-title>
+            <v-spacer></v-spacer>
+            <div  >
+              <div class="text-md-center d-flex align-center" >
+                <v-tooltip bottom v-for="(remark,i) in remarks" :key="i">
                   <template #activator="data">
-                    <span v-on="data.on">sword,</span>
+                    <span v-on="data.on">{{remark.name}} | </span>
                   </template>
-                  <span>中软自己开发的框架</span>
+                  <span>{{remark.remark}}</span>
                 </v-tooltip>
               </div>
-            </v-toolbar>
+            </div>
+          </v-toolbar>
           <v-data-table :headers="headers" :items="desserts" class="elevation-1" dark>
             <template slot="items" slot-scope="props">
-              <td >{{ props.item.name }}</td>
+              <td>{{ props.item.name }}</td>
               <td class="text-xs">{{ props.item.date }}</td>
               <td class="text-xs">{{ props.item.front }}</td>
               <td class="text-xs">{{ props.item.rear }}</td>
@@ -92,6 +94,20 @@ export default {
   data() {
     return {
       dialog: false,
+       remarks: [
+         {
+          name: "名词解释",
+          remark: "名词解释"
+        },
+        {
+          name: "sword",
+          remark: "中软自己开发的框架"
+        },
+        {
+          name: "pug",
+          remark: "html整合工具"
+        }
+      ],
       headers: [
         {
           text: "项目",
