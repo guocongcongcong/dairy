@@ -35,6 +35,9 @@ const ContainerAvatars = resolve => require(['comp/container/ContainerAvatars'],
 // ContainerIcon
 const ContainerIcon = resolve => require(['comp/container/ContainerIcon'], resolve)
 
+// ContainaerBtn
+const ContainerBtn = resolve => require(['comp/container/ContainerBtn'], resolve)
+
 // ContainaerTable
 const ContainaerTable = resolve => require(['comp/container/ContainaerTable'], resolve)
 
@@ -112,6 +115,13 @@ const router = new Router({
             requireAuth: true
           },
           component: ContainerIcon
+        },
+        {
+          path: 'btn',
+          meta: {
+            requireAuth: true
+          },
+          component: ContainerBtn
         },
         {
           path: 'sheets',

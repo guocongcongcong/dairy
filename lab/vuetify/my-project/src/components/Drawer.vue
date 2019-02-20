@@ -96,6 +96,7 @@ export default {
           { icon: "chrome_reader_mode", text: "初始页面", path: "/api/original" },
           { icon: "content_copy", text: "Plugin", path: "/api/plugin" },
           { icon: "chrome_reader_mode", text: "icon", path: "/api/icon" },
+          { icon: "radio_button_unchecked", text: "button", path: "/api/btn" },
           { icon: "format_list_numbered", text: "List", path: "/api/list" },
           { icon: "notes", text: "Sheets", path: "/api/sheets" },
           { icon: "grid_on", text: "Grid", path: "/api/grid" },
