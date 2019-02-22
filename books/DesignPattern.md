@@ -796,6 +796,8 @@ public class PrototypePatternDemo {
 
 #### 适配器实现
 
+![适配器实现](../pic/adapter_pattern_uml_diagram.jpg)
+
 ## 问题
 
 1. 工厂模式中，不对客户端暴露创建逻辑是什么意思？[工厂实现](#工厂实现)
