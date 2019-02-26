@@ -1,6 +1,13 @@
 <template>
   <div>
-    <v-navigation-drawer temporary absolute   fixed :clipped="$vuetify.breakpoint.mdAndUp" app v-model="drawer">
+    <v-navigation-drawer
+      temporary
+      absolute
+      fixed
+      :clipped="$vuetify.breakpoint.mdAndUp"
+      app
+      v-model="drawer"
+    >
       <!--  -->
       <v-list dense>
         <template v-for="item in items">
@@ -93,7 +100,11 @@ export default {
         text: "Api",
         model: true,
         children: [
-          { icon: "chrome_reader_mode", text: "初始页面", path: "/api/original" },
+          {
+            icon: "chrome_reader_mode",
+            text: "初始页面",
+            path: "/api/original"
+          },
           { icon: "content_copy", text: "Plugin", path: "/api/plugin" },
           { icon: "chrome_reader_mode", text: "icon", path: "/api/icon" },
           { icon: "radio_button_unchecked", text: "button", path: "/api/btn" },
@@ -102,10 +113,19 @@ export default {
           { icon: "grid_on", text: "Grid", path: "/api/grid" },
           { icon: "swap_vert", text: "avatar", path: "/api/avatar" },
           { icon: "subject", text: "table", path: "/api/table" },
-          
+          { icon: "desktop_windows", text: "window", path: "/api/window" }
         ]
       },
-      { icon: "table_chart", text: "菜单", path: "/menu" }
+      {
+        icon: "keyboard_arrow_up",
+        "icon-alt": "keyboard_arrow_down",
+        text: "菜单",
+        model: false,
+        children: [
+          { icon: "table_chart", text: "菜单", path: "/menu" },
+          { icon: "domain", text: "主菜", path: "/main" }
+        ]
+      }
     ]
   }),
   computed: {

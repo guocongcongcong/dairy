@@ -8,6 +8,10 @@ const Layout = resolve => require(['@/views/Layout'], resolve)
 // FoodMenu
 const FoodMenu = resolve => require(['@/views/Menu'], resolve)
 
+// FoodMenu
+const MainCourse = resolve => require(['comp/card/MainCourse'], resolve)
+
+
 // Author
 const Author = resolve => require(['@/views/Author'], resolve)
 
@@ -38,6 +42,9 @@ const ContainerIcon = resolve => require(['comp/container/ContainerIcon'], resol
 // ContainaerBtn
 const ContainerBtn = resolve => require(['comp/container/ContainerBtn'], resolve)
 
+// ContainerWindow
+const ContainerWindow = resolve => require(['comp/container/ContainerWindow'], resolve)
+
 // ContainaerTable
 const ContainaerTable = resolve => require(['comp/container/ContainaerTable'], resolve)
 
@@ -58,7 +65,14 @@ const router = new Router({
         meta: {
           requireAuth: true
         },
-        component: FoodMenu
+        component: FoodMenu,
+      },//MainCourse
+      {
+        path: 'main',
+        meta: {
+          requireAuth: true
+        },
+        component: MainCourse
       }]
     },
     {
@@ -157,6 +171,13 @@ const router = new Router({
             requireAuth: true
           },
           component: ContainaerTable
+        },
+        {
+          path: 'window',
+          meta: {
+            requireAuth: true
+          },
+          component: ContainerWindow
         }
       ]
     }
