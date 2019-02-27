@@ -807,11 +807,3 @@ public class PrototypePatternDemo {
 5. enum的应用场景都是什么？[单例的多种实现](#单例的多种实现)
 6. abstract 和 extends的含义是什么？[创建者实现](#创建者实现)
 7. 除了cloneable接口，还有什么常用的接口？[原型实现](#原型实现)
-
-
-验收文档：
-没有要求
-
-60w
-
-按照咱们这边的要求出文档
