@@ -2,34 +2,27 @@
   <v-container fluid grid-list-xl>
     <v-layout flex-child wrap>
       <v-layout flex-child wrap>
-        <v-flex xs12 md6 d-flex>
+        <v-flex xs12 md6>
           <v-layout wrap>
             <v-flex xs12>
-              <menu-card></menu-card>
+              <menu-table/>
+              <!-- <menu-card></menu-card> -->
             </v-flex>
             <v-flex xs12>
-              <v-sheet class="d-flex" color="teal lighten-3" height="615">
-                <sheet-footer>套餐</sheet-footer>
-              </v-sheet>
+              <menu-table/>
             </v-flex>
           </v-layout>
         </v-flex>
-        <v-flex xs12 md6 d-flex>
+        <v-flex xs12 md6>
           <v-layout wrap>
             <v-flex xs12>
-              <v-sheet class="d-flex" color="green lighten-3" height="450">
-                <sheet-footer>小菜</sheet-footer>
-              </v-sheet>
+              <menu-table/>
             </v-flex>
             <v-flex xs12>
-              <v-sheet class="d-flex" color="yellow lighten-3" height="450">
-                <sheet-footer>汤</sheet-footer>
-              </v-sheet>
+              <menu-table/>
             </v-flex>
             <v-flex xs12>
-              <v-sheet class="d-flex" color="red lighten-3" height="300">
-                <sheet-footer>主食</sheet-footer>
-              </v-sheet>
+              <menu-table/>
             </v-flex>
           </v-layout>
         </v-flex>
@@ -43,6 +36,7 @@
 import MenuCard from "comp/card/MenuCard1";
 import ContentInfo from "comp/card/ContentInfo";
 import AddInfo from "comp/Addinfo";
+import MenuTable from "comp/card/MenuTable";
 
 export default {
   components: {
@@ -65,7 +59,8 @@ export default {
     },
     "menu-card": MenuCard,
     "add-info": AddInfo,
-    "c-info": ContentInfo
+    "c-info": ContentInfo,
+    "menu-table": MenuTable
   }
 };
 </script>

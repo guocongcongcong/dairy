@@ -2,7 +2,7 @@
 
 #python复习
 
-<!-- TOC depthFrom:2 -->
+<!-- TOC depthFrom:2 depthTo:3 -->
 
 - [快速查询](#快速查询)
     - [错误列表](#错误列表)
