@@ -6,10 +6,12 @@
           <v-layout wrap>
             <v-flex xs12>
               <v-sheet class="d-flex" color="grey lighten-3" height="615">
+                <list-card-1/>
               </v-sheet>
             </v-flex>
             <v-flex xs12>
               <v-sheet class="d-flex" color="teal lighten-3" height="615">
+                <list-card-2/>
               </v-sheet>
             </v-flex>
           </v-layout>
@@ -38,8 +40,13 @@
   </v-container>
 </template>
 <script>
+import ListCard1 from "comp/card/ListCard1"
+// import ListCard2 from "comp/card/ListCard2"
+
 export default {
   components: {
+    "list-card-1": ListCard1,
+    // "list-card-2": ListCard2,
     SheetFooter: {
       functional: true,
       render(h, { children }) {

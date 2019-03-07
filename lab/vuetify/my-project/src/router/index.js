@@ -8,9 +8,8 @@ const Layout = resolve => require(['@/views/Layout'], resolve)
 // FoodMenu
 const FoodMenu = resolve => require(['@/views/Menu'], resolve)
 
-// FoodMenu
-const MainCourse = resolve => require(['comp/card/MainCourse'], resolve)
-
+// // FoodMenu
+// const MainCourse = resolve => require(['comp/card/MainCourse'], resolve)
 
 // Author
 const Author = resolve => require(['@/views/Author'], resolve)
@@ -65,14 +64,7 @@ const router = new Router({
         meta: {
           requireAuth: true
         },
-        component: FoodMenu,
-      },//MainCourse
-      {
-        path: 'main',
-        meta: {
-          requireAuth: true
-        },
-        component: MainCourse
+        component: FoodMenu
       }]
     },
     {
