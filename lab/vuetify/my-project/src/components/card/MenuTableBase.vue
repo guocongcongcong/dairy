@@ -56,29 +56,26 @@
 <script>
 export default {
   props: { pName: String, pRows: Number, pContent: Array },
-  data: function() {
-    return {
-      tableName: this.pName,
-      search: "",
-      pagination: {
-        sortBy: "name", //排序
-        rowsPerPage: this.pRows //行数
+  data: () => ({
+    tableName: this.pName,
+    search: "",
+    pagination: {
+      sortBy: "name", //排序
+      rowsPerPage: this.pRows //行数
+    },
+    selected: [],
+    headers: [
+      {
+        text: "菜名",
+        align: "left",
+        value: "name"
       },
-      selected: [],
-      headers: [
-        {
-          text: "菜名",
-          align: "left",
-          value: "name"
-        },
-        { text: "口味", value: "taste" },
-        { text: "主料", value: "ingredients" },
-        { text: "操作", value: "action" }
-      ],
-      desserts: this.pContent
-    };
-  },
-
+      { text: "口味", value: "taste" },
+      { text: "主料", value: "ingredients" },
+      { text: "操作", value: "action" }
+    ],
+    desserts: this.pContent
+  }),
   methods: {
     toggleAll() {
       if (this.selected.length) this.selected = [];
