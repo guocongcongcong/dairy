@@ -5,7 +5,7 @@
         <v-flex xs12 md6>
           <v-layout wrap>
             <v-flex xs12>
-              <menu-table-base :p-name="name" :p-rows="pRows" :p-content="pContent"/>
+              <menu-table-base :p-name="menus.pName" :p-rows="menus.pRows" :p-content="getContent"/>
             </v-flex>
             <v-flex xs12>
               <menu-table/>
@@ -39,25 +39,15 @@ import MenuTableBase from "comp/card/MenuTableBase";
 
 export default {
   data: () => ({
-    name: "炖菜",
-    pRows: 10,
-    pContent: [
-      {
-        name: "酸菜白肉1",
-        taste: "酸咸1，利口1",
-        ingredients: "酸菜1，五花肉1"
-      },
-      {
-        name: "酸菜白肉2",
-        taste: "酸咸2，利口2",
-        ingredients: "酸菜2，五花肉2"
-      }
-    ],
     menus: {
       pName: "炖菜",
       pRows: 10,
-      pContent: [
-        {
+      pContent: []
+    }
+  }),
+  computed:{
+    getContent:function(){
+      return this.menus.pContent = [{
           name: "酸菜白肉1",
           taste: "酸咸1，利口1",
           ingredients: "酸菜1，五花肉1"
@@ -66,10 +56,9 @@ export default {
           name: "酸菜白肉2",
           taste: "酸咸2，利口2",
           ingredients: "酸菜2，五花肉2"
-        }
-      ]
+        }];
     }
-  }),
+  },
   components: {
     AddInfo,
     ContentInfo,

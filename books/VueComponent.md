@@ -270,3 +270,29 @@ export default {
 ### 处理边界情况
 
 - 这里记录的都是和处理边界情况有关的功能，即一些需要对 Vue 的规则做一些小调整的特殊情况。不过注意这些功能都是有劣势或危险的场景的。我们会在每个案例中注明，所以当你使用每个功能的时候请稍加留意。
+
+### data总结
+
+- 1是3的语法糖，是新的ES6语法，和3一摸一样。
+- 在`app = new Vue`对象时，没什么区别，因为你app对象不会被复用。但是在组件中，因为可能在多处调用同一组件，所以为了不让多处的组件共享同一data对象，只能返回函数。
+
+```js
+  // 1. 2是它的语法糖，在Es6中完全一样
+  data: function() {
+    return {
+      count: 0
+    }
+  // 2.data本身就是一个函数
+  data () {
+    return {count: 0}
+  },
+  // 3.这个一个对象
+  data: {
+    count: 0
+  },
+  // 4.返回的是一个函数
+  data: () => ({})
+```
+
+- 注意，如果你为 data 属性使用了箭头函数，则 this 不会指向这个组件的实例，不过你仍然可以将其实例作为函数的第一个参数来访问。[api](https://cn.vuejs.org/v2/api/#data)
+- Don't use arrow functions (() => {}) when declaring Vue methods. They pick up the this from the current scope (possibly window), and will not reflect the Vue instance.[link](https://stackoverflow.com/questions/48980865/vue-js-difference-of-data-return-vs-data)

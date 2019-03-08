@@ -1,7 +1,8 @@
 <template>
+<v-container>
   <v-card>
     <v-card-title>
-      {{tableName}}
+      <h2>{{tableName}}</h2>
       <v-spacer></v-spacer>
       <v-text-field v-model="search" append-icon="search" label="搜索菜品" single-line hide-details></v-text-field>
     </v-card-title>
@@ -52,11 +53,15 @@
       </template>
     </v-data-table>
   </v-card>
+  <content-info-base></content-info-base>
+  </v-container>
 </template>
 <script>
+import ContentInfoBase from "comp/card/ContentInfoBase";
 export default {
   props: { pName: String, pRows: Number, pContent: Array },
-  data: () => ({
+  data() {
+    return {
     tableName: this.pName,
     search: "",
     pagination: {
@@ -75,7 +80,7 @@ export default {
       { text: "操作", value: "action" }
     ],
     desserts: this.pContent
-  }),
+  }},
   methods: {
     toggleAll() {
       if (this.selected.length) this.selected = [];
@@ -89,6 +94,9 @@ export default {
         this.pagination.descending = false;
       }
     }
+  },
+  components:{
+    "content-info-base":ContentInfoBase
   }
 };
 </script>
