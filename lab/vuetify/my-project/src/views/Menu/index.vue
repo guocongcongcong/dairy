@@ -38,7 +38,7 @@ import MenuTable from "comp/card/MenuTable";
 import MenuTableBase from "comp/card/MenuTableBase";
 
 export default {
-  date: () => ({
+  data: () => ({
     name: "炖菜",
     pRows: 10,
     pContent: [
