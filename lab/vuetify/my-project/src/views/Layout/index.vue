@@ -3,7 +3,7 @@
   <v-app id="inspire">
     <drawer-bar></drawer-bar>
     <!-- <container id="container" ></container> -->
-    <div id = "container"><router-view></router-view></div>
+    <div id = "container" ><router-view></router-view></div>
     
   </v-app>
 </div>

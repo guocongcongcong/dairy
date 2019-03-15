@@ -1,13 +1,15 @@
 <template>
-<v-container>
   <v-card>
     <v-card-title>
-      <h2>{{tableName}}</h2>
+      <!-- <h2>{{tableName}}</h2> -->
+      {{tableName}}
       <v-spacer></v-spacer>
-      <v-text-field v-model="search" append-icon="search" label="搜索菜品" single-line hide-details></v-text-field>
+      <v-text-field v-model="search" append-icon="search" label="Search" single-line hide-details></v-text-field>
+      <v-spacer></v-spacer>
     </v-card-title>
     <v-data-table
       v-model="selected"
+      :search="search"
       :headers="headers"
       :items="desserts"
       :pagination.sync="pagination"
@@ -48,39 +50,43 @@
           <td>{{ props.item.name }}</td>
           <td class="text-xs-right">{{ props.item.taste }}</td>
           <td class="text-xs-right">{{ props.item.ingredients }}</td>
-          <td class="text-xs-right">查看</td>
+          <!-- <td class="text-xs-right">查看</td> -->
         </tr>
       </template>
+      <v-alert
+        v-slot:no-results
+        :value="true"
+        color="error"
+        icon="warning"
+      >您搜索的 "{{ search }}"没有找到结果。</v-alert>
     </v-data-table>
   </v-card>
-  <content-info-base></content-info-base>
-  </v-container>
 </template>
 <script>
-import ContentInfoBase from "comp/card/ContentInfoBase";
 export default {
   props: { pName: String, pRows: Number, pContent: Array },
   data() {
     return {
-    tableName: this.pName,
-    search: "",
-    pagination: {
-      sortBy: "name", //排序
-      rowsPerPage: this.pRows //行数
-    },
-    selected: [],
-    headers: [
-      {
-        text: "菜名",
-        align: "left",
-        value: "name"
+      search: "",
+      tableName: this.pName,
+      pagination: {
+        sortBy: "name", //排序
+        rowsPerPage: this.pRows //行数
       },
-      { text: "口味", value: "taste" },
-      { text: "主料", value: "ingredients" },
-      { text: "操作", value: "action" }
-    ],
-    desserts: this.pContent
-  }},
+      selected: [],
+      headers: [
+        {
+          text: "菜名",
+          align: "left",
+          value: "name"
+        },
+        { text: "口味", value: "taste" },
+        { text: "主料", value: "ingredients" }
+        // { text: "操作", value: "action" }
+      ],
+      desserts: this.pContent
+    };
+  },
   methods: {
     toggleAll() {
       if (this.selected.length) this.selected = [];
@@ -94,9 +100,6 @@ export default {
         this.pagination.descending = false;
       }
     }
-  },
-  components:{
-    "content-info-base":ContentInfoBase
   }
 };
 </script>

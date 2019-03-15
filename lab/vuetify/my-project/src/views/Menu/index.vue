@@ -29,6 +29,7 @@
     </v-layout>
     <add-info></add-info>
     <content-info></content-info>
+    <content-info-base></content-info-base>
   </v-container>
 </template>
 <script>
@@ -36,12 +37,12 @@ import ContentInfo from "comp/card/ContentInfo";
 import AddInfo from "comp/card/Addinfo";
 import MenuTable from "comp/card/MenuTable";
 import MenuTableBase from "comp/card/MenuTableBase";
-
+import ContentInfoBase from "comp/card/ContentInfoBase";
 export default {
   data: () => ({
     menus: {
       pName: "炖菜",
-      pRows: 10,
+      pRows: 1,
       pContent: []
     }
   }),
@@ -63,7 +64,9 @@ export default {
     AddInfo,
     ContentInfo,
     MenuTable,
-    MenuTableBase
+    MenuTableBase,
+    ContentInfoBase
   }
+
 };
 </script>

@@ -8,6 +8,9 @@ const Layout = resolve => require(['@/views/Layout'], resolve)
 // FoodMenu
 const FoodMenu = resolve => require(['@/views/Menu'], resolve)
 
+// PlayMenu
+const PlayMenu = resolve => require(['@/views/Play'], resolve)
+
 // // FoodMenu
 // const MainCourse = resolve => require(['comp/card/MainCourse'], resolve)
 
@@ -65,6 +68,13 @@ const router = new Router({
           requireAuth: true
         },
         component: FoodMenu
+      },
+      {
+        path: 'play',
+        meta: {
+          requireAuth: true
+        },
+        component: PlayMenu
       }]
     },
     {
