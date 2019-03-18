@@ -3,7 +3,7 @@
     <v-card-title>
       <h2>{{tableName}}</h2>
       <v-spacer></v-spacer>
-      <v-text-field v-model="search" append-icon="search" label="搜索菜品" single-line hide-details />
+      <v-text-field v-model="search" append-icon="search" label="搜索菜品" single-line hide-details/>
     </v-card-title>
     <v-data-table
       v-model="selected"
@@ -41,7 +41,7 @@
         </tr>
       </template>
       <template v-slot:items="props">
-        <tr :active="props.selected" @click="props.selected = !props.selected">
+        <tr @click="openDialog" :active="props.selected">
           <td>
             <v-checkbox :input-value="props.selected" primary hide-details></v-checkbox>
           </td>
@@ -58,15 +58,16 @@
         icon="warning"
       >您搜索的 "{{ search }}"没有找到结果。</v-alert>
     </v-data-table>
-    <content-info-base/>
+    <content-info-base :dialog-crtl="openDialog"/>
   </v-card>
 </template>
 <script>
-import ContentInfoBase from './ContentInfoBase';
+import ContentInfoBase from "./ContentInfoBase";
 export default {
   props: { pName: String, pRows: Number, pContent: Array },
   data() {
     return {
+      dialog: false,
       search: "",
       tableName: this.pName,
       pagination: {
@@ -87,6 +88,11 @@ export default {
       desserts: this.pContent
     };
   },
+  computed: {
+    openDialog: function() {
+      this.dialog = !this.dialog;
+    }
+  },
   methods: {
     toggleAll() {
       if (this.selected.length) this.selected = [];
@@ -99,9 +105,14 @@ export default {
         this.pagination.sortBy = column;
         this.pagination.descending = false;
       }
+    },
+    clickTr(props) {
+      alert("alert");
+      console.log(props);
+      return (this.dialog = !this.dialog);
     }
   },
-  components:{
+  components: {
     ContentInfoBase
   }
 };
