@@ -1,11 +1,9 @@
 <template>
   <v-card>
     <v-card-title>
-      <!-- <h2>{{tableName}}</h2> -->
-      {{tableName}}
+      <h2>{{tableName}}</h2>
       <v-spacer></v-spacer>
-      <v-text-field v-model="search" append-icon="search" label="Search" single-line hide-details></v-text-field>
-      <v-spacer></v-spacer>
+      <v-text-field v-model="search" append-icon="search" label="搜索菜品" single-line hide-details />
     </v-card-title>
     <v-data-table
       v-model="selected"
@@ -60,9 +58,11 @@
         icon="warning"
       >您搜索的 "{{ search }}"没有找到结果。</v-alert>
     </v-data-table>
+    <content-info-base/>
   </v-card>
 </template>
 <script>
+import ContentInfoBase from './ContentInfoBase';
 export default {
   props: { pName: String, pRows: Number, pContent: Array },
   data() {
@@ -100,6 +100,9 @@ export default {
         this.pagination.descending = false;
       }
     }
+  },
+  components:{
+    ContentInfoBase
   }
 };
 </script>

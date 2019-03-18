@@ -7,6 +7,7 @@
     </v-card-title>
     <v-data-table
       v-model="selected"
+      :search="search"
       :headers="headers"
       :items="desserts"
       :pagination.sync="pagination"
