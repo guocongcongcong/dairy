@@ -122,7 +122,8 @@ export default {
         text: "菜单",
         model: false,
         children: [
-          { icon: "table_chart", text: "菜单", path: "/menu" }
+          { icon: "table_chart", text: "菜单", path: "/menu" },
+          { icon: "burst_mode", text: "播放", path: "/play" }
         ]
       }
     ]
