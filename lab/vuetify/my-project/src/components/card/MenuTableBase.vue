@@ -1,5 +1,4 @@
 <template>
-<v-container>
   <v-card>
     <v-card-title>
       <h2>{{tableName}}</h2>
@@ -48,39 +47,42 @@
           <td>{{ props.item.name }}</td>
           <td class="text-xs-right">{{ props.item.taste }}</td>
           <td class="text-xs-right">{{ props.item.ingredients }}</td>
-          <td class="text-xs-right">查看</td>
+          <td class="text-xs-right">
+            <content-info-base v-on:dialog-btn="dialog = !dialog" v-bind:name="pName" v-bind:production-info="production">
+              查看
+            </content-info-base>
+          </td>
         </tr>
       </template>
     </v-data-table>
   </v-card>
-  <content-info-base></content-info-base>
-  </v-container>
 </template>
 <script>
 import ContentInfoBase from "comp/card/ContentInfoBase";
 export default {
-  props: { pName: String, pRows: Number, pContent: Array },
+  props: { pName: String, pRows: Number, pContent: Array ,production:Object},
   data() {
     return {
-    tableName: this.pName,
-    search: "",
-    pagination: {
-      sortBy: "name", //排序
-      rowsPerPage: this.pRows //行数
-    },
-    selected: [],
-    headers: [
-      {
-        text: "菜名",
-        align: "left",
-        value: "name"
+      tableName: this.pName,
+      search: "",
+      pagination: {
+        sortBy: "name", //排序
+        rowsPerPage: this.pRows //行数
       },
-      { text: "口味", value: "taste" },
-      { text: "主料", value: "ingredients" },
-      { text: "操作", value: "action" }
-    ],
-    desserts: this.pContent
-  }},
+      selected: [],
+      headers: [
+        {
+          text: "菜名",
+          align: "left",
+          value: "name"
+        },
+        { text: "口味", value: "taste" },
+        { text: "主料", value: "ingredients" },
+        { text: "操作", value: "action" }
+      ],
+      desserts: this.pContent
+    };
+  },
   methods: {
     toggleAll() {
       if (this.selected.length) this.selected = [];
@@ -95,8 +97,8 @@ export default {
       }
     }
   },
-  components:{
-    "content-info-base":ContentInfoBase
+  components: {
+    "content-info-base": ContentInfoBase
   }
 };
 </script>

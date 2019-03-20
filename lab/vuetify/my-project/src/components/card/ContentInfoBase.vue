@@ -5,43 +5,36 @@
     </v-btn>
     <v-dialog v-model="dialog" width="800px">
       <v-card>
-        <v-card-title class="grey lighten-4 py-4 headline font-weight-black" v-html="make.name"></v-card-title>
-        <v-container grid-list-sm class="pa-4">
-          <v-layout row wrap>
-            <!-- <v-flex xs12 align-center justify-space-between>
-              <h5 class="headline font-weight-black">五香牛肉</h5>
-            </v-flex>-->
-            <v-flex xs12>
-              <v-list-tile>
-                <v-list-tile-content>
-                  <v-list-tile-title>主料:</v-list-tile-title>
-                  <v-list-tile-sub-title v-html="make.ingredients"></v-list-tile-sub-title>
-                </v-list-tile-content>
-              </v-list-tile>
-            </v-flex>
+        <v-card-title class="grey lighten-4 py-3 headline font-weight-black" v-html="name"></v-card-title>
+        <v-container class="pa-3">
+          <v-card-text>
+            <v-item-group multiple>
+              <v-subheader>主料</v-subheader>
+              <v-item v-for="(n,i) in productionInfo.ingredients" :key="i">
+                <v-chip>{{ n }}</v-chip>
+              </v-item>
+            </v-item-group>
 
-            <v-flex xs12>
-              <v-list-tile>
-                <v-list-tile-content>
-                  <v-list-tile-title>辅料:</v-list-tile-title>
-                  <v-list-tile-sub-title v-html="make.excipient"></v-list-tile-sub-title>
-                </v-list-tile-content>
-              </v-list-tile>
-            </v-flex>
+            <v-divider class="my-2"></v-divider>
 
-            <v-flex xs12>
-              <v-list-tile>
-                <v-list-tile-content>
-                  <v-list-tile-title>制作方法:</v-list-tile-title>
-                </v-list-tile-content>
-              </v-list-tile>
-              <ol>
-                <div v-for="(items,i) in make.production" :key="i">
-                <li>{{items.item}}</li>
-                </div>
-              </ol>
-            </v-flex>
-          </v-layout>
+            <v-item-group multiple>
+              <v-subheader>辅料</v-subheader>
+              <v-item v-for="(n,i) in productionInfo.excipient" :key="i">
+                <v-chip>{{ n }}</v-chip>
+              </v-item>
+            </v-item-group>
+          </v-card-text>
+          <v-divider></v-divider>
+          <v-list-tile>
+            <v-list-tile-content>
+              <v-subheader>制作方法</v-subheader>
+            </v-list-tile-content>
+          </v-list-tile>
+          <ol>
+            <div v-for="(items,i) in productionInfo.production" :key="i">
+              <li> &nbsp;&nbsp;&nbsp;{{items.item}}</li>
+            </div>
+          </ol>
         </v-container>
         <v-card-actions>
           <!-- <v-
@@ -56,12 +49,27 @@
 </template>
 <script >
 export default {
+  props:{
+    dialogBtn:Boolean,
+    name:String,
+    productionInfo:Array
+  },
   data: () => ({
-    dialog: false,
+    dialog: this.dialogBtn,
     make: {
       name: "五香牛肉",
-      ingredients: "牛腱子 1KG",
-      excipient: "黄酒，冰糖，小茴香，花椒，八角，桂皮，丁洋，陈皮，香叶",
+      ingredients: ["牛腱子1KG"],
+      excipient: [
+        "黄酒",
+        "冰糖",
+        "小茴香",
+        "花椒",
+        "八角",
+        "桂皮",
+        "丁洋",
+        "陈皮",
+        "香叶"
+      ], 
       production: [
         { item: "牛肉解冻后，泡水半小时，三次" },
         { item: "加入葱姜少许料酒，焯水出浮沫，加入冷水洗净" },
