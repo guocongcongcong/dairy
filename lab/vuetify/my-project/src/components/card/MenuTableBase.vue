@@ -64,7 +64,7 @@
 <script>
 import ContentInfoBase from "./ContentInfoBase";
 export default {
-  props: { pName: String, pRows: Number, pContent: Array },
+  props: { pName: String, pRows: Number, pContent: Array ,production:Object},
   data() {
     return {
       dialog: false,
