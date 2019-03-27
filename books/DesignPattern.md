@@ -2,31 +2,36 @@
 
 ## 目录
 
-<!-- TOC depthFrom:2 -->
+<!-- TOC depthFrom:2 depthTo:4 orderedList:true -->
 
-- [目录](#目录)
-- [内容](#内容)
-    - [设计模式](#设计模式)
-    - [工厂模式](#工厂模式)
-        - [工厂介绍](#工厂介绍)
-        - [工厂实现](#工厂实现)
-    - [抽象工厂模式](#抽象工厂模式)
-        - [抽象工厂介绍](#抽象工厂介绍)
-        - [抽象工厂实现](#抽象工厂实现)
-    - [单例模式](#单例模式)
-        - [单例介绍](#单例介绍)
-        - [单例实现](#单例实现)
-            - [单例的多种实现](#单例的多种实现)
-    - [建造者模式](#建造者模式)
-        - [创建者介绍](#创建者介绍)
-        - [创建者实现](#创建者实现)
-    - [原型模式](#原型模式)
-        - [原型介绍](#原型介绍)
-        - [原型实现](#原型实现)
-    - [适配器模式](#适配器模式)
-        - [适配器介绍](#适配器介绍)
-        - [适配器实现](#适配器实现)
-- [问题](#问题)
+1. [目录](#目录)
+2. [内容](#内容)
+    1. [设计模式](#设计模式)
+    2. [工厂模式](#工厂模式)
+        1. [工厂介绍](#工厂介绍)
+        2. [工厂实现](#工厂实现)
+    3. [抽象工厂模式](#抽象工厂模式)
+        1. [抽象工厂介绍](#抽象工厂介绍)
+        2. [抽象工厂实现](#抽象工厂实现)
+    4. [单例模式](#单例模式)
+        1. [单例介绍](#单例介绍)
+        2. [单例实现](#单例实现)
+    5. [建造者模式](#建造者模式)
+        1. [创建者介绍](#创建者介绍)
+        2. [创建者实现](#创建者实现)
+    6. [原型模式](#原型模式)
+        1. [原型介绍](#原型介绍)
+        2. [原型实现](#原型实现)
+    7. [适配器模式](#适配器模式)
+        1. [适配器介绍](#适配器介绍)
+        2. [适配器实现](#适配器实现)
+    8. [桥接模式](#桥接模式)
+        1. [桥接介绍](#桥接介绍)
+        2. [桥接实现](#桥接实现)
+    9. [过滤器模式](#过滤器模式)
+        1. [过滤器介绍](#过滤器介绍)
+        2. [过滤器实现](#过滤器实现)
+3. [问题](#问题)
 
 <!-- /TOC -->
 
@@ -87,7 +92,7 @@
     - 行为型：通信
     - J2EE：表现层
   - **综合关系**
-    - ![综合关系](../../../pic/the-relationship-between-design-patterns.jpg)
+    ![综合关系](../pic/the-relationship-between-design-patterns.jpg)
 - 六大原则：
   1. 开闭原则（Open Close Principle）
     > - 对扩展开放，对修改封闭。
@@ -796,14 +801,297 @@ public class PrototypePatternDemo {
 
 #### 适配器实现
 
+- 我们有一个 MediaPlayer 接口和一个实现了 MediaPlayer 接口的实体类 AudioPlayer。默认情况下，AudioPlayer 可以播放 mp3 格式的音频文件。
+- 我们还有另一个接口 AdvancedMediaPlayer 和实现了 AdvancedMediaPlayer 接口的实体类。该类可以播放 vlc 和 mp4 格式的文件。
+- 我们想要让 AudioPlayer 播放其他格式的音频文件。为了实现这个功能，我们需要创建一个实现了 MediaPlayer 接口的适配器类 MediaAdapter，并使用 AdvancedMediaPlayer 对象来播放所需的格式。
+- AudioPlayer 使用适配器类 MediaAdapter 传递所需的音频类型，不需要知道能播放所需格式音频的实际类。AdapterPatternDemo，我们的演示类使用 AudioPlayer 类来播放各种格式。
+
 ![适配器实现](../pic/adapter_pattern_uml_diagram.jpg)
+
+```java
+// step 1
+// 为媒体播放器和更高级的媒体播放器创建接口。
+// MediaPlayer.java
+public interface MediaPlayer{
+   public void play(String audioType,String fileName);
+}
+// AdvancedMediaPlayer.java
+public interface AdvancedMediaPlayer{
+   public void playVlc(String fileName);
+   public void playMp4(String fileName);
+}
+// step 2
+// 创建实现了 AdvancedMediaPlayer 接口的实体类。
+// VlcPlayer.java
+public class VlcPlayer implements AdvanceMediaPlayer{
+   @Override
+   public void playVlc(String fileName) {
+      System.out.println("Playing vlc file. Name: "+ fileName);      
+   }
+ 
+   @Override
+   public void playMp4(String fileName) {
+      //什么也不做
+   }
+}
+// Mp4Player.java
+public class Mp4Player implements AdvancedMediaPlayer{
+ 
+   @Override
+   public void playVlc(String fileName) {
+      //什么也不做
+   }
+ 
+   @Override
+   public void playMp4(String fileName) {
+      System.out.println("Playing mp4 file. Name: "+ fileName);      
+   }
+}
+// step 3
+// 创建实现了MediaPlayer接口的适配器类。
+// MediaAdapter.java
+public class MediaAdapter implements MediaPlayer{
+   AdvancedMediaPlayer advancedMusicPlayer;
+ 
+   public MediaAdapter(String audioType){
+      if(audioType.equalsIgnoreCase("vlc") ){
+         advancedMusicPlayer = new VlcPlayer();       
+      } else if (audioType.equalsIgnoreCase("mp4")){
+         advancedMusicPlayer = new Mp4Player();
+      }  
+   }
+ 
+   @Override
+   public void play(String audioType, String fileName) {
+      if(audioType.equalsIgnoreCase("vlc")){
+         advancedMusicPlayer.playVlc(fileName);
+      }else if(audioType.equalsIgnoreCase("mp4")){
+         advancedMusicPlayer.playMp4(fileName);
+      }
+   }
+}
+// step 4
+// 创建实现了 MediaPlayer 接口的实体类。
+// AudioPlayer.java
+public class AuidoPlayer implements MediaPlayer{
+   MediaAdapter mediaAdapter;
+   
+   @Override
+   public void play(String audioType, String fileName) {    
+ 
+      //播放 mp3 音乐文件的内置支持
+      if(audioType.equalsIgnoreCase("mp3")){
+         System.out.println("Playing mp3 file. Name: "+ fileName);         
+      } 
+      //mediaAdapter 提供了播放其他文件格式的支持
+      else if(audioType.equalsIgnoreCase("vlc") 
+         || audioType.equalsIgnoreCase("mp4")){
+         mediaAdapter = new MediaAdapter(audioType);
+         mediaAdapter.play(audioType, fileName);
+      }
+      else{
+         System.out.println("Invalid media. "+
+            audioType + " format not supported");
+      }
+   }  
+}
+// step 5
+// 使用 AudioPlayer 来播放不同类型的音频格式。
+// AdapterPatternDemo.java
+public class AdapterPatternDemo {
+   public static void main(String[] args) {
+      AudioPlayer audioPlayer = new AudioPlayer();
+ 
+      audioPlayer.play("mp3", "beyond the horizon.mp3");
+      audioPlayer.play("mp4", "alone.mp4");
+      audioPlayer.play("vlc", "far far away.vlc");
+      audioPlayer.play("avi", "mind me.avi");
+   }
+}
+// step 6
+// 输出
+/**
+  * Playing mp3 file. Name: beyond the horizon.mp3
+  * Playing mp4 file. Name: alone.mp4
+  * Playing vlc file. Name: far far away.vlc
+  * Invalid media. avi format not supported
+  */
+```
+
+
+### 桥接模式
+
+- 桥接（Bridge）是用于把抽像话与实现化解耦，使得两者可以独立变化。它通过提供抽象化与实现化之间的桥接模式，来实现二者的解耦。
+- 这种模式涉及到一个作为桥接的接口，使得实体类的功能独立于接口实现类。这两种类型的类可被结构化改变而互不影响。
+
+#### 桥接介绍
+
+- 意图：将抽象部分与实现部分分离，使它们都可以独立的变化。
+- 主要解决：在有多种可能会变化的情况下，用继承会造成类爆炸问题，扩展起来不灵活。
+- 何时使用：实现系统可能有多个角度分类，每一种角度都可能变化。
+- 如何解决：把这种多角度分类分离出来，让它们独立变化，减少它们之间耦合。
+- 关键代码：抽象类依赖实现类。
+- 应用实例： 1、猪八戒从天蓬元帅转世投胎到猪，转世投胎的机制将尘世划分为两个等级，即：灵魂和肉体，前者相当于抽象化，后者相当于实现化。生灵通过功能的委派，调用肉体对象的功能，使得生灵可以动态地选择。 2、墙上的开关，可以看到的开关是抽象的，不用管里面具体怎么实现的。
+- 优点： 1、抽象和实现的分离。 2、优秀的扩展能力。 3、实现细节对客户透明。
+- 缺点：桥接模式的引入会增加系统的理解与设计难度，由于聚合关联关系建立在抽象层，要求开发者针对抽象进行设计与编程。
+- 使用场景： 1、如果一个系统需要在构件的抽象化角色和具体化角色之间增加更多的灵活性，避免在两个层次之间建立静态的继承联系，通过桥接模式可以使它们在抽象层建立一个关联关系。 2、对于那些不希望使用继承或因为多层次继承导致系统类的个数急剧增加的系统，桥接模式尤为适用。 3、一个类存在两个独立变化的维度，且这两个维度都需要进行扩展。
+- 注意事项：对于两个独立变化的维度，使用桥接模式再适合不过了。
+
+#### 桥接实现
+
+![适配器实现](../pic/bridge_pattern_uml_diagram.jpg)
+
+
+```java
+// step 1
+// 创建桥接实现接口。
+// DrawAPI.java
+public interface DrawAPI{
+   public void drawCircle(int radius,int x,int y);
+}
+// step 2
+// 创建实现了 DrawAPI 接口的实体桥接实现类。
+// RedCircle.java
+public class RedCircle implements DrawAPI {
+   
+   @Override
+   public  void drawCircle(int radius,int x,int y) {
+      System.out.print(" Drawing Circle[ color: red, radius:" + radius +", x: " +x+", "+ y +"]");
+   }
+}
+// GreenCircle.java
+public class GreenCircle implements DrawAPI {
+   
+   @Override
+   public void drawCircle(int radius,int x,int y){
+      System.out.println("Drawing Circle[ color: green, radius: " + radius +", x: " +x+", "+ y +"]");
+   }
+// step 3
+// 使用 DrawAPI 接口创建抽象类 Shape。
+// Shape.java
+public abstract class Shape{
+   protected DrawAPI drawAPI;
+   protected Shape(DrawAPI drawAPI){
+      this.drawAPI = drawAPI;
+   }
+   public abstract void draw();
+}
+// step 4
+// 创建实现了Shape 接口的实体类
+// Cricle.java
+public class Circle extends Shape{
+   private int x, y, radius;
+
+   public Cricle(int x,int y,int radius,DrawAPI drawAPI){
+      super(drawAPI);
+      this.x = x;
+      this.y = y;
+      this.radius = radius;
+   }
+
+   public void draw(){
+      drawAPI.drawCircle(radius,x,y);
+   }
+}
+
+// step 5
+// 使用Shape 和 DrawAPI 类画不同颜色的圆。
+// BridgePatternDemo.java
+public class BridgePatternDemo{
+   public static void main(String [] arge){
+      Shape redCircle = new Circle(100,100, 10, new RedCircle());
+      Shape greenCircle = new Circle(100,100, 10, new GreenCircle());
+
+      redCircle.draw();
+      greenCircle.draw();
+   }
+}
+
+// finally
+// 结果输出
+/**
+  * Drawing Circle[ color: red, radius: 10, x: 100, 100]
+  * Drawing Circle[  color: green, radius: 10, x: 100, 100]
+  */ 
+```
+
+### 过滤器模式
+
+- 过滤器模式（Filter Pattern）或标准模式（Criteria Pattern）是一种设计模式，这种模式允许开发人员使用不同的标准来过滤一组对象，通过逻辑运算以解耦的方式把它们连接起来。这种类型的设计模式属于结构型模式，它结合多个标准来获得单一标准。
+
+#### 过滤器介绍
+
+#### 过滤器实现
+
+- 我们将创建一个 Person 对象、Criteria 接口和实现了该接口的实体类，来过滤 Person 对象的列表。CriteriaPatternDemo，我们的演示类使用 Criteria 对象，基于各种标准和它们的结合来过滤 Person 对象的列表。
+
+![过滤器实现](../pic/filter_pattern_uml_diagram.jpg)
+
+```java
+
+```
 
 ## 问题
 
 1. 工厂模式中，不对客户端暴露创建逻辑是什么意思？[工厂实现](#工厂实现)
+
+
 2. java中interface和abstract的区别是什么？[抽象工厂实现](#抽象工厂实现)
+
+
 3. 私有构造函数和本身的一个静态实例是什么，与非私有的构造函数有什么区别，静态实例与非静态实例的区别是什么？[单例实现](#单例实现)
+
+
 4. synchronized是什么意思？ [单例的多种实现](#单例的多种实现)
+
+
 5. enum的应用场景都是什么？[单例的多种实现](#单例的多种实现)
+
+
 6. abstract 和 extends的含义是什么？[创建者实现](#创建者实现)
+
+
 7. 除了cloneable接口，还有什么常用的接口？[原型实现](#原型实现)
+
+
+8. 枚举的使用都有什么？[单例的多种实现](#单例的多种实现)
+
+
+9. java中类的组成
+
+
+
+>JavaBeans是Java中一种特殊的类，可以将多个对象封装到一个对象（bean）中。特点是可序列化，提供无参构造器，提供getter方法和setter方法访问对象的属性。名称中的“Bean”是用于Java的可重用软件组件的惯用叫法。
+
+[extends与implements](https://www.jeffjade.com/2015/05/11/2015-05-11-java-extends-implement/)
+- Extends可以理解为全盘继承了父类的功能。
+- implements可以理解为为这个类附加一些额外的功能；interface定义一些方法,并没有实现,需要implements来实现才可用。
+- extend可以继承一个接口,但仍是一个接口,也需要implements之后才可用。
+- 对于class而言，Extends用于(单)继承一个类（class），而implements用于实现一个接口(interface)。
+
+格式：
+```java
+[访问修饰符] class [类名]{
+   //类体
+   //成员变量
+   [修饰符] <变量类型> [变量名] (=初始值);
+   //成员方法
+   [修饰符] <返回值类型> [方法名](<参数变量> 参数列表,...){
+      //方法体
+      局部变量;
+      方法语句;
+   }
+}
+```
+10. public abstract class 定义的是什么类？ [桥接模式](#桥接模式)
+
+- 只要存在抽象方法就是抽象类
+- 接口的所有方法都是抽象方法
+> 抽象方法即为不进行实现的方法
+
+[深入理解abstract class和interface](https://www.ibm.com/developerworks/cn/java/l-javainterface-abstract/index.html)
+
+11. step 3 - step 4 的操作都是什么，为什么？[桥接模式](#桥接模式)
+12. JAVA中字符串比较equals()和equalsIgnoreCase()的区别[适配器模式](#适配器模式)
+13. instanceof是什么？
+
