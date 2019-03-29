@@ -5,39 +5,36 @@
 <!-- TOC depthFrom:2 depthTo:4 orderedList:true -->
 
 1. [目录](#目录)
-2. [内容](#内容)
-    1. [设计模式](#设计模式)
-    2. [工厂模式](#工厂模式)
+2. [设计模式总览](#设计模式总览)
+3. [内容](#内容)
+    1. [工厂模式](#工厂模式)
         1. [工厂介绍](#工厂介绍)
         2. [工厂实现](#工厂实现)
-    3. [抽象工厂模式](#抽象工厂模式)
+    2. [抽象工厂模式](#抽象工厂模式)
         1. [抽象工厂介绍](#抽象工厂介绍)
         2. [抽象工厂实现](#抽象工厂实现)
-    4. [单例模式](#单例模式)
+    3. [单例模式](#单例模式)
         1. [单例介绍](#单例介绍)
         2. [单例实现](#单例实现)
-    5. [建造者模式](#建造者模式)
+    4. [建造者模式](#建造者模式)
         1. [创建者介绍](#创建者介绍)
         2. [创建者实现](#创建者实现)
-    6. [原型模式](#原型模式)
+    5. [原型模式](#原型模式)
         1. [原型介绍](#原型介绍)
         2. [原型实现](#原型实现)
-    7. [适配器模式](#适配器模式)
+    6. [适配器模式](#适配器模式)
         1. [适配器介绍](#适配器介绍)
         2. [适配器实现](#适配器实现)
-    8. [桥接模式](#桥接模式)
+    7. [桥接模式](#桥接模式)
         1. [桥接介绍](#桥接介绍)
         2. [桥接实现](#桥接实现)
-    9. [过滤器模式](#过滤器模式)
-        1. [过滤器介绍](#过滤器介绍)
-        2. [过滤器实现](#过滤器实现)
-3. [问题](#问题)
+    8. [过滤器模式](#过滤器模式)
+        1. [过滤器实现](#过滤器实现)
+4. [问题](#问题)
 
 <!-- /TOC -->
 
-## 内容
-
-### 设计模式
+## 设计模式总览
 
 - 设计模式(Design pattern)代表最佳的实践，通常被有经验的**面向对象**的软件开发人员所采用。
 - 强调：强调降低依赖，降低耦合
@@ -113,6 +110,8 @@
     > - 一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立。
   6. 合成复用原则（Composite Reuse Principle）
     > - 尽量使用合成/聚合的方式，而不是使用继承。
+
+## 内容
 
 ### 工厂模式
 
@@ -1019,8 +1018,6 @@ public class BridgePatternDemo{
 
 - 过滤器模式（Filter Pattern）或标准模式（Criteria Pattern）是一种设计模式，这种模式允许开发人员使用不同的标准来过滤一组对象，通过逻辑运算以解耦的方式把它们连接起来。这种类型的设计模式属于结构型模式，它结合多个标准来获得单一标准。
 
-#### 过滤器介绍
-
 #### 过滤器实现
 
 - 我们将创建一个 Person 对象、Criteria 接口和实现了该接口的实体类，来过滤 Person 对象的列表。CriteriaPatternDemo，我们的演示类使用 Criteria 对象，基于各种标准和它们的结合来过滤 Person 对象的列表。
@@ -1028,7 +1025,50 @@ public class BridgePatternDemo{
 ![过滤器实现](../pic/filter_pattern_uml_diagram.jpg)
 
 ```java
+// step 1
+// 创建一个类，在该类上应用标准。
+// Person.java
+public class Person{
 
+   private String name;
+   private String gender;
+   private String maritalStatus;
+
+   public Person(String name,Stirng gender,String maritalStatus){
+      this.name=name;
+      this.gender=gender;
+      this.maritalStatus=maritalStatus;
+   }
+
+   public String getName() {
+      return name;
+   }
+   public String getGender() {
+      return gender;
+   }
+   public String getMaritalStatus() {
+      return maritalStatus;
+   }  
+}
+// step 2
+// 为标准（Criteria）创建一个接口。
+// Criteria.java
+import java.util.List;
+public  interface Criteria{
+   public List<Person> meetCriteria(List<Persion> persons);
+}
+// step 3
+// 创建实现了 Criteria 接口的实体类。
+// CriteriaMale.java
+import java.util.List;
+import java.util.ArrayList;
+public class CriteriaMale implements Criteria{
+   
+   @override
+   public List<Person> meetCriteria(List<Person> persons){
+      
+   }
+}
 ```
 
 ## 问题
