@@ -1,39 +1,5 @@
 # 设计模式
 
-## 目录
-
-<!-- TOC depthFrom:2 depthTo:4 orderedList:true -->
-
-1. [目录](#目录)
-2. [设计模式总览](#设计模式总览)
-3. [内容](#内容)
-    1. [工厂模式](#工厂模式)
-        1. [工厂介绍](#工厂介绍)
-        2. [工厂实现](#工厂实现)
-    2. [抽象工厂模式](#抽象工厂模式)
-        1. [抽象工厂介绍](#抽象工厂介绍)
-        2. [抽象工厂实现](#抽象工厂实现)
-    3. [单例模式](#单例模式)
-        1. [单例介绍](#单例介绍)
-        2. [单例实现](#单例实现)
-    4. [建造者模式](#建造者模式)
-        1. [创建者介绍](#创建者介绍)
-        2. [创建者实现](#创建者实现)
-    5. [原型模式](#原型模式)
-        1. [原型介绍](#原型介绍)
-        2. [原型实现](#原型实现)
-    6. [适配器模式](#适配器模式)
-        1. [适配器介绍](#适配器介绍)
-        2. [适配器实现](#适配器实现)
-    7. [桥接模式](#桥接模式)
-        1. [桥接介绍](#桥接介绍)
-        2. [桥接实现](#桥接实现)
-    8. [过滤器模式](#过滤器模式)
-        1. [过滤器实现](#过滤器实现)
-4. [问题](#问题)
-
-<!-- /TOC -->
-
 ## 设计模式总览
 
 - 设计模式(Design pattern)代表最佳的实践，通常被有经验的**面向对象**的软件开发人员所采用。
@@ -110,6 +76,110 @@
     > - 一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立。
   6. 合成复用原则（Composite Reuse Principle）
     > - 尽量使用合成/聚合的方式，而不是使用继承。
+
+## 问题 
+
+1. 工厂模式中，不对客户端暴露创建逻辑是什么意思？[工厂实现](#工厂实现)
+
+
+2. java中interface和abstract的区别是什么？[抽象工厂实现](#抽象工厂实现)
+
+
+3. 私有构造函数和本身的一个静态实例是什么，与非私有的构造函数有什么区别，静态实例与非静态实例的区别是什么？[单例实现](#单例实现)
+
+
+4. synchronized是什么意思？ [单例的多种实现](#单例的多种实现)
+
+
+5. enum的应用场景都是什么？[单例的多种实现](#单例的多种实现)
+
+
+6. abstract 和 extends的含义是什么？[创建者实现](#创建者实现)
+
+
+7. 除了cloneable接口，还有什么常用的接口？[原型实现](#原型实现)
+
+
+8. 枚举的使用都有什么？[单例的多种实现](#单例的多种实现)
+
+
+9. java中类的组成
+
+
+
+>JavaBeans是Java中一种特殊的类，可以将多个对象封装到一个对象（bean）中。特点是可序列化，提供无参构造器，提供getter方法和setter方法访问对象的属性。名称中的“Bean”是用于Java的可重用软件组件的惯用叫法。
+
+[extends与implements](https://www.jeffjade.com/2015/05/11/2015-05-11-java-extends-implement/)
+- Extends可以理解为全盘继承了父类的功能。
+- implements可以理解为为这个类附加一些额外的功能；interface定义一些方法,并没有实现,需要implements来实现才可用。
+- extend可以继承一个接口,但仍是一个接口,也需要implements之后才可用。
+- 对于class而言，Extends用于(单)继承一个类（class），而implements用于实现一个接口(interface)。
+
+格式：
+```java
+[访问修饰符] class [类名]{
+   //类体
+   //成员变量
+   [修饰符] <变量类型> [变量名] (=初始值);
+   //成员方法
+   [修饰符] <返回值类型> [方法名](<参数变量> 参数列表,...){
+      //方法体
+      局部变量;
+      方法语句;
+   }
+}
+```
+10. public abstract class 定义的是什么类？ [桥接模式](#桥接模式)
+
+- 只要存在抽象方法就是抽象类
+- 接口的所有方法都是抽象方法
+> 抽象方法即为不进行实现的方法
+
+[深入理解abstract class和interface](https://www.ibm.com/developerworks/cn/java/l-javainterface-abstract/index.html)
+
+11. step 3 - step 4 的操作都是什么，为什么？[桥接模式](#桥接模式)
+12. JAVA中字符串比较equals()和equalsIgnoreCase()的区别[适配器模式](#适配器模式)
+13. instanceof是什么？
+
+
+
+## 目录
+
+<!-- TOC depthFrom:2 depthTo:4 orderedList:true -->
+
+1. [设计模式总览](#设计模式总览)
+2. [问题](#问题)
+3. [目录](#目录)
+4. [内容](#内容)
+    1. [工厂模式](#工厂模式)
+        1. [工厂介绍](#工厂介绍)
+        2. [工厂实现](#工厂实现)
+    2. [抽象工厂模式](#抽象工厂模式)
+        1. [抽象工厂介绍](#抽象工厂介绍)
+        2. [抽象工厂实现](#抽象工厂实现)
+    3. [单例模式](#单例模式)
+        1. [单例介绍](#单例介绍)
+        2. [单例实现](#单例实现)
+    4. [建造者模式](#建造者模式)
+        1. [创建者介绍](#创建者介绍)
+        2. [创建者实现](#创建者实现)
+    5. [原型模式](#原型模式)
+        1. [原型介绍](#原型介绍)
+        2. [原型实现](#原型实现)
+    6. [适配器模式](#适配器模式)
+        1. [适配器介绍](#适配器介绍)
+        2. [适配器实现](#适配器实现)
+    7. [桥接模式](#桥接模式)
+        1. [桥接介绍](#桥接介绍)
+        2. [桥接实现](#桥接实现)
+    8. [过滤器模式](#过滤器模式)
+        1. [过滤器实现](#过滤器实现)
+        2. [过滤器补充](#过滤器补充)
+    9. [组合模式](#组合模式)
+
+<!-- /TOC -->
+
+
 
 ## 内容
 
@@ -1066,72 +1136,181 @@ public class CriteriaMale implements Criteria{
    
    @override
    public List<Person> meetCriteria(List<Person> persons){
-      
+      List<Person> malePsersons = new ArrayList<Person>();
+      for(Person person:persons){
+         if("MALE".equalsIngnoreCase(preson.getGender())){
+            malePersons.add(person);
+         }
+      }
+      return malePersons;
    }
 }
+// CriteriaFemale.java
+import java.util.ArrayList;
+import java.util.List;
+
+public class CriterFemale implements Criteria{
+
+   @override
+   public List<Person> meetCriteria(List<Person> persons){
+      List<Person> femalePerson = new ArrayList<Person>();
+      for(Person person:persons){
+         if("FEMALE".equalsIngnoreCase(person.getGender())){
+            femalePerson.add(person);
+         }
+      }
+   }
+}
+// CriteriaSingle.java
+import java.util.ArrayList;
+import java.util.List;
+ 
+public class CriteriaSingle implements Criteria {
+ 
+   @Override
+   public List<Person> meetCriteria(List<Person> persons) {
+      List<Person> singlePersons = new ArrayList<Person>(); 
+      for (Person person : persons) {
+         if("SINGLE".equalsIngnoreCase(person.getGender())){
+            singlePersons.add(person);
+         }
+      }
+      return singlePersons;
+   }
+}
+// AndCriteria.java
+import java.util.List;
+
+public class AndCriteria implements Criteria{
+   private Criteria criteria;
+   private Criteria otherCriteria;
+
+   public AndCriteria(Criteria criteria, Criteria otherCriteria) {
+      this.criteria = criteria;
+      this.otherCriteria = otherCriteria; 
+   }
+
+   @override
+   public  List<Person> meetCriteria(List<Person> persons) {
+      List<Person> firstCriteriaPersons = criteria.meetCriteria(persons);     
+      return otherCriteria.meetCriteria(firstCriteriaPersons);
+   }
+}
+// OrCriteria.java
+import java.util.List;
+
+public class OrCriteria implements Criteria{
+
+   private Criteria criteria;
+   private Criteria otherCriteria;
+
+   public OrCriteria(Criteria criteria, Criteria otherCriteria) {
+      this.criteria = criteria;
+      this.otherCriteria = otherCriteria; 
+   }
+
+   @override
+   public List<Person> meetCriteria(List<Person> persons) {
+      List<Person> firstCriteriaItems = criteria.meetCriteria(persons);
+      List<Person> otherCriteriaItems = otherCriteria.meetCriteria(persons);
+ 
+      for (Person person : otherCriteriaItems) {
+         if(!firstCriteriaItems.contains(person)){
+           firstCriteriaItems.add(person);
+         }
+      }  
+      return firstCriteriaItems;
+   }
+}
+// step 4
+// 使用不同的标准（Criteria）和它们的结合来过滤 Person 对象的列表。
+// CriteriaPatternDemo.java
+import java.util.ArrayList; 
+import java.util.List;
+ 
+public class CriteriaPatternDemo {
+   public static void main(String[] args) {
+      List<Person> persons = new ArrayList<Person>();
+ 
+      persons.add(new Person("Robert","Male", "Single"));
+      persons.add(new Person("John","Male", "Married"));
+      persons.add(new Person("Laura","Female", "Married"));
+      persons.add(new Person("Diana","Female", "Single"));
+      persons.add(new Person("Mike","Male", "Single"));
+      persons.add(new Person("Bobby","Male", "Single"));
+ 
+      Criteria male = new CriteriaMale();
+      Criteria female = new CriteriaFemale();
+      Criteria single = new CriteriaSingle();
+      Criteria singleMale = new AndCriteria(single, male);
+      Criteria singleOrFemale = new OrCriteria(single, female);
+ 
+      System.out.println("Males: ");
+      printPersons(male.meetCriteria(persons));
+ 
+      System.out.println("\nFemales: ");
+      printPersons(female.meetCriteria(persons));
+ 
+      System.out.println("\nSingle Males: ");
+      printPersons(singleMale.meetCriteria(persons));
+ 
+      System.out.println("\nSingle Or Females: ");
+      printPersons(singleOrFemale.meetCriteria(persons));
+   }
+ 
+   public static void printPersons(List<Person> persons){
+      for (Person person : persons) {
+         System.out.println("Person : [ Name : " + person.getName() 
+            +", Gender : " + person.getGender() 
+            +", Marital Status : " + person.getMaritalStatus()
+            +" ]");
+      }
+   }      
+}
+// step 5
+// 执行程序，输出结果：
+// Males: 
+// Person : [ Name : Robert, Gender : Male, Marital Status : Single ]
+// Person : [ Name : John, Gender : Male, Marital Status : Married ]
+// Person : [ Name : Mike, Gender : Male, Marital Status : Single ]
+// Person : [ Name : Bobby, Gender : Male, Marital Status : Single ]
+
+// Females: 
+// Person : [ Name : Laura, Gender : Female, Marital Status : Married ]
+// Person : [ Name : Diana, Gender : Female, Marital Status : Single ]
+
+// Single Males: 
+// Person : [ Name : Robert, Gender : Male, Marital Status : Single ]
+// Person : [ Name : Mike, Gender : Male, Marital Status : Single ]
+// Person : [ Name : Bobby, Gender : Male, Marital Status : Single ]
+
+// Single Or Females: 
+// Person : [ Name : Robert, Gender : Male, Marital Status : Single ]
+// Person : [ Name : Diana, Gender : Female, Marital Status : Single ]
+// Person : [ Name : Mike, Gender : Male, Marital Status : Single ]
+// Person : [ Name : Bobby, Gender : Male, Marital Status : Single ]
+// Person : [ Name : Laura, Gender : Female, Marital Status : Married ]
 ```
 
-## 问题
+#### 过滤器补充
+> 过滤模式的实现在java8里面有典型的应用方法就是分组操作，可以根据指定的指标进行分组筛选。
 
-1. 工厂模式中，不对客户端暴露创建逻辑是什么意思？[工厂实现](#工厂实现)
-
-
-2. java中interface和abstract的区别是什么？[抽象工厂实现](#抽象工厂实现)
-
-
-3. 私有构造函数和本身的一个静态实例是什么，与非私有的构造函数有什么区别，静态实例与非静态实例的区别是什么？[单例实现](#单例实现)
-
-
-4. synchronized是什么意思？ [单例的多种实现](#单例的多种实现)
-
-
-5. enum的应用场景都是什么？[单例的多种实现](#单例的多种实现)
-
-
-6. abstract 和 extends的含义是什么？[创建者实现](#创建者实现)
-
-
-7. 除了cloneable接口，还有什么常用的接口？[原型实现](#原型实现)
-
-
-8. 枚举的使用都有什么？[单例的多种实现](#单例的多种实现)
-
-
-9. java中类的组成
-
-
-
->JavaBeans是Java中一种特殊的类，可以将多个对象封装到一个对象（bean）中。特点是可序列化，提供无参构造器，提供getter方法和setter方法访问对象的属性。名称中的“Bean”是用于Java的可重用软件组件的惯用叫法。
-
-[extends与implements](https://www.jeffjade.com/2015/05/11/2015-05-11-java-extends-implement/)
-- Extends可以理解为全盘继承了父类的功能。
-- implements可以理解为为这个类附加一些额外的功能；interface定义一些方法,并没有实现,需要implements来实现才可用。
-- extend可以继承一个接口,但仍是一个接口,也需要implements之后才可用。
-- 对于class而言，Extends用于(单)继承一个类（class），而implements用于实现一个接口(interface)。
-
-格式：
 ```java
-[访问修饰符] class [类名]{
-   //类体
-   //成员变量
-   [修饰符] <变量类型> [变量名] (=初始值);
-   //成员方法
-   [修饰符] <返回值类型> [方法名](<参数变量> 参数列表,...){
-      //方法体
-      局部变量;
-      方法语句;
-   }
-}
+Map<Integer, List<Person >> groupMap = persons.stream().collect(Collectors.groupingBy(Person::getGender));
+groupMap.forEach((k, v) -> {
+    System.out.println(k);
+    v.forEach(System.out::println);
+});
 ```
-10. public abstract class 定义的是什么类？ [桥接模式](#桥接模式)
+-  k：是分组的指标，上面代码中的 gender
+-  v：是一个list的集合对象，就是 personList
 
-- 只要存在抽象方法就是抽象类
-- 接口的所有方法都是抽象方法
-> 抽象方法即为不进行实现的方法
+### 组合模式
 
-[深入理解abstract class和interface](https://www.ibm.com/developerworks/cn/java/l-javainterface-abstract/index.html)
+- 组合模式（Composite Pattern），又叫部分整体模式，是用于把一组相似的对象当作一个单一的对象。组合模式依据树形结构来组合对象，用来表示部分以及整体层次。这种类型的设计模式属于结构型模式，它创建了对象组的树形结构。
+- 这种模式创建了一个包含自己对象组的类。该类提供了修改相同对象组的方式。
+- 我们通过下面的实例来演示组合模式的用法。实例演示了一个组织中员工的层次结构。
 
-11. step 3 - step 4 的操作都是什么，为什么？[桥接模式](#桥接模式)
-12. JAVA中字符串比较equals()和equalsIgnoreCase()的区别[适配器模式](#适配器模式)
-13. instanceof是什么？
+
+
 
