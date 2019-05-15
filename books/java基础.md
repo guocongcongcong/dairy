@@ -15,11 +15,14 @@
 ## 一、 Java 基础
 
 1. JDK 和 JRE 有什么区别？
+
    - JDK:Java Deveplment Kit--面向开发人员的 SDK.它提供了 JAVA 的开发环境和运行环境
-     
+
      > SDK:Software Devemplment Kit--软件开发包
+
    - JRE:Java Runtime Enviroment--面向使用者.提供了 JAVA 的运行环境
    - JVM:Java virtual machine--是我们常说的 Java 虚拟机
+
 2. == 和 equals 的区别是什么？
    - ==：比较的是两个字符串内存地址(堆内存)的数值是否相等,属于数值比较；
    - equals()：比较的是两个字符串的内容,属于内容比较.
@@ -51,11 +54,14 @@
    - StringBuffer:区别在于修改对象本身,线程安全可以用于多线程
    - StringBuilder: 脱胎于 StringBuffer,允许多线程方法添加或者删除,线程不安全,一般用于单线程.
 8. String str="i"与 String str=new String(“i”)一样吗？
+
    > [答案链接](https://www.cnblogs.com/bluestorm/p/3296897.html)
+
    - String str = "a"; 这个只是一个引用,内存中如果有“a"的话,str 就指向它；如果没有,才创建它;
    - 如果你以后还用到"a"这个字符串的话并且是这样:String str1 = "a"; String str2 = "a"; String str2 = "a"; 这 4 个变量都共享一个字符串"a".而 String str = new String("a");是根据"a"这个 String 对象再次构造一个 String 对象,将新构造出来的 String 对象的引用赋给 str.
-     
+
      > [链接](https://www.cnblogs.com/aspirant/p/9193112.html)
+
 9. 如何将字符串反转？
 
 - String reverse = new StringBuffer(string).reverse().toString();
@@ -145,15 +151,17 @@
     - 在其他方面,抽象类和普通的类并没有区别
 
 13. 抽象类能使用 final 修饰吗？
-    
+
     - 不能,抽象方法是为了继承之后重写方法的,而用 final 修饰的类,无法继承
+
 14. 接口和抽象类有什么区别？
     - > [链接](https://www.jianshu.com/p/038f0b356e9a)
     - 抽象类(abstract class):一个抽象类不能实例化,依然可以在类的实体(直白点就是能在｛｝里面)定义成员变量,成员方法,构造方法等.一个类中含有抽象方法(被 abstract 修饰),那么这个类必须被声明为抽象类(被 abstract 修饰).
     - 接口(interface):接口在 java 中是一个抽象类型,是抽象方法的集合.一个类通过继承接口的方式,从而继承接口的抽象方法.
 15. java 中 IO 流分为几种？
-    
+
     - 两种：输入流与输出流
+
 16. BIO、NIO、AIO 有什么区别？
     - IO 的方式通常分为几种，同步阻塞的 BIO、同步非阻塞的 NIO、异步非阻塞的 AIO。
     - > [链接](https://blog.csdn.net/skiof007/article/details/52873421)
@@ -178,104 +186,162 @@
     | File[ ] listFiles() | 返回一个包含了 File 对象所有子文件和子目录的 File 数组 |
 
 18. java 如何解决的多重继承
-    
+
     - [链接](https://www.cnblogs.com/chenssy/p/3389027.html) - 1. 接口 - 2. 内部类
 
 ## 二、容器
+
 - [链接](https://blog.csdn.net/dengpeng0419/article/details/47983033)
-1. java 容器都有哪些？
-     > Java容器类类库的用途是“持有对象”，并将其划分为两个不同的概念：
-     > １）Collection：一个独立元素的序列，这些元素都服从一条或者多条规则。 List必须按照插入的顺序保存元素，而set不能有重复的元素。Queue按照排队规则来确定对象产生的顺序（通常与它们被插入的顺序相同）。 
-     > 2）Map：一组成对的“键值对”对象，允许你使用键来查找值。
-     |Collection 
-     |　　├List 
-     |　　│-├LinkedList 
-     |　　│-├ArrayList 
-     |　　│-└Vector 
-     |　　│　└Stack 
-     |　　├Set 
-     |　　│├HashSet 
-     |　　│├TreeSet 
-     |　　│└LinkedSet 
-     | 
-     |Map 
-     　　├Hashtable 
-     　　├HashMap 
-     　　└WeakHashMap
+- [极客学院的 java 集合](https://wiki.jikexueyuan.com/project/java-collection/hashmap.html)
 
-2. Collection 和 Collections 有什么区别？
-     1. java.util.Collection 是一个集合接口。它提供了对集合对象进行基本操作的通用接口方法。Collection接口在Java 类库中有很多具体的实现。Collection接口的意义是为各种具体的集合提供了最大化的统一操作方式。
-     >    Collection   
-          ├List   
-          │├LinkedList   
-          │├ArrayList   
-          │└Vector   
-          │　└Stack   
-          └Set 
-     
-1. java.util.Collections 是一个包装类。它包含有各种有关集合操作的静态多态方法。此类不能实例化，就像一个工具类，服务于Java的Collection框架。
-     
-3. List、Set、Map 之间的区别是什么？
-     [链接1](https://blog.csdn.net/SpeedMe/article/details/22398395)
+1.  java 容器都有哪些？
 
-     [链接2](https://blog.csdn.net/u012102104/article/details/79235938)
-     
-     数组是大小固定的，并且同一个数组只能存放类型一样的数据（基本类型/引用类型），而**JAVA集合可以存储和操作数目不固定的一组数据**。
-     
-     > java集合的三个主要类型：
-     >
-     > - Set   (集)
-     >
-     > - List  (列表)
-     >
-     > - Map(序列)
-     >
-     >   
-     
-     *Java所有“存储及随机访问一连串对象”的做法，array是最有效率的一种。*
-     
-     > 效率高，但容量固定且无法动态改变。
-     > array还有一个缺点是，无法判断其中实际存有多少元素，length只是告诉我们array的容量。
-     >
-     > Java中有一个**Arrays类，专门用来操作array**。
-     
-     若撰写程序时不知道究竟需要多少对象，需要在空间不足时自动扩增容量，则需要使用容器类库，array不适用。所以就要用到集合。
-     
-     >集合分类：
-     >
-     >Collection：List、Set
-     >Map：HashMap、HashTable
-     
-     | 比较       |                           List                            |                           Set                            |                             Map                              |
-     | ---------- | :-------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
-     | 接口       |                        collection                         |                        collection                        |                                                              |
-     | 常见实现类 |  AbstractList(其常用子类有ArrayList、LinkedList、Vector)  | AbstractSet(其常用子类有HashSet、LinkedHashSet、TreeSet) |                      HashMap、HashTable                      |
-     | 常见方法   | add( )、remove( )、clear( )、get( )、contains( )、size( ) |    add( )、remove( )、clear( )、contains( )、size( )     | put( )、get( )、remove( )、clear( )、containsKey( )、containsValue( )、keySet( )、values( )、size( ) |
-     | 元素       |                          可重复                           |                不可重复(用`equals()`判断)                |                           不可重复                           |
-     | 顺序       |                           有序                            |                无序(实际上由HashCode决定)                |                                                              |
-     | 线程安全   |                      Vector线程安全                       |                                                          |                      Hashtable线程安全                       |
-     
-     
-     
-4. HashMap 和 Hashtable 有什么区别？
+    > Java 容器类类库的用途是“持有对象”，并将其划分为两个不同的概念：
+    > １）Collection：一个独立元素的序列，这些元素都服从一条或者多条规则。 List 必须按照插入的顺序保存元素，而 set 不能有重复的元素。Queue 按照排队规则来确定对象产生的顺序（通常与它们被插入的顺序相同）。
+    > 2）Map：一组成对的“键值对”对象，允许你使用键来查找值。
+    > |Collection
+    > |　　 ├List
+    > |　　 │-├LinkedList
+    > |　　 │-├ArrayList
+    > |　　 │-└Vector
+    > |　　 │ 　 └Stack
+    > |　　 ├Set
+    > |　　 │├HashSet
+    > |　　 │├TreeSet
+    > |　　 │└LinkedSet
+    > |
+    > |Map
+    > 　　 ├Hashtable
+    > 　　 ├HashMap
+    > 　　 └WeakHashMap
 
-     [链接](<https://www.jianshu.com/p/5c34133ed372>)
+2.  Collection 和 Collections 有什么区别？
 
-     
+    1.  java.util.Collection 是一个集合接口。它提供了对集合对象进行基本操作的通用接口方法。Collection 接口在 Java 类库中有很多具体的实现。Collection 接口的意义是为各种具体的集合提供了最大化的统一操作方式。
 
-5. 如何决定使用 HashMap 还是 TreeMap？
+        > Collection
+
+             ├List
+             │├LinkedList
+             │├ArrayList
+             │└Vector
+             │　└Stack
+             └Set
+
+    2.  java.util.Collections 是一个包装类。它包含有各种有关集合操作的静态多态方法。此类不能实例化，就像一个工具类，服务于 Java 的 Collection 框架。
+
+3.  List、Set、Map 之间的区别是什么？
+    [链接 1](https://blog.csdn.net/SpeedMe/article/details/22398395)
+
+    [链接 2](https://blog.csdn.net/u012102104/article/details/79235938)
+
+    数组是大小固定的，并且同一个数组只能存放类型一样的数据（基本类型/引用类型），而**JAVA 集合可以存储和操作数目不固定的一组数据**。
+
+    > java 集合的三个主要类型：
+    >
+    > - Set (集)
+    >
+    > - List (列表)
+    >
+    > - Map(序列)
+
+    _Java 所有“存储及随机访问一连串对象”的做法，array 是最有效率的一种。_
+
+    > 效率高，但容量固定且无法动态改变。
+    > array 还有一个缺点是，无法判断其中实际存有多少元素，length 只是告诉我们 array 的容量。
+    >
+    > Java 中有一个**Arrays 类，专门用来操作 array**。
+
+    若撰写程序时不知道究竟需要多少对象，需要在空间不足时自动扩增容量，则需要使用容器类库，array 不适用。所以就要用到集合。
+
+    > 集合分类：
+    >
+    > Collection：List、Set
+    > Map：HashMap、HashTable
+
+    | 比较       |                           List                            |                            Set                            |                             Map                              |
+    | ---------- | :-------------------------------------------------------: | :-------------------------------------------------------: | :----------------------------------------------------------: |
+    | 接口       |                        collection                         |                        collection                         |                                                              |
+    | 常见实现类 | AbstractList(其常用子类有 ArrayList、LinkedList、Vector)  | AbstractSet(其常用子类有 HashSet、LinkedHashSet、TreeSet) |                 HashMap、HashTable、TreeMap                  |
+    | 常见方法   | add( )、remove( )、clear( )、get( )、contains( )、size( ) |     add( )、remove( )、clear( )、contains( )、size( )     | put( )、get( )、remove( )、clear( )、containsKey( )、containsValue( )、keySet( )、values( )、size( ) |
+    | 元素       |                          可重复                           |                不可重复(用`equals()`判断)                 |                           不可重复                           |
+    | 顺序       |                           有序                            |               无序(实际上由 HashCode 决定)                |                                                              |
+    | 线程安全   |                      Vector 线程安全                      |                                                           |                      Hashtable 线程安全                      |
+
+4.  HashMap 和 Hashtable 有什么区别？
+
+    [链接](https://www.jianshu.com/p/5c34133ed372)
+
+    - HashMap 不是线程安全的：hashmap 是 map 的接口实现类，是将键映射到值得对象，其中键与值都是对象，并不能包含重复键，但可以包含重复值。HashMap 允许 null key 和 null value，而 HashTable 不允许。
+    - HashTable 是线程安全 Collection：HashMap 是 HashTable 的轻量级实现，他们都完成了 Map 接口，主要区别在于 HashMap 允许 null key 和 null value,由于非线程安全，效率上可能高于 Hashtable。
+    - **区别如下：**
+      - HashMap 允许将 null 作为一个 entry 的 key 或者 value，而 Hashtable 不允许。
+      - ~~HashMap 把 Hashtable 的 contains 方法去掉了，改成 containsValue 和 containsKey。因为 contains 方法容易让人引起误解。~~
+      - HashTable 继承自 Dictionary 类，而 HashMap 是 Java1.2 引进的 Map interface 的一个实现。
+      - HashTable 的方法是 Synchronize 的，而 HashMap 不是，在多个线程访问 Hashtable 时，不需要自己为它的方法实现同步，而 HashMap 就必须为之提供外同步。
+      - ~~Hashtable 和 HashMap 采用的 hash/rehash 算法都大概一样，所以性能不会有很大的差异。~~
+
+5.  如何决定使用 HashMap 还是 TreeMap？
+
+    - TreeMap<K,V>的 Key 值是要求实现 java.lang.Comparable，所以迭代的时候 TreeMap 默认是按照 Key 值升序排序的；TreeMap 的实现也是基于红黑树结构。
+    - HashMap<K,V>的 Key 值实现散列 hashCode(),分布是散列的均匀的，不支持排序；数据结构主要是桶(数组),链表或红黑树。
+    - 大多情况下 HashMap 有更好的性能，所以大多不需要排序的时候我们会使用 HashMap.
+    - 数组：数组存储区间是连续的，占用内存严重，故空间复杂的很大。但数组的二分查找时间复杂度小，为 O(1)；数组的特点是：寻址容易，插入和删除困难。
+    - 链表：链表存储区间离散，占用内存比较宽松，故空间复杂度很小，但时间复杂度很大，达 O（N）。链表的特点是：寻址困难，插入和删除容易。
+    - 哈希表：做出一种寻址容易，插入删除也容易的数据结构，哈希表是由数组+链表组成的
 
 6. 说一下 HashMap 的实现原理？
 
-7. 说一下 HashSet 的实现原理？
+   [极客学院](http://wiki.jikexueyuan.com/project/java-collection/hashmap.html)
+   数组+链表
+
+   > 创建一个 entry 的数组，其中单个元素是 entry（以键值对的形式存储，而且存储了下个 entry 的地址） 
+
+   - 存储:
+     - 当我们 put 的时候，如果 key 存在了，那么新的 value 会代替旧的 value，并且如果 key 存在的情况下，该方法返回的是旧的 value，如果 key 不存在，那么返回 null。
+     - 从上面的源代码中可以看出：当我们往 HashMap 中 put 元素的时候，先根据 key 的 hashCode 重新计算 hash 值，根据 hash 值得到这个元素在数组中的位置（即下标），如果数组该位置上已经存放有其他元素了，那么在这个位置上的元素将以链表的形式存放，新加入的放在链头，最先加入的放在链尾。如果数组该位置上没有元素，就直接将该元素放到此数组中的该位置上。
+   - 
+
+7.  说一下 HashSet 的实现原理？
+
+    [极客学院](http://wiki.jikexueyuan.com/project/java-collection/hashset.html)
 
 8. ArrayList 和 LinkedList 的区别是什么？
 
+   [简书](https://www.jianshu.com/p/e591690afacb)
+
+   - ArrayList是实现了基于动态数组的结构，而LinkedList则是基于实现链表的数据结构。而两种数据结构在程序上体现出来的优缺点在于增删和改查的速率。
+
 9. 如何实现数组和 List 之间的转换？
+
+   ​	[csdn](https://blog.csdn.net/zjx2016/article/details/78273192)
+
+   - list 转数组：for，.toArray()
+   - 数组转list：
+     - `for(String str : arrays){
+       list.add(str);
+       }`
+     - `ArrayList<String> arrayList = new ArrayList<String>(Arrays.asList(arrays));`
+     - `List<String> list = Arrays.asList(arrays);`
+     - `List<String> list2 = new ArrayList<String>(arrays.length);
+       Collections.addAll(list2, arrays);`
 
 10. ArrayList 和 Vector 的区别是什么？
 
+    1.  ArrayList是最常用的List实现类，内部是通过数组实现的，它允许对元素进行快速随机访问。数组的缺点是每个元素之间不能有间隔，当数组大小不满足时需要增加存储能力，就要讲已经有数组的数据复制到新的存储空间中。当从ArrayList的中间位置插入或者删除元素时，需要对数组进行复制、移动、代价比较高。因此，它适合随机查找和遍历，不适合插入和删除。
+    2.  Vector与ArrayList一样，也是通过数组实现的，不同的是它支持线程的同步，即某一时刻只有一个线程能够写Vector，避免多线程同时写而引起的不一致性，但实现同步需要很高的花费，因此，访问它比访问ArrayList慢。
+
 11. Array 和 ArrayList 有何区别？
+
+    - 存储内容比较：
+      - ​     Array数组可以包含基本类型和对象类型，         
+      - ​     ArrayList却只能包含对象类型。       
+
+    >  但是需要注意的是：Array数组在存放的时候一定是同种类型的元素。ArrayList就不一定了，因为ArrayList可以存储Object。         
+
+    - 空间大小比较：
+      - 它的空间大小是固定的，空间不够时也不能再次申请，所以需要事前确定合适的空间大小。         
+      - ​           ArrayList的空间是动态增长的，如果空间不够，它会创建一个空间比原空间大一倍的新数组，然后将所有元素复制到新数组中，接着抛弃旧数组。而且，每次添加新的元素的时候都会检查内部数组的空间是否足够。（比较麻烦的地方）。
 
 12. 在 Queue 中 poll()和 remove()有什么区别？
 
