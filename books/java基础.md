@@ -1,4 +1,4 @@
-# 面试题
+# JAVA
 
 想要面试的初/中/想要面试的初/中/高级 Java 程序员
 想要查漏补缺的人
@@ -345,37 +345,296 @@
 
 12. 在 Queue 中 poll()和 remove()有什么区别？
 
+    [比较全的](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+
+    **Queue： 基本上，一个队列就是一个先入先出（FIFO）的数据结构**
+
+    **remove**   移除并返回队列头部的元素    如果队列为空，则抛出一个NoSuchElementException异常
+
+    **poll**         移除并返问队列头部的元素    如果队列为空，则返回null
+
 13. 哪些集合类是线程安全的？
+
+    [链接](<https://blog.csdn.net/laowang2915/article/details/73648208>)
+
+    [链接2](<https://blog.csdn.net/lixiaobuaa/article/details/79689338>)
+
+    Vector：就比Arraylist多了个同步化机制（线程安全）。
+
+    Hashtable：就比Hashmap多了个线程安全。
+
+    ConcurrentHashMap:是一种高效但是线程安全的集合。
+
+    Stack：栈，也是线程安全的，继承于Vector。
 
 14. 迭代器 Iterator 是什么？
 
-15. Iterator 怎么使用？有什么特点？
+    
 
-16. Iterator 和 ListIterator 有什么区别？
+    - 迭代器是一种设计模式，它是一个对象，它可以遍历并选择序列中的对象，而开发人员不需要了解该序列的底层结构。迭代器通常被称为“轻量级”对象，因为创建它的代价小。[链接](<https://www.nowcoder.com/questionTerminal/8863f297b1fc4bbca6de95528b6051e1>)
 
-17. 怎么确保一个集合不能被修改？
+    - 对 Collection 进行迭代的类，称其为迭代器。还是面向对象的思想，专业对象做专业的事情，迭代器就是专门取出集合元素的对象。但是该对象比较特殊，不能直接创建对象（通过new），该对象是以内部类的形式存在于每个集合类的内部。[链接](<https://blog.csdn.net/qq_33642117/article/details/52039691>)
+
+15. Iterator 怎么使用？有什么特点？[链接](<https://blog.csdn.net/qq_20916555/article/details/51292063>)
+
+    - Java中使用Iterator来遍历集合元素，Iterator遍历集合元素有以下几个特点:
+      - Iterator遍历集合元素的过程中不允许线程对集合元素进行修改，否则会抛出ConcurrentModificationEception的异常。
+      - Iterator遍历集合元素的过程中可以通过remove方法来移除集合中的元素。
+      - Iterator必须依附某个Collection对象而存在，Iterator本身不具有装载数据对象的功能。
+      - Iterator.remove方法删除的是上一次Iterator.next()方法返回的对象。
+      - 强调以下next（）方法，该方法通过游标指向的形式返回Iterator下一个元素。
+    - **Iterator的常用方法**:
+      - boolean hasNext() ;判断迭代器中是否还有下一个元素，有则返回true
+      - Object  next();  返回迭代器中下一个元素
+      - void  remove() ; 删除集合里上一个next方法调用的时候返回的对象元素
+      - void forEachRemaining(Consumer action) ;使用Lambdda表达式的形式输出Iterator中所以的元素。注意该方法其实是间接调用next()方法进行遍历，所以再次是next（）方法的时候Iterator中的对象已经被遍历完了。
+
+16. Iterator 和 ListIterator 有什么区别？[link](<https://blog.csdn.net/longshengguoji/article/details/41551491>)
+
+    一．相同点
+
+    - 都是迭代器，当需要对集合中元素进行遍历不需要干涉其遍历过程时，这两种迭代器都可以使用。
+
+    二．不同点
+
+    1. 使用范围不同，Iterator可以应用于所有的集合，Set、List和Map和这些集合的子类型。而ListIterator只能用于List及其子类型。
+
+    2. ListIterator有add方法，可以向List中添加对象，而Iterator不能。
+
+    3. ListIterator和Iterator都有hasNext()和next()方法，可以实现顺序向后遍历，但是ListIterator有hasPrevious()和previous()方法，可以实现逆向（顺序向前）遍历。Iterator不可以。
+
+    4. ListIterator可以定位当前索引的位置，nextIndex()和previousIndex()可以实现。Iterator没有此功能。
+
+    5. 都可实现删除操作，但是ListIterator可以实现对象的修改，set()方法可以实现。Iterator仅能遍历，不能修改。
+
+17. 怎么确保一个集合不能被修改？[link](<https://blog.csdn.net/syilt/article/details/90548237>)
+
+    - **利用Collections和Guava提供的类可实现的不可变对象**
+
+    ```java
+    //Collections
+    static {
+        map.put(1, "one");
+        map.put(2, "two");
+        map  = Collections.unmodifiableMap(map);
+    }
+    //Guava
+    private final static ImmutableList<Integer> list = ImmutableList.of(1, 2, 3);  // 这样被初始化之后 list是不能被改变
+    private final static ImmutableSet set = ImmutableSet.copyOf(list); // 这样被初始化之后set是不能被改变的
+    public static void main(String[] args) {
+            list.add(123);
+            set.add(222);
+        }
+    }
+    //guava中的map的写法有点不一样如下：
+    private final static ImmutableMap<Integer, Integer> map = ImmutableMap.of(1,2,3,4,5, 6);
+    private final static ImmutableMap<Integer, Integer> map2 = ImmutableMap.<Integer, Integer>builder().put(1,2).put(3,4).put(5,6).build();
+    ```
+
+    
 
 ## 三、多线程
 
-1. 并行和并发有什么区别？
-2. 线程和进程的区别？
-3. 守护线程是什么？
-4. 创建线程有哪几种方式？
-5. 说一下 runnable 和 callable 有什么区别？
+1. 并行和并发有什么区别？[link](<https://www.jianshu.com/p/b11e251d3dc7>)
+
+   - 并发:一个处理器同时处理多个任务。
+
+   - 并行:多个处理器或者是多核的处理器同时处理多个不同的任务。
+
+     > 前者是逻辑上的同时发生（simultaneous），而后者是物理上的同时发生
+
+2. 线程和进程的区别？[link](<https://www.cnblogs.com/WuXuanKun/p/6259965.html>)
+
+   - 进程代表CPU所能处理的单个任务。任一时刻，CPU总是运行一个进程，其他进程处于非运行状态。
+   - 一个进程可以包括多个线程。
+   - 一个线程使用某些共享内存时，其他线程必须等它结束，才能使用这一块内存.
+   - **进程和线程都是一个时间段的描述，是CPU工作时间段的描述。**
+   - **进程和线程都是一个时间段的描述，是CPU工作时间段的描述，不过是颗粒大小不同。**
+   - 几乎任何的操作系统都支持运行多个任务，通常一个任务就是一个程序，而一个程序就是一个进程。当一个进程运行时，内部可能包括多个顺序执行流，每个顺序执行流就是一个线程。
+   - 进程是指处于运行过程中的程序，并且具有一定的独立功能。进程是系统进行资源分配和调度的一个单位。当程序进入内存运行时，即为线程。
+
+3. 守护线程是什么？[link](<https://blog.csdn.net/shimiso/article/details/8964414>)
+
+   - 在Java中有两类线程：User Thread(用户线程)、Daemon Thread(守护线程) 
+   - 任何一个守护线程都是整个JVM中所有非守护线程的保姆：
+     - 只要当前JVM实例中尚存在任何一个非守护线程没有结束，守护线程就全部工作；只有当最后一个非守护线程结束时，守护线程随着JVM一同结束工作。
+   - User和Daemon两者几乎没有区别，唯一的不同之处就在于虚拟机的离开：如果 User Thread已经全部退出运行了，只剩下Daemon Thread存在了，虚拟机也就退出了。
+
+4. 创建线程有哪几种方式？[link](<https://blog.csdn.net/longshengguoji/article/details/41126119>)
+
+   - 三种：继承Thread类创建线程类/通过Runnable接口创建线程类/通过Callable和Future创建线程
+
+   - ```java
+     //一、继承Thread类创建线程类
+     //（1）定义Thread类的子类，并重写该类的run方法，该run方法的方法体就代表了线程要完成的任务。因此把run()方法称为执行体。
+     //（2）创建Thread子类的实例，即创建了线程对象。
+     //（3）调用线程对象的start()方法来启动该线程。
+     package com.thread;
+     public class FirstThreadTest extends Thread{
+     	int i = 0;
+     	//重写run方法，run方法的方法体就是现场执行体
+     	public void run()
+     	{
+     		for(;i<100;i++){
+     		System.out.println(getName()+"  "+i);
+     		
+     		}
+     	}
+     	public static void main(String[] args)
+     	{
+     		for(int i = 0;i< 100;i++)
+     		{
+     			System.out.println(Thread.currentThread().getName()+"  : "+i);
+     			if(i==20)
+     			{
+     				new FirstThreadTest().start();
+     				new FirstThreadTest().start();
+     			}
+     		}
+     	}
+      
+     }
+     ```
+
+   - ```java
+     //二、通过Runnable接口创建线程类
+     //（1）定义runnable接口的实现类，并重写该接口的run()方法，该run()方法的方法体同样是该线程的线程执行体。
+     //（2）创建 Runnable实现类的实例，并依此实例作为Thread的target来创建Thread对象，该Thread对象才是真正的线程对象。
+     //（3）调用线程对象的start()方法来启动该线程。
+     package com.thread;
+     public class RunnableThreadTest implements Runnable
+     {
+     	private int i;
+     	public void run()
+     	{
+     		for(i = 0;i <100;i++)
+     		{
+     			System.out.println(Thread.currentThread().getName()+" "+i);
+     		}
+     	}
+     	public static void main(String[] args)
+     	{
+     		for(int i = 0;i < 100;i++)
+     		{
+     			System.out.println(Thread.currentThread().getName()+" "+i);
+     			if(i==20)
+     			{
+     				RunnableThreadTest rtt = new RunnableThreadTest();
+     				new Thread(rtt,"新线程1").start();
+     				new Thread(rtt,"新线程2").start();
+     			}
+     		}
+     	}
+     }
+     ```
+
+   - ```java
+     
+     //三、通过Callable和Future创建线程
+     //（1）创建Callable接口的实现类，并实现call()方法，该call()方法将作为线程执行体，并且有返回值。
+     //（2）创建Callable实现类的实例，使用FutureTask类来包装Callable对象，该FutureTask对象封装了该Callable对象的call()方法的返回值。
+     //（3）使用FutureTask对象作为Thread对象的target创建并启动新线程。
+     //（4）调用FutureTask对象的get()方法来获得子线程执行结束后的返回值
+     
+     package com.thread;
+      
+     import java.util.concurrent.Callable;
+     import java.util.concurrent.ExecutionException;
+     import java.util.concurrent.FutureTask;
+      
+     public class CallableThreadTest implements Callable<Integer>
+     {
+      
+     	public static void main(String[] args)
+     	{
+     		CallableThreadTest ctt = new CallableThreadTest();
+     		FutureTask<Integer> ft = new FutureTask<>(ctt);
+     		for(int i = 0;i < 100;i++)
+     		{
+     			System.out.println(Thread.currentThread().getName()+" 的循环变量i的值"+i);
+     			if(i==20)
+     			{
+     				new Thread(ft,"有返回值的线程").start();
+     			}
+     		}
+     		try
+     		{
+     			System.out.println("子线程的返回值："+ft.get());
+     		} catch (InterruptedException e)
+     		{
+     			e.printStackTrace();
+     		} catch (ExecutionException e)
+     		{
+     			e.printStackTrace();
+     		}
+      
+     	}
+     
+     	@Override
+     	public Integer call() throws Exception
+     	{
+     		int i = 0;
+     		for(;i<100;i++)
+     		{
+     			System.out.println(Thread.currentThread().getName()+" "+i);
+     		}
+     		return i;
+     	}
+     ```
+
+   - 创建线程的三种方式的对比:
+     - 采用实现Runnable、Callable接口的方式创见多线程时
+       - 优势是：线程类只是实现了Runnable接口或Callable接口，还可以继承其他类。在这种方式下，多个线程可以共享同一个target对象，所以非常适合多个相同线程来处理同一份资源的情况，从而可以将CPU、代码和数据分开，形成清晰的模型，较好地体现了面向对象的思想。
+       - 劣势是：编程稍微复杂，如果要访问当前线程，则必须使用Thread.currentThread()方法
+     - 使用继承Thread类的方式创建多线程时
+       - 优势是：编写简单，如果需要访问当前线程，则无需使用Thread.currentThread()方法，直接使用this即可获得当前线程。
+       - 劣势是：线程类已经继承了Thread类，所以不能再继承其他父类。
+
+5. 说一下 runnable 和 callable 有什么区别？[link](<https://blog.csdn.net/longshengguoji/article/details/41126119>)
+
+   - Callable规定的方法是call(),Runnable规定的方法是run()
+   - Callable的任务执行后可返回值，而Runnable的任务是不能返回值(是void)
+   - 运行Callable任务可以拿到一个Future对象，表示异步计算的结果。它提供了检查计算是否完成的方法，以等待计算的完成，并检索计算的结果。通过Future对象可以了解任务执行情况，可取消任务的执行，还可获取执行结果。
+   - 加入线程池运行，Runnable使用ExecutorService的execute方法，Callable使用submit方法。
+     Callable接口也是位于java.util.concurrent包中。
+
 6. 线程有哪些状态？
-7. sleep() 和 wait() 有什么区别？
+
+   -  在Java当中，线程通常都有五种状态，创建、就绪、运行、阻塞和死亡。
+     - 第一是创建状态。在生成线程对象，并没有调用该对象的start方法，这是线程处于创建状态；
+     - 第二是就绪状态。当调用了线程对象的start方法之后，该线程就进入了就绪状态，但是此时线程调度程序还没有把该线程设置为当前线程，此时处于就绪状态。在线程运行之后，从等待或者睡眠中回来之后，也会处于就绪状态
+     - 第三是运行状态。线程调度程序将处于就绪状态的线程设置为当前线程，此时线程就进入了运行状态，开始运行run函数当中的代码。
+     - 第四是阻塞状态。线程正在运行的时候，被暂停，通常是为了等待某个时间的发生（比如说某项资源就绪）之后再继续运行。sleep,suspend等方法都可以导致线程阻塞。
+     - 第五是死亡状态。如果一个线程的run方法执行结束，该线程就会死亡。对于已经死亡的线程，无法再使用start方法令其进入就绪状态。
+
+7. sleep() 和 wait() 有什么区别？[link](<https://blog.csdn.net/u012050154/article/details/50903326>)
+
+   
+
 8. notify()和 notifyAll()有什么区别？
+
 9. 线程的 run()和 start()有什么区别？ 44.创建线程池有哪几种方式？ 45.线程池都有哪些状态？
+
 10. 线程池中 submit()和 execute()方法有什么区别？
+
 11. 在 java 程序中怎么保证多线程的运行安全？
+
 12. 多线程锁的升级原理是什么？
+
 13. 什么是死锁？
+
 14. 怎么防止死锁？
+
 15. ThreadLocal 是什么？有哪些使用场景？
+
 16. 说一下 synchronized 底层实现原理？
+
 17. synchronized 和 volatile 的区别是什么？
+
 18. synchronized 和 Lock 有什么区别？
+
 19. synchronized 和 ReentrantLock 区别是什么？
+
 20. 说一下 atomic 的原理？
 
 ## 四、反射
@@ -429,7 +688,8 @@
 1. 说一下你熟悉的设计模式？
 2. 简单工厂和抽象工厂有什么区别？
 
-##十、Spring/Spring MVC
+
+## 十、Spring/Spring MVC
 
 1. 为什么要使用 spring？
 2. 解释一下什么是 aop？
@@ -446,7 +706,7 @@
 13. @RequestMapping 的作用是什么？
 14. @Autowired 的作用是什么？
 
-##十一、Spring Boot/Spring Cloud
+## 十一、Spring Boot/Spring Cloud
 
 1. 什么是 spring boot？
 2. 为什么要用 spring boot？
@@ -458,7 +718,7 @@
 8. spring cloud 断路器的作用是什么？
 9. spring cloud 的核心组件有哪些？
 
-##十二、Hibernate
+## 十二、Hibernate
 
 1. 为什么要使用 hibernate？
 2. 什么是 ORM 框架？
@@ -473,7 +733,7 @@
 11. 在 hibernate 中 getCurrentSession 和 openSession 的区别是什么？
 12. hibernate 实体类必须要有无参构造函数吗？为什么？
 
-##十三、Mybatis
+## 十三、Mybatis
 
 1. mybatis 中 #{}和 \${}的区别是什么？
 2. mybatis 有几种分页方式？
@@ -486,7 +746,7 @@
 9. mybatis 分页插件的实现原理是什么？
 10. mybatis 如何编写一个自定义插件？
 
-##十四、RabbitMQ
+## 十四、RabbitMQ
 
 1. rabbitmq 的使用场景有哪些？
 2. rabbitmq 有哪些重要的角色？
@@ -494,19 +754,19 @@
 4. rabbitmq 中 vhost 的作用是什么？
 5. rabbitmq 的消息是怎么发送的？
 6. rabbitmq 怎么保证消息的稳定性？
-   141.rabbitmq 怎么避免消息丢失？
-7. 要保证消息持久化成功的条件有哪些？
-8. rabbitmq 持久化有什么缺点？
-9. rabbitmq 有几种广播类型？
-10. rabbitmq 怎么实现延迟消息队列？
-11. rabbitmq 集群有什么用？
-12. rabbitmq 节点的类型有哪些？
-13. rabbitmq 集群搭建需要注意哪些问题？
-14. rabbitmq 每个节点是其他节点的完整拷贝吗？为什么？
-15. rabbitmq 集群中唯一一个磁盘节点崩溃了会发生什么情况？
-16. rabbitmq 对集群节点停止顺序有要求吗？
+7. rabbitmq 怎么避免消息丢失？
+8. 要保证消息持久化成功的条件有哪些？
+9. rabbitmq 持久化有什么缺点？
+10. rabbitmq 有几种广播类型？
+11. rabbitmq 怎么实现延迟消息队列？
+12. rabbitmq 集群有什么用？
+13. rabbitmq 节点的类型有哪些？
+14. rabbitmq 集群搭建需要注意哪些问题？
+15. rabbitmq 每个节点是其他节点的完整拷贝吗？为什么？
+16. rabbitmq 集群中唯一一个磁盘节点崩溃了会发生什么情况？
+17. rabbitmq 对集群节点停止顺序有要求吗？
 
-##十五、Kafka
+## 十五、Kafka
 
 1. kafka 可以脱离 zookeeper 单独使用吗？为什么？
 2. kafka 有几种数据保留的策略？
@@ -514,7 +774,7 @@
 4. 什么情况会导致 kafka 运行变慢？
 5. 使用 kafka 集群需要注意什么？
 
-##十六、Zookeeper
+## 十六、Zookeeper
 
 1. zookeeper 是什么？
 2. zookeeper 都有哪些功能？
@@ -524,7 +784,7 @@
 6. 集群中有 3 台服务器,其中一个节点宕机,这个时候 zookeeper 还可以使用吗？
 7. 说一下 zookeeper 的通知机制？
 
-##十七、MySql
+## 十七、MySql
 
 1. 数据库的三范式是什么？
 2. 一张自增表里面总共有 7 条数据,删除了最后 2 条数据,重启 mysql 数据库,又插入了一条数据,此时 id 是几？
@@ -542,7 +802,7 @@
 14. mysql 问题排查都有哪些手段？
 15. 如何做 mysql 的性能优化？
 
-##十八、Redis
+## 十八、Redis
 
 1. redis 是什么？都有哪些使用场景？
 2. redis 有哪些功能？
@@ -560,7 +820,7 @@
 13. redis 淘汰策略有哪些？
 14. redis 常见的性能问题有哪些？该如何解决？
 
-##十九、JVM
+## 十九、JVM
 
 1. 说一下 jvm 的主要组成部分？及其作用？
 2. 说一下 jvm 运行时数据区？

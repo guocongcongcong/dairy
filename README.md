@@ -9,6 +9,7 @@
 - [日记](#日记)
     - [本页目录](#本页目录)
     - [备忘录](#备忘录)
+        - [idea破解](#idea破解)
         - [javascript-廖雪峰](#javascript-廖雪峰)
         - [vue-vue官网](#vue-vue官网)
             - [问题](#问题)
@@ -28,6 +29,11 @@
 <!-- /TOC -->
 
 ## 备忘录
+
+### idea破解
+
+[readme](./books/idea2018.2.4破解/readme.md/#idea破解)
+
 
 ### javascript-廖雪峰
 
