@@ -17,6 +17,7 @@
             - [目录](#目录)
         - [md_using](#md_using)
         - [翻墙](#翻墙)
+        - [ss](#ss)
         - [tumblr](#tumblr)
         - [bolg](#bolg)
         - [读书笔记](#读书笔记)
@@ -88,9 +89,15 @@
 
 ### 翻墙
 
+sudo -i
+
 翻墙服务地址:<https://agentneo.rocks/>
 
 配合使用：[ShadowsocksR-4.7.0-win](./files/ShadowsocksR-4.7.0-win.7z)
+
+### ss
+
+[一些常见问题](./books/ss.md)
 
 ### tumblr
 
