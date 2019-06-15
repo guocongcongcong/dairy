@@ -8,15 +8,17 @@
 
 - [日记](#日记)
     - [本页目录](#本页目录)
+    - [为完成清单](#为完成清单)
     - [备忘录](#备忘录)
+        - [成人每日所需营养物质标准](#成人每日所需营养物质标准)
         - [idea破解](#idea破解)
         - [javascript-廖雪峰](#javascript-廖雪峰)
         - [vue-vue官网](#vue-vue官网)
-            - [问题](#问题)
             - [总结](#总结)
             - [目录](#目录)
         - [md_using](#md_using)
         - [翻墙](#翻墙)
+        - [ss](#ss)
         - [tumblr](#tumblr)
         - [bolg](#bolg)
         - [读书笔记](#读书笔记)
@@ -28,7 +30,16 @@
 
 <!-- /TOC -->
 
+## 为完成清单
+
+-  github.io
+-  bootstrap
+
 ## 备忘录
+
+### 成人每日所需营养物质标准
+
+[readme](./books/成人每日所需营养物质标准.md)
 
 ### idea破解
 
@@ -42,10 +53,8 @@
 ### vue-vue官网
 
 这部分以后会陆续整理出来一个目录
+- [手摸手](https://juejin.im/post/59097cd7a22b9d0065fb61d2)
 
-#### 问题
-
-每个vue在html页面中的模块，都需要一个vue的实例来对应吗？
 
 #### 总结
 
@@ -86,9 +95,15 @@
 
 ### 翻墙
 
+sudo -i
+
 翻墙服务地址:<https://agentneo.rocks/>
 
 配合使用：[ShadowsocksR-4.7.0-win](./files/ShadowsocksR-4.7.0-win.7z)
+
+### ss
+
+[一些常见问题](./books/ss.md)
 
 ### tumblr
 

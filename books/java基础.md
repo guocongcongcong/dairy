@@ -607,48 +607,140 @@
      - 第四是阻塞状态。线程正在运行的时候，被暂停，通常是为了等待某个时间的发生（比如说某项资源就绪）之后再继续运行。sleep,suspend等方法都可以导致线程阻塞。
      - 第五是死亡状态。如果一个线程的run方法执行结束，该线程就会死亡。对于已经死亡的线程，无法再使用start方法令其进入就绪状态。
 
-7. sleep() 和 wait() 有什么区别？[link](<https://blog.csdn.net/u012050154/article/details/50903326>)
+7. sleep() 和 wait() 有什么区别？[link](<https://www.zhihu.com/question/23328075>)
 
-   
+   - “sleep是Thread类的方法,wait是Object类中定义的方法”。尽管这两个方法都会影响线程的执行行为，但是本质上是有区别的。
+   - Thread.sleep不会导致锁行为的改变，如果当前线程是拥有锁的，那么Thread.sleep不会让线程释放锁。如果能够帮助你记忆的话，可以简单认为和锁相关的方法都定义在Object类中，因此调用Thread.sleep是不会影响锁的相关行为。
+   - Thread.sleep和Object.wait都会暂停当前的线程，对于CPU资源来说，不管是哪种方式暂停的线程，都表示它暂时不再需要CPU的执行时间。OS会将执行时间分配给其它线程。区别是，调用wait后，需要别的线程执行notify/notifyAll才能够重新获得CPU执行时间。
 
-8. notify()和 notifyAll()有什么区别？
+8. notify()和 notifyAll()有什么区别？[link](<https://www.zhihu.com/question/37601861>)
 
-9. 线程的 run()和 start()有什么区别？ 44.创建线程池有哪几种方式？ 45.线程池都有哪些状态？
+   > 所谓唤醒线程，另一种解释可以说是将线程由等待池移动到锁池，notifyAll调用后，会将全部线程由等待池移到锁池，然后参与锁的竞争，竞争成功则继续执行，如果不成功则留在锁池等待锁被释放后再次参与竞争。而notify只会唤醒一个线程。
 
-10. 线程池中 submit()和 execute()方法有什么区别？
+9. 线程的 run()和 start()有什么区别？ 
 
-11. 在 java 程序中怎么保证多线程的运行安全？
+   1. start() 可以启动一个新线程，run()不能
+   2. start()不能被重复调用，run()可以
+   3. start()中的run代码可以不执行完就继续执行下面的代码，即进行了线程切换。直接调用run方法必须等待其代码全部执行完才能继续执行下面的代码。
+   4. start() 实现了多线程，run()没有实现多线程。
 
-12. 多线程锁的升级原理是什么？
+10. 创建线程池有哪几种方式？[link](<https://blog.csdn.net/u011974987/article/details/51027795>)
 
-13. 什么是死锁？
+    - newCachedThreadPool创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活回收空闲线程，若无可回收，则新建线程。
+    - newFixedThreadPool 创建一个定长线程池，可控制线程最大并发数，超出的线程会在队列中等待。
+    - newScheduledThreadPool 创建一个定长线程池，支持定时及周期性任务执
+    - newSingleThreadExecutor 创建一个单线程化的线程池，它只会用唯一的工作线程来执行任务，保证所有任务按照指定顺序(FIFO, LIFO, 优先级)执行 
 
-14. 怎么防止死锁？
+11.  线程池都有哪些状态？[link](<https://blog.csdn.net/L_kanglin/article/details/57411851>)
 
-15. ThreadLocal 是什么？有哪些使用场景？
+    ![线程池的状态.jpg](C:\Users\guolw\Desktop\files\diary\pic\线程池的状态.jpg)
 
-16. 说一下 synchronized 底层实现原理？
+    1、RUNNING
 
-17. synchronized 和 volatile 的区别是什么？
+    ​	(1) 状态说明：线程池处在RUNNING状态时，能够接收新任务，以及对已添加的任务进行处理。 
+    ​	(2) 状态切换：线程池的初始化状态是RUNNING。换句话说，线程池被一旦被创建，就处于RUNNING状态，并且线程池中的任务数为0！
 
-18. synchronized 和 Lock 有什么区别？
+    ```java
+    private final AtomicInteger ctl = new AtomicInteger(ctlOf(RUNNING, 0));
+    ```
 
-19. synchronized 和 ReentrantLock 区别是什么？
+    2、 SHUTDOWN
 
-20. 说一下 atomic 的原理？
+    ​	(1) 状态说明：线程池处在SHUTDOWN状态时，不接收新任务，但能处理已添加的任务。 
+    ​	(2) 状态切换：调用线程池的shutdown()接口时，线程池由RUNNING -> SHUTDOWN。
+
+    3、STOP
+
+    ​	1) 状态说明：线程池处在STOP状态时，不接收新任务，不处理已添加的任务，并且会中断正在处理的任务。 
+    ​	(2) 状态切换：调用线程池的shutdownNow()接口时，线程池由(RUNNING or SHUTDOWN ) -> STOP。
+
+    4、TIDYING
+
+    ​	(1) 状态说明：当所有的任务已终止，ctl记录的”任务数量”为0，线程池会变为TIDYING状态。当线程池变为TIDYING状态时，会执行钩子函数terminated()。terminated()在ThreadPoolExecutor类中是空的，若用户想在线程池变为TIDYING时，进行相应的处理；可以通过重载terminated()函数来实现。 
+    ​	(2) 状态切换：当线程池在SHUTDOWN状态下，阻塞队列为空并且线程池中执行的任务也为空时，就会由 SHUTDOWN -> TIDYING。 
+    ​	当线程池在STOP状态下，线程池中执行的任务为空时，就会由STOP -> TIDYING。
+
+    5、 TERMINATED
+
+    ​	(1) 状态说明：线程池彻底终止，就变成TERMINATED状态。 
+
+    ​	(2) 状态切换：线程池处在TIDYING状态时，执行完terminated()之后，就会由 TIDYING -> TERMINATED。
+
+12. 线程池中 submit()和 execute()方法有什么区别？[link](<https://blog.csdn.net/guhong5153/article/details/71247266>)
+
+    - execute提交的方式只能提交一个Runnable的对象，且该方法的返回值是void，也即是提交后如果线程运行后，和主线程就脱离了关系了，当然可以设置一些变量来获取到线程的运行结果。并且当线程的执行过程中抛出了异常通常来说主线程也无法获取到异常的信息的，只有通过ThreadFactory主动设置线程的异常处理类才能感知到提交的线程中的异常信息。
+
+    - submit提交的方式
+
+      -  <T> Future<T> submit(Callable<T> task);而Callable接口中是一个有返回值的call方法。如果在线程的执行过程中发生了异常，get会获取到异常的信息。
+
+      -  Future<?> submit(Runnable task);也可以提交一个Runable接口的对象，这样当调用get方法的时候，如果线程执行成功会直接返回null，如果线程执行异常会返回异常的信息
+
+      - <T> Future<T> submit(Runnable task, T result);除了task之外还有一个result对象，
+
+        当线程正常结束的时候调用Future的get方法会返回result对象，当线程抛出异常的时候会获取到对应的异常的信息。
+
+13. 在 java 程序中怎么保证多线程的运行安全？
+
+14. 多线程锁的升级原理是什么？
+
+15. 什么是死锁？
+
+16. 怎么防止死锁？
+
+17. ThreadLocal 是什么？有哪些使用场景？
+
+18. 说一下 synchronized 底层实现原理？
+
+19. synchronized 和 volatile 的区别是什么？
+
+20. synchronized 和 Lock 有什么区别？
+
+21. synchronized 和 ReentrantLock 区别是什么？
+
+22. 说一下 atomic 的原理？
 
 ## 四、反射
 
-1. 什么是反射？
-2. 什么是 java 序列化？什么情况下需要序列化？
+1. 什么是反射？[link](<<https://www.zhihu.com/question/24304289>>)
+
+   ![java的运行流程.jpg](C:\Users\guolw\Desktop\files\diary\pic\java的运行流程.jpg)
+
+   **[深入解析Java反射（1） - 基础]([https://www.sczyh30.com/posts/Java/java-reflection-1/#%E4%B8%80%E3%80%81%E5%9B%9E%E9%A1%BE%EF%BC%9A%E4%BB%80%E4%B9%88%E6%98%AF%E5%8F%8D%E5%B0%84%EF%BC%9F](https://www.sczyh30.com/posts/Java/java-reflection-1/#一、回顾：什么是反射？))**
+
+   - 反射 (Reflection) 是 Java 的特征之一，它允许运行中的 Java 程序获取自身的信息，并且可以操作类或对象的内部属性。
+   - 简而言之，通过反射，我们可以在运行时获得程序或程序集中每一个类型的成员和成员的信息。程序中一般的对象的类型都是在编译期就确定下来的，而 Java 反射机制可以动态地创建对象并调用其属性，这样的对象的类型在编译期是未知的。所以我们可以通过反射机制直接创建对象，即使这个对象的类型在编译期是未知的。
+
+2. 什么是 java 序列化？什么情况下需要序列化？[link](<https://blog.csdn.net/fan2012huan/article/details/49871163>)
+
+   - 序列化简单来说就**保存对象在内存中的状态**也可以说是**实例化变量**。这是Java提供的用来**保存 Object state**，一种保存对象状态的机制。只有实现了serializable接口的类的对象才能被实例化。
+
+   - 1当你想把内存中的对象写入到硬盘时
+
+     ​     2当你想用套接字在网络上传输对象时
+
+     ​     3当你想通过RMI调用对象时
+
+     ​    （RMI是什么东西？）：RMI总结来说就是远程调用对象，在一个jvm上调用另一个jvm的对象。
+
 3. 动态代理是什么？有哪些应用？
+
 4. 怎么实现动态代理？
 
-## 五、对象拷贝
+## 五、对象拷贝[link](<https://www.cnblogs.com/Qian123/p/5710533.html>)
 
 1. 为什么要使用克隆？
+
+   克隆的对象可能包含一些已经修改过的属性，而new出来的对象的属性都还是初始化时候的值，所以当需要一个新的对象来保存当前对象的“状态”就靠clone方法了
+
 2. 如何实现对象克隆？
+
+   **浅克隆(ShallowClone)**和**深克隆(DeepClone)**
+
 3. 深拷贝和浅拷贝区别是什么？
+
+   - 在浅克隆中，如果原型对象的成员变量是值类型，将复制一份给克隆对象；如果原型对象的成员变量是引用类型，则将引用对象的地址复制一份给克隆对象，也就是说原型对象和克隆对象的成员变量指向相同的内存地址。(在浅克隆中，当对象被复制时只复制它本身和其中包含的值类型的成员变量，而引用类型的成员对象并没有复制。)
+   - 在深克隆中，无论原型对象的成员变量是值类型还是引用类型，都将复制一份给克隆对象，深克隆将原型对象的所有引用对象也复制一份给克隆对象。(在深克隆中，除了对象本身被复制外，对象所包含的所有成员变量也将复制。)
 
 ## 六、Java Web
 
@@ -664,6 +756,8 @@
 10. 什么是 CSRF 攻击,如何避免？
 
 ## 七、异常
+
+> Java的异常处理是通过5个关键字来实现的：try，catch，throw，throws，finally。
 
 1. throw 和 throws 的区别？
 2. final、finally、finalize 有什么区别？
