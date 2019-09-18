@@ -27,6 +27,7 @@
     - [powershell](#powershell)
         - [别名配置](#别名配置)
     - [总结](#总结-1)
+    - [谷歌服务器信息](#谷歌服务器信息)
 
 <!-- /TOC -->
 
@@ -200,3 +201,11 @@ harry potter
 ## 总结
 
 [2018](books\letter\2018.md)
+
+
+## 谷歌服务器信息
+
+- 修改服务器的密码登陆：[https://blog.csdn.net/datadev_sh/article/details/79593360]
+
+104.199.150.180:22
+root:root
