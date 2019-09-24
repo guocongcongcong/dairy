@@ -42,3 +42,9 @@ while True:
     a1 = input('要继续游戏吗，请输入n退出，输入其他继续：')
     if a1 == 'n':
         break
+
+print('%d X %.2f = %s' % (1.5,2.015,'字符串啊'))
+print(list(range(1,3)))
+print(list(range(2,3)))
+for i in range(1,3):
+    print(i,end=' ')

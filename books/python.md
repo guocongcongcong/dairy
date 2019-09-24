@@ -36,6 +36,9 @@
 - [递归函数](#递归函数)
 - [高级特性](#高级特性)
     - [切片](#切片)
+    - [迭代](#迭代)
+    - [列表生成式](#列表生成式)
+    - [生成器](#生成器)
 
 <!-- /TOC -->
 
@@ -695,4 +698,72 @@ def fact_iter(num, product):
 ```cmd
 >>> L[0:3]
 ['Michael', 'Sarah', 'Tracy']
+>>> L = list(range(100))
+>>> L[:10]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> L[-10:]
+[90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+>>> L[10:20]
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> 前10个数，每两个取一个：
+>>> L[:10:2]
+[0, 2, 4, 6, 8]
+>>> 所有数，每5个取一个：
+>>> L[::5]
+[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95]
+>>> 只写[:]就可以原样复制一个list:
+>>> L[:]
+[0, 1, 2, 3, ..., 99]
+>>> tuple也可以用切片操作，只是操作的结果仍是tuple:
+>>> (0, 1, 2, 3, 4, 5)[:3]
+(0, 1, 2)
+>>> 字符串'xxx'也可以看成是一种list,只是操作结果仍是字符串:
+>>> 'ABCDEFG'[:3]
+'ABC'
+>>> 'ABCDEFG'[::2]
+'ACEG'
 ```
+### 迭代
+
+```python
+# dict.value的迭代
+def testDictValue(d):
+    for v in d.values():
+        print(v)
+
+# dict.items的迭代
+def testDictItems(d):
+    for k,v in d.items():
+        print('dict的key:%s,dict的value:%s'%(k,v))
+
+# enumerate的迭代
+def testEnumerate():
+    for i, value in enumerate(['A', 'B', 'C']):
+        print(i, value)
+
+# 两个变量的迭代
+def testManyItem():
+    for x, y in [(1, 1), (2, 4), (3, 9)]:
+        print(x,y)
+```
+
+### 列表生成式
+
+```python
+L = [x * x for x in range(1, 11)]
+L = [x * x for x in range(1, 11) if x % 2 == 0]
+L= [x * x for x in range(1, 11)]
+L= [x * x for x in range(1, 11) if x % 2 == 0]
+L= [d for d in os.listdir('.')]
+d = {'x': 'A', 'y': 'B', 'z': 'C' }
+L = [k + '=' + v for k, v in d.items()]
+L = ['Hello', 'World', 'IBM', 'Apple']
+l = [s.lower() for s in L]
+L = ['Hello', 'World', 18, 'Apple', None]
+l = [s.lower() for s in L if isinstance(s,str)]
+```
+
+### 生成器
+
+- 只要把一个列表生成式的[]改成()，就创建了一个generator
+- 可以通过next()函数获得generator的下一个返回值

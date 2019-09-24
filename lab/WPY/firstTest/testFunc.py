@@ -117,3 +117,5 @@ else :
 #         print('认罪1年，抵赖20年')
 #     elif a =input('不认罪') and b=input('认罪')
 #         print('认罪1年，抵赖20年')
+
+
