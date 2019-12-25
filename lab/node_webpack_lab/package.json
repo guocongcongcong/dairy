@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.13",
     "vue": "^2.5.17",
     "vue-cli": "^2.9.6",
     "webpack": "^4.17.1",
