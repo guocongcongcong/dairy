@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "type": "python",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}/js_lab\\node_lab\\main.js"
+            "program": "${workspaceFolder}/lab/WPY/py/readFile/readFile.py"
         }
     ]
 }

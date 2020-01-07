@@ -13,6 +13,7 @@ __author__ = 'guo congcong'
 
 # here put the import lib
 import sys
+import numpy
 
 def test():
     args = sys.argv
