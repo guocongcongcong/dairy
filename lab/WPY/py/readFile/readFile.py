@@ -34,7 +34,6 @@ for i,j,k in os.walk(filePath):
     # print(i)
     for o in k:
         sql += "INSERT INTO bookIndex VALUES ('%s','%s');\n" %(i,o)
-
         # print(sql)
         # print(i)
         # print(o)
