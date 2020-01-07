@@ -13,7 +13,7 @@ __author__ = 'guo congcong'
 
 # here put the import lib
 import os
-import pymysql
+# import pymysql as mysqlDB
 # path = "/Users/glw/图书/" #文件夹目录
 # files= os.listdir(path) #得到文件夹下的所有文件名称
 # s = []
@@ -27,9 +27,16 @@ import pymysql
 #           s.append(str1) #每个文件的文本存到list中
 # print(s) #打印结果
 filePath = '/Users/glw/图书/'
+filename = './bookIndex.txt'
+sql =''
 for i,j,k in os.walk(filePath):
     # # print(i,j,k)
     # print(i)
     for o in k:
-        print(i)
-        print(o)
+        sql += "INSERT INTO bookIndex VALUES ('%s','%s');\n" %(i,o)
+        f = open(filename,'w')
+        f.writelines(sql)
+        print(sql)
+        # print(i)
+        # print(o)
+f.close
