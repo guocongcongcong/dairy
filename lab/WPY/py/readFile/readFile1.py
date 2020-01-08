@@ -27,8 +27,9 @@ import os
 #           s.append(str1) #每个文件的文本存到list中
 # print(s) #打印结果
 # filePath = 'G://paperInformation//books//Detail//'
-filePath = '/Users/glw/图书/'
-filename = './bookIndex.sql'
+# filePath = '/Users/glw/图书/'
+filePath = '/Users/glw/Downloads/众筹电子书/众筹电子书'
+filename = './bookIndex1.sql'
 sql =''
 for i,j,k in os.walk(filePath):
     # # print(i,j,k)
@@ -37,8 +38,8 @@ for i,j,k in os.walk(filePath):
         sql += "INSERT INTO bookIndex (filePath,fileName) VALUES ('%s','%s');\n" %(i,o)
         # print(sql)
         print(i+'/'+o)
-        f = open(filename,'w',encoding="utf-8")
-        sql += "INSERT INTO bookIndex VALUES ('%s','%s');\n" %(i,o)
+        # f = open(filename,'w',encoding="utf-8")
+        # sql += "INSERT INTO bookIndex VALUES ('%s','%s');\n" %(i,o)
         # print(sql)
         # print(i)
         # print(o)
