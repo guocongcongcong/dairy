@@ -1,4 +1,8 @@
 INSERT INTO bookIndex (filePath,fileName) VALUES ('/Users/glw/Downloads/众筹电子书/众筹电子书','.DS_Store');
+INSERT INTO bookIndex (filePath,fileName) VALUES ('/Users/glw/Downloads/众筹电子书/众筹电子书','Spring Cloud与Docker微服务架构实战（带目录） .pdf');
+INSERT INTO bookIndex (filePath,fileName) VALUES ('/Users/glw/Downloads/众筹电子书/众筹电子书','《Spring Cloud与Docker微服务架构实战》.pdf');
+INSERT INTO bookIndex (filePath,fileName) VALUES ('/Users/glw/Downloads/众筹电子书/众筹电子书','《Spring Cloud微服务实战》.pdf');
+INSERT INTO bookIndex (filePath,fileName) VALUES ('/Users/glw/Downloads/众筹电子书/众筹电子书','Spring Cloud微服务实战(（带目录）.pdf');
 INSERT INTO bookIndex (filePath,fileName) VALUES ('/Users/glw/Downloads/众筹电子书/众筹电子书/第I期','《大数据搜索与日志挖掘及可视化方案ELKStack-Elasticsearch-Logstash-Kibana(第2版)》.pdf');
 INSERT INTO bookIndex (filePath,fileName) VALUES ('/Users/glw/Downloads/众筹电子书/众筹电子书/第I期','《零基础学大数据算法》.pdf');
 INSERT INTO bookIndex (filePath,fileName) VALUES ('/Users/glw/Downloads/众筹电子书/众筹电子书/第C期','《Hadoop大数据开发案例教程与项目实战》.pdf');
