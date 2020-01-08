@@ -26,7 +26,7 @@ import os
 #               str1 = str1 + str(line,encoding="utf-8")
 #           s.append(str1) #每个文件的文本存到list中
 # print(s) #打印结果
-filePath = '/Users/glw/图书/'
+filePath = 'G:\资料\books\Detail'
 filename = './bookIndex.sql'
 sql =''
 for i,j,k in os.walk(filePath):
