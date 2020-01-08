@@ -26,17 +26,16 @@ import os
 #               str1 = str1 + str(line,encoding="utf-8")
 #           s.append(str1) #每个文件的文本存到list中
 # print(s) #打印结果
-filePath = 'G:\资料\books\Detail'
+filePath = 'G://paperInformation//books//Detail//'
 filename = './bookIndex.sql'
 sql =''
 for i,j,k in os.walk(filePath):
     # # print(i,j,k)
     # print(i)
     for o in k:
-        sql += "INSERT INTO bookIndex VALUES ('%s','%s');\n" %(i,o)
+        sql += "INSERT INTO bookIndex (filePath,fileName) VALUES ('%s','%s');\n" %(i,o)
         # print(sql)
-        # print(i)
-        # print(o)
-f = open(filename,'w')
+        print(i+'/'+o)
+f = open(filename,'w',encoding="utf-8")
 f.writelines(sql)
 f.close
