@@ -1,0 +1,14 @@
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/','贫穷的本质：我们为什么摆脱不了贫穷.epub');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/','.DS_Store');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/','《疯狂Python讲义》.pdf');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/','手账.mobi');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/','《SQL基础教程》.((日)MICK).pdf');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/','SQL语句教程.pdf');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/','《SQL查询的艺术》.(张权,郭天娇).pdf');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/','原则 - 瑞·达利欧.mobi');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/','贫穷的本质：我们为什么摆脱不了贫穷.mobi');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/','思考的乐趣.mobi');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/ePUBw.COM - 非暴力沟通','ePUBw.COM - 非暴力沟通.pdf');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/ePUBw.COM - 非暴力沟通','ePUBw.COM - 非暴力沟通.epub');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/ePUBw.COM - 非暴力沟通','ePUBw.COM - 非暴力沟通.mobi');
+INSERT INTO bookIndex VALUES ('/Users/glw/图书/ePUBw.COM - 非暴力沟通','ePUBw.COM - 非暴力沟通.azw3');
