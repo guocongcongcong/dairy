@@ -1,8 +1,0 @@
-{
-  "name": "BI",
-  "version": "1.0.0",
-  "description": "BI for vuetify",
-  "main": "index.js",
-  "author": "gcc",
-  "license": "MIT"
-}
