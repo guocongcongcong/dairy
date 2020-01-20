@@ -1,5 +1,5 @@
 <template>
-  <v-app id="sandbox">
+  <div>
     <v-navigation-drawer
       v-model="primaryDrawer.model"
       :clipped="primaryDrawer.clipped"
@@ -21,6 +21,11 @@
 
     <v-content>
       <v-container fluid>
+        <div id="nav">
+          <router-link to="/">Home</router-link>|
+          <router-link to="/about">About</router-link>
+        </div>
+        <router-view />
         <v-row align="center" justify="center">
           <v-col cols="10">
             <v-card>
@@ -65,9 +70,8 @@
     <v-footer :inset="footer.inset" app>
       <span class="px-4">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
-  </v-app>
+  </div>
 </template>
-
 <script>
 export default {
   data: () => ({
