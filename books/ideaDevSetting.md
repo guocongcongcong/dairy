@@ -19,38 +19,38 @@
 
 - file -> settings -> editor -> file Encodings -> utf-8
 
-![utf-8](..\pic\ideaSetting\Utf8.png)
+![utf-8](../pic/ideaSetting/Utf8.png)
 
 ## 激活注解
 
 - file -> settings -> build,Execution,Deployment -> Compiler -> Annotation Processors -> Default(选中) ->Enable annotation processing
 
-![注解激活](..\pic\ideaSetting\anntoation.png)
+![注解激活](../pic/ideaSetting/anntoation.png)
 
 ## java编译版本
 
 - file -> settings -> build,Execution,Deployment -> Compiler -> Java Compiler -> Target bytecode version : 8
 - 确认编译版本为8
 
-![java编译版本](..\pic\ideaSetting\JavaCompiler.png)
+![java编译版本](../pic/ideaSetting/JavaCompiler.png)
 
 ## File type 过滤
 
 - file -> settings -> editor -> File Types -> Ignore files and folders -> add:*.idea;*.iml;
 
-![过滤](..\pic\ideaSetting\IgnoreFiles.png)
+![过滤](../pic/ideaSetting/IgnoreFiles.png)
 
 ## maven 跳过单元测试
 
 - maven -> Toggle 'Skip Tests' Mode
 
-![跳过单元测试](..\pic\ideaSetting\ToggleSkipTestsMode.png)
+![跳过单元测试](../pic/ideaSetting/ToggleSkipTestsMode.png)
 
 ## maven 设置自动下载
 
 - file -> settings -> Build,Execution,Deployment -> Build Tools -> Maven -> Importing -> Automatically download: sources documentation Annotations
 
-![maven 设置自动下载](..\pic\ideaSetting\MavenAutoDownload.png)
+![maven 设置自动下载](../pic/ideaSetting/MavenAutoDownload.png)
 
 ## 热部署配置
 
@@ -90,14 +90,14 @@
   - Build project automatically
   - Compile independent modules in parallel
 
-![setting配置](..\pic\ideaSetting\devtoolsSetting1.png)
+![setting配置](../pic/ideaSetting/devtoolsSetting1.png)
 
 - 使用快捷键--Alt+Shift+Ctrl+/--调出Maintenance选项卡
 - 选择Registry，勾选以下两项
   - compiler.automake.allow.app.running
   - actionSystem.assertFocusAcdessFromEdt
 
-![Registry配置](..\pic\ideaSetting\devtoolsSetting2.png)
+![Registry配置](../pic/ideaSetting/devtoolsSetting2.png)
 
 
 ### 重启idea
